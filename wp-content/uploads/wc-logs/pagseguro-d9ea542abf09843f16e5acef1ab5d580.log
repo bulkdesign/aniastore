@@ -1,0 +1,600 @@
+12-04-2017 @ 19:05:03 - Requesting token for order 2462 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE2462]]></reference>
+  <sender>
+    <email><![CDATA[pamibasso@hotmail.com]]></email>
+    <name><![CDATA[Pamela Basso]]></name>
+    <phone>
+      <areaCode>41</areaCode>
+      <number>998056496</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua Frei Fabiano de Cristo]]></street>
+      <number>445</number>
+      <complement><![CDATA[casa]]></complement>
+      <district><![CDATA[Jardim das Américas]]></district>
+      <postalCode>81530110</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>16.90</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Viseira Lacoronilla]]></description>
+      <amount>57.90</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[http://www.aniastore.com.br/finalizar-compra/order-received/2462?key=wc_order_5a25b5b103fe7]]></redirectURL>
+  <notificationURL><![CDATA[http://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+12-04-2017 @ 19:05:05 - PagSeguro Payment Token created with success! The Token is: B8D0612DF0F0CE7EE4227FA14B59890B
+12-04-2017 @ 19:05:41 - Checking IPN request...
+12-04-2017 @ 19:05:42 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2017-12-04T19:05:09.000-02:00
+    [code] => 360B4271-0142-465B-A560-4435D1237FA7
+    [reference] => ANIASTORE2462
+    [type] => 1
+    [status] => 1
+    [lastEventDate] => 2017-12-04T19:05:39.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 2
+            [code] => 202
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/booklet/print.jhtml?c=51cbe8bd90682719a59e16a15f83fbacbae3cc4cb38fb78103119b47c1e7fd71f998b8b0514f50ae
+    [grossAmount] => 74.80
+    [discountAmount] => 0.00
+    [feeAmount] => 3.38
+    [netAmount] => 71.42
+    [extraAmount] => 0.00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Viseira Lacoronilla
+                    [quantity] => 1
+                    [amount] => 57.90
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Pamela Basso
+            [email] => pamibasso@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 998056496
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Frei Fabiano de Cristo
+                    [number] => 445
+                    [complement] => casa
+                    [district] => Jardim das Américas
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 81530110
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+12-04-2017 @ 19:05:42 - PagSeguro payment status for order 2462 is: 1
+12-04-2017 @ 19:43:32 - Requesting token for order 2475 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE2475]]></reference>
+  <sender>
+    <email><![CDATA[pamibasso@hotmail.com]]></email>
+    <name><![CDATA[Pamela Basso]]></name>
+    <phone>
+      <areaCode>41</areaCode>
+      <number>998056496</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua Frei Fabiano de Cristo]]></street>
+      <number>445</number>
+      <complement><![CDATA[casa]]></complement>
+      <district><![CDATA[Jardim das Américas]]></district>
+      <postalCode>81530110</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>16.90</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Havaianas Slim Petunia - 37/38]]></description>
+      <amount>25.90</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>2</id>
+      <description><![CDATA[Havaianas Allegra Print - 37/38]]></description>
+      <amount>20.10</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>3</id>
+      <description><![CDATA[Havaianas Allegra Print - 39/40]]></description>
+      <amount>20.10</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[http://www.aniastore.com.br/finalizar-compra/order-received/2475?key=wc_order_5a25c18131ad5]]></redirectURL>
+  <notificationURL><![CDATA[http://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+12-04-2017 @ 19:43:33 - PagSeguro Payment Token created with success! The Token is: F2D29A9F3A3A440AA4624F8274E65CCA
+12-05-2017 @ 16:30:42 - Requesting token for order 2503 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE2503]]></reference>
+  <sender>
+    <email><![CDATA[c50616992408585437545@sandbox.pagseguro.com.br]]></email>
+    <name><![CDATA[William Kunitake]]></name>
+    <phone>
+      <areaCode>99</areaCode>
+      <number>2229812</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Adaguimar de Pinho Klat]]></street>
+      <number>73</number>
+      <complement><![CDATA[Casa]]></complement>
+      <district><![CDATA[São Francisco]]></district>
+      <postalCode>82300357</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>0</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Pulseira Infantil Crystal Ania Store]]></description>
+      <amount>44.50</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[http://www.aniastore.com.br/finalizar-compra/order-received/2503?key=wc_order_5a26e5cf71a5f]]></redirectURL>
+  <notificationURL><![CDATA[http://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+12-05-2017 @ 16:30:43 - PagSeguro Payment Token created with success! The Token is: C3A8127F5D5D09544407DF87D0E38831
+12-05-2017 @ 16:31:16 - Checking IPN request...
+12-05-2017 @ 16:31:17 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2017-12-05T16:30:46.000-02:00
+    [code] => B7F1B893-79E1-43BE-8FBE-14EEB6CF53B8
+    [reference] => ANIASTORE2503
+    [type] => 1
+    [status] => 1
+    [lastEventDate] => 2017-12-05T16:31:13.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 2
+            [code] => 202
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/booklet/print.jhtml?c=a2e083320dc4a886132eb1d82a7d3c65d0cb309ad6f8640e58dbbe9ee4d9b75e482d621e4ad25a5f
+    [grossAmount] => 44.50
+    [discountAmount] => 0.00
+    [feeAmount] => 2.18
+    [netAmount] => 42.32
+    [extraAmount] => 0.00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Pulseira Infantil Crystal Ania Store
+                    [quantity] => 1
+                    [amount] => 44.50
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => William Kunitake
+            [email] => c50616992408585437545@sandbox.pagseguro.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992229812
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Adaguimar de Pinho Klat
+                    [number] => 73
+                    [complement] => Casa
+                    [district] => São Francisco
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 82300357
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+12-05-2017 @ 16:31:17 - PagSeguro payment status for order 2503 is: 1
+12-05-2017 @ 16:34:56 - Requesting token for order 2506 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE2506]]></reference>
+  <sender>
+    <email><![CDATA[c50616992408585437545@sandbox.pagseguro.com.br]]></email>
+    <name><![CDATA[William Kunitake]]></name>
+    <phone>
+      <areaCode>99</areaCode>
+      <number>2229812</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Adaguimar de Pinho Klat]]></street>
+      <number>73</number>
+      <complement><![CDATA[Casa]]></complement>
+      <district><![CDATA[São Francisco]]></district>
+      <postalCode>82300357</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>16.90</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Pulseira Infantil Crystal Ania Store]]></description>
+      <amount>44.50</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[http://www.aniastore.com.br/finalizar-compra/order-received/2506?key=wc_order_5a26e6b68bea2]]></redirectURL>
+  <notificationURL><![CDATA[http://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+12-05-2017 @ 16:34:58 - PagSeguro Payment Token created with success! The Token is: A456A1A9A9A9A7FFF4CCAFB64D9B0BED
+12-05-2017 @ 16:35:32 - Checking IPN request...
+12-05-2017 @ 16:35:33 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2017-12-05T16:35:02.000-02:00
+    [code] => BD0D6735-C7A0-4946-ACAF-B6A1CBF611AE
+    [reference] => ANIASTORE2506
+    [type] => 1
+    [status] => 1
+    [lastEventDate] => 2017-12-05T16:35:29.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 2
+            [code] => 202
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/booklet/print.jhtml?c=ad2bffdae1c819fc8e3a1276f65899bfa6f282830196e47668c3697a4bd3952898af3956eeeaa538
+    [grossAmount] => 61.40
+    [discountAmount] => 0.00
+    [feeAmount] => 2.85
+    [netAmount] => 58.55
+    [extraAmount] => 0.00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Pulseira Infantil Crystal Ania Store
+                    [quantity] => 1
+                    [amount] => 44.50
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => William Kunitake
+            [email] => c50616992408585437545@sandbox.pagseguro.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992229812
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Adaguimar de Pinho Klat
+                    [number] => 73
+                    [complement] => Casa
+                    [district] => São Francisco
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 82300357
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+12-05-2017 @ 16:35:33 - PagSeguro payment status for order 2506 is: 1
+12-05-2017 @ 16:44:11 - Requesting token for order 2509 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE2509]]></reference>
+  <sender>
+    <email><![CDATA[c50616992408585437545@sandbox.pagseguro.com.br]]></email>
+    <name><![CDATA[William Kunitake]]></name>
+    <phone>
+      <areaCode>99</areaCode>
+      <number>2229812</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Adaguimar de Pinho Klat]]></street>
+      <number>73</number>
+      <complement><![CDATA[Casa]]></complement>
+      <district><![CDATA[São Francisco]]></district>
+      <postalCode>82300357</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>0</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Bolsa de Palha Punta Ballena]]></description>
+      <amount>85.10</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[http://www.aniastore.com.br/finalizar-compra/order-received/2509?key=wc_order_5a26e8f88dade]]></redirectURL>
+  <notificationURL><![CDATA[http://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+12-05-2017 @ 16:44:13 - PagSeguro Payment Token created with success! The Token is: 1C863ED6BCBCF56004C78FB57A3E8E08
+12-05-2017 @ 16:44:33 - Checking IPN request...
+12-05-2017 @ 16:44:34 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2017-12-05T16:44:16.000-02:00
+    [code] => 3562B064-02F4-4E1C-B7F1-2251FF521BEA
+    [reference] => ANIASTORE2509
+    [type] => 1
+    [status] => 1
+    [lastEventDate] => 2017-12-05T16:44:32.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 2
+            [code] => 202
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/booklet/print.jhtml?c=d79ff98e7eed7c0b244f2106ed2d2880eb5ffda59afc727e17b54904de0e5f4e4f28e9fa910109f0
+    [grossAmount] => 85.10
+    [discountAmount] => 0.00
+    [feeAmount] => 3.80
+    [netAmount] => 81.30
+    [extraAmount] => 0.00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Bolsa de Palha Punta Ballena
+                    [quantity] => 1
+                    [amount] => 85.10
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => William Kunitake
+            [email] => c50616992408585437545@sandbox.pagseguro.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992229812
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Adaguimar de Pinho Klat
+                    [number] => 73
+                    [complement] => Casa
+                    [district] => São Francisco
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 82300357
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+12-05-2017 @ 16:44:34 - PagSeguro payment status for order 2509 is: 1
+12-08-2017 @ 15:20:47 - Requesting token for order 2543 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE2543]]></reference>
+  <sender>
+    <email><![CDATA[marjoriecoelho@hotmail.com]]></email>
+    <name><![CDATA[marjorie coelho]]></name>
+    <phone>
+      <areaCode>41</areaCode>
+      <number>996968734</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua Frei Fabiano de Cristo]]></street>
+      <number>445</number>
+      <district><![CDATA[Jardim das Américas]]></district>
+      <postalCode>81530110</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>0</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Necessaire Barroca Grande]]></description>
+      <amount>31.12</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[http://www.aniastore.com.br/finalizar-compra/order-received/2543?key=wc_order_5a2ac9ecd0203]]></redirectURL>
+  <notificationURL><![CDATA[http://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+12-08-2017 @ 15:20:49 - PagSeguro Payment Token created with success! The Token is: D5EF82FB8F8FC77AA47B3F81819DEF68
+12-08-2017 @ 15:27:12 - Checking IPN request...
+12-08-2017 @ 15:27:13 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2017-12-08T15:20:54.000-02:00
+    [code] => E0898B3C-4339-48F7-AC02-4FF82968F5DC
+    [reference] => ANIASTORE2543
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2017-12-08T15:27:10.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 31.12
+    [discountAmount] => 0.00
+    [feeAmount] => 1.64
+    [netAmount] => 29.48
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-01-07T15:27:10.000-02:00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Necessaire Barroca Grande
+                    [quantity] => 1
+                    [amount] => 31.12
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => marjorie coelho
+            [email] => marjoriecoelho@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 996968734
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Frei Fabiano de Cristo
+                    [number] => 445
+                    [complement] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [district] => Jardim das Américas
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 81530110
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+12-08-2017 @ 15:27:13 - PagSeguro payment status for order 2543 is: 3

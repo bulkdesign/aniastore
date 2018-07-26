@@ -1,0 +1,222 @@
+2017-11-29T10:19:47+00:00 DEBUG > > (504) Term #verão (product_cat) exists? Array
+(
+    [term_id] => 29
+    [term_taxonomy_id] => 29
+)
+
+2017-11-29T10:19:47+00:00 DEBUG > > (504) Term #havaianas (product_cat) exists? Array
+(
+    [term_id] => 57
+    [term_taxonomy_id] => 57
+)
+
+2017-11-29T10:19:47+00:00 DEBUG > > (504) Term #kids (product_cat) exists? Array
+(
+    [term_id] => 35
+    [term_taxonomy_id] => 35
+)
+
+2017-11-29T10:19:47+00:00 DEBUG > > (504) Term #Havaianas (product_cat) exists? Array
+(
+    [term_id] => 71
+    [term_taxonomy_id] => 71
+)
+
+2017-11-29T10:19:47+00:00 DEBUG > > (504) Term #toalhas (product_cat) exists? Array
+(
+    [term_id] => 55
+    [term_taxonomy_id] => 55
+)
+
+2017-11-29T10:19:49+00:00 DEBUG > > (504) Term #kids (product_cat) exists? Array
+(
+    [term_id] => 35
+    [term_taxonomy_id] => 35
+)
+
+2017-11-29T10:19:49+00:00 DEBUG > > (504) Term #Toalha (product_cat) exists? Array
+(
+    [term_id] => 68
+    [term_taxonomy_id] => 68
+)
+
+2017-11-29T10:19:49+00:00 DEBUG > > (504) Term #verão (product_cat) exists? Array
+(
+    [term_id] => 29
+    [term_taxonomy_id] => 29
+)
+
+2017-11-29T10:19:49+00:00 DEBUG > > (504) Term #toalhas (product_cat) exists? Array
+(
+    [term_id] => 55
+    [term_taxonomy_id] => 55
+)
+
+2017-11-29T10:19:51+00:00 DEBUG > > (504) Term #verão (product_cat) exists? Array
+(
+    [term_id] => 29
+    [term_taxonomy_id] => 29
+)
+
+2017-11-29T10:19:51+00:00 DEBUG > > (504) Term #toalhas (product_cat) exists? Array
+(
+    [term_id] => 55
+    [term_taxonomy_id] => 55
+)
+
+2017-11-29T10:19:51+00:00 DEBUG > > (504) Term #Toalha (product_cat) exists? Array
+(
+    [term_id] => 68
+    [term_taxonomy_id] => 68
+)
+
+2017-11-29T10:19:51+00:00 DEBUG > > (504) Term #bolsas (product_cat) exists? Array
+(
+    [term_id] => 52
+    [term_taxonomy_id] => 52
+)
+
+2017-11-29T10:19:52+00:00 DEBUG > > (504) Term #verão (product_cat) exists? Array
+(
+    [term_id] => 29
+    [term_taxonomy_id] => 29
+)
+
+2017-11-29T10:19:52+00:00 DEBUG > > (504) Term #bolsas (product_cat) exists? Array
+(
+    [term_id] => 52
+    [term_taxonomy_id] => 52
+)
+
+2017-11-29T10:19:53+00:00 DEBUG > > (504) Term #kids (product_cat) exists? Array
+(
+    [term_id] => 35
+    [term_taxonomy_id] => 35
+)
+
+2017-11-29T10:19:53+00:00 DEBUG > > (504) Term #Bolsa (product_cat) exists? Array
+(
+    [term_id] => 66
+    [term_taxonomy_id] => 66
+)
+
+2017-11-29T10:19:54+00:00 DEBUG > > (504) Term #kids (product_cat) exists? Array
+(
+    [term_id] => 35
+    [term_taxonomy_id] => 35
+)
+
+2017-11-29T10:19:54+00:00 DEBUG > > (504) Term #Bolsa (product_cat) exists? Array
+(
+    [term_id] => 66
+    [term_taxonomy_id] => 66
+)
+
+2017-11-29T10:19:54+00:00 DEBUG > > (504) Term #brincos (product_cat) exists? Array
+(
+    [term_id] => 41
+    [term_taxonomy_id] => 41
+)
+
+2017-11-29T10:19:54+00:00 DEBUG > > (504) Term #argolas (product_cat) exists? Array
+(
+    [term_id] => 42
+    [term_taxonomy_id] => 42
+)
+
+2017-11-29T10:19:54+00:00 DEBUG > > (504) Term #anéis (product_cat) exists? Array
+(
+    [term_id] => 16
+    [term_taxonomy_id] => 16
+)
+
+2017-11-29T10:19:54+00:00 DEBUG > > (504) Term #cravejados (product_cat) exists? Array
+(
+    [term_id] => 40
+    [term_taxonomy_id] => 40
+)
+
+2017-11-29T10:19:54+00:00 DEBUG > > (504) Term #cravejados (product_cat) exists? Array
+(
+    [term_id] => 45
+    [term_taxonomy_id] => 45
+)
+
+2017-11-29T10:19:56+00:00 DEBUG > > (504) Term #brincos (product_cat) exists? Array
+(
+    [term_id] => 41
+    [term_taxonomy_id] => 41
+)
+
+2017-11-29T10:19:56+00:00 DEBUG > > (504) Term #cravejados (product_cat) exists? Array
+(
+    [term_id] => 45
+    [term_taxonomy_id] => 45
+)
+
+2017-11-29T10:19:56+00:00 DEBUG > > (504) Term #argolas (product_cat) exists? Array
+(
+    [term_id] => 42
+    [term_taxonomy_id] => 42
+)
+
+2017-11-29T10:19:58+00:00 DEBUG > > (504) Term #brincos (product_cat) exists? Array
+(
+    [term_id] => 41
+    [term_taxonomy_id] => 41
+)
+
+2017-11-29T10:19:58+00:00 DEBUG > > (504) Term #cravejados (product_cat) exists? Array
+(
+    [term_id] => 45
+    [term_taxonomy_id] => 45
+)
+
+2017-11-29T10:20:00+00:00 DEBUG > > (504) Term #brincos (product_cat) exists? Array
+(
+    [term_id] => 41
+    [term_taxonomy_id] => 41
+)
+
+2017-11-29T10:20:00+00:00 DEBUG > > (504) Term #cravejados (product_cat) exists? Array
+(
+    [term_id] => 45
+    [term_taxonomy_id] => 45
+)
+
+2017-11-29T10:20:03+00:00 DEBUG > > (504) Term #brincos (product_cat) exists? Array
+(
+    [term_id] => 41
+    [term_taxonomy_id] => 41
+)
+
+2017-11-29T10:20:03+00:00 DEBUG > > (504) Term #cravejados (product_cat) exists? Array
+(
+    [term_id] => 45
+    [term_taxonomy_id] => 45
+)
+
+2017-11-29T10:20:05+00:00 DEBUG > > (504) Term #brincos (product_cat) exists? Array
+(
+    [term_id] => 41
+    [term_taxonomy_id] => 41
+)
+
+2017-11-29T10:20:05+00:00 DEBUG > > (504) Term #cravejados (product_cat) exists? Array
+(
+    [term_id] => 45
+    [term_taxonomy_id] => 45
+)
+
+2017-11-29T10:20:07+00:00 DEBUG > > (504) Term #brincos (product_cat) exists? Array
+(
+    [term_id] => 41
+    [term_taxonomy_id] => 41
+)
+
+2017-11-29T10:20:07+00:00 DEBUG > > (504) Term #cravejados (product_cat) exists? Array
+(
+    [term_id] => 45
+    [term_taxonomy_id] => 45
+)
+

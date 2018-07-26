@@ -1,0 +1,275 @@
+12-17-2017 @ 08:20:58 - Checking IPN request...
+12-17-2017 @ 08:20:59 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2017-12-04T19:05:09.000-02:00
+    [code] => 360B4271-0142-465B-A560-4435D1237FA7
+    [reference] => ANIASTORE2462
+    [type] => 1
+    [status] => 7
+    [cancellationSource] => INTERNAL
+    [lastEventDate] => 2017-12-17T08:20:54.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 2
+            [code] => 202
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/booklet/print.jhtml?c=51cbe8bd90682719a59e16a15f83fbacbae3cc4cb38fb78103119b47c1e7fd71f998b8b0514f50ae
+    [grossAmount] => 74.80
+    [discountAmount] => 0.00
+    [feeAmount] => 3.38
+    [netAmount] => 71.42
+    [extraAmount] => 0.00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Viseira Lacoronilla
+                    [quantity] => 1
+                    [amount] => 57.90
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Pamela Basso
+            [email] => pamibasso@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 998056496
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Frei Fabiano de Cristo
+                    [number] => 445
+                    [complement] => casa
+                    [district] => Jardim das Américas
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 81530110
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+12-18-2017 @ 08:01:22 - Checking IPN request...
+12-18-2017 @ 08:01:24 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2017-12-05T16:30:46.000-02:00
+    [code] => B7F1B893-79E1-43BE-8FBE-14EEB6CF53B8
+    [reference] => ANIASTORE2503
+    [type] => 1
+    [status] => 7
+    [cancellationSource] => INTERNAL
+    [lastEventDate] => 2017-12-18T08:01:19.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 2
+            [code] => 202
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/booklet/print.jhtml?c=a2e083320dc4a886132eb1d82a7d3c65d0cb309ad6f8640e58dbbe9ee4d9b75e482d621e4ad25a5f
+    [grossAmount] => 44.50
+    [discountAmount] => 0.00
+    [feeAmount] => 2.18
+    [netAmount] => 42.32
+    [extraAmount] => 0.00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Pulseira Infantil Crystal Ania Store
+                    [quantity] => 1
+                    [amount] => 44.50
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => William Kunitake
+            [email] => c50616992408585437545@sandbox.pagseguro.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992229812
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Adaguimar de Pinho Klat
+                    [number] => 73
+                    [complement] => Casa
+                    [district] => São Francisco
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 82300357
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+12-18-2017 @ 08:01:24 - PagSeguro payment status for order 2503 is: 7
+12-18-2017 @ 08:01:44 - Checking IPN request...
+12-18-2017 @ 08:01:45 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2017-12-05T16:35:02.000-02:00
+    [code] => BD0D6735-C7A0-4946-ACAF-B6A1CBF611AE
+    [reference] => ANIASTORE2506
+    [type] => 1
+    [status] => 7
+    [cancellationSource] => INTERNAL
+    [lastEventDate] => 2017-12-18T08:01:41.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 2
+            [code] => 202
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/booklet/print.jhtml?c=ad2bffdae1c819fc8e3a1276f65899bfa6f282830196e47668c3697a4bd3952898af3956eeeaa538
+    [grossAmount] => 61.40
+    [discountAmount] => 0.00
+    [feeAmount] => 2.85
+    [netAmount] => 58.55
+    [extraAmount] => 0.00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Pulseira Infantil Crystal Ania Store
+                    [quantity] => 1
+                    [amount] => 44.50
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => William Kunitake
+            [email] => c50616992408585437545@sandbox.pagseguro.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992229812
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Adaguimar de Pinho Klat
+                    [number] => 73
+                    [complement] => Casa
+                    [district] => São Francisco
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 82300357
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+12-18-2017 @ 08:01:45 - PagSeguro payment status for order 2506 is: 7
+12-18-2017 @ 08:02:32 - Checking IPN request...
+12-18-2017 @ 08:02:34 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2017-12-05T16:44:16.000-02:00
+    [code] => 3562B064-02F4-4E1C-B7F1-2251FF521BEA
+    [reference] => ANIASTORE2509
+    [type] => 1
+    [status] => 7
+    [cancellationSource] => INTERNAL
+    [lastEventDate] => 2017-12-18T08:02:29.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 2
+            [code] => 202
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/booklet/print.jhtml?c=d79ff98e7eed7c0b244f2106ed2d2880eb5ffda59afc727e17b54904de0e5f4e4f28e9fa910109f0
+    [grossAmount] => 85.10
+    [discountAmount] => 0.00
+    [feeAmount] => 3.80
+    [netAmount] => 81.30
+    [extraAmount] => 0.00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Bolsa de Palha Punta Ballena
+                    [quantity] => 1
+                    [amount] => 85.10
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => William Kunitake
+            [email] => c50616992408585437545@sandbox.pagseguro.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992229812
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Adaguimar de Pinho Klat
+                    [number] => 73
+                    [complement] => Casa
+                    [district] => São Francisco
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 82300357
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+12-18-2017 @ 08:02:34 - PagSeguro payment status for order 2509 is: 7

@@ -1,0 +1,5391 @@
+12-18-2017 @ 18:21:33 - Requesting token for order 2692 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE2692]]></reference>
+  <sender>
+    <email><![CDATA[c50616992408585437545@sandbox.pagseguro.com.br]]></email>
+    <name><![CDATA[William Kunitake]]></name>
+    <phone>
+      <areaCode>99</areaCode>
+      <number>2229812</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Adaguimar de Pinho Klat]]></street>
+      <number>73</number>
+      <complement><![CDATA[Casa]]></complement>
+      <district><![CDATA[SÃ£o Francisco]]></district>
+      <postalCode>82300357</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>0</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Brinca Goldy]]></description>
+      <amount>24.50</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[http://www.aniastore.com.br/finalizar-compra/order-received/2692?key=wc_order_5a38234a1d687]]></redirectURL>
+  <notificationURL><![CDATA[http://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+12-18-2017 @ 18:21:34 - PagSeguro Payment Token created with success! The Token is: EB34523C9B9BBC200406BFAC7F2DB914
+12-18-2017 @ 18:22:09 - Checking IPN request...
+12-18-2017 @ 18:22:11 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2017-12-18T18:21:39.000-02:00
+    [code] => EB624865-6EFA-492A-8F79-739A23F1D85E
+    [reference] => ANIASTORE2692
+    [type] => 1
+    [status] => 1
+    [lastEventDate] => 2017-12-18T18:22:02.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 2
+            [code] => 202
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/booklet/print.jhtml?c=3026e929ad8f54c8dcd0d6a40103d8c92d7c517b1e455abd0f7d4f849db5036ba849e7ad2f8d2310
+    [grossAmount] => 24.50
+    [discountAmount] => 0.00
+    [feeAmount] => 1.38
+    [netAmount] => 23.12
+    [extraAmount] => 0.00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinca Goldy
+                    [quantity] => 1
+                    [amount] => 24.50
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => William Kunitake
+            [email] => c50616992408585437545@sandbox.pagseguro.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992229812
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Adaguimar de Pinho Klat
+                    [number] => 73
+                    [complement] => Casa
+                    [district] => SÃ£o Francisco
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 82300357
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+12-18-2017 @ 18:22:11 - PagSeguro payment status for order 2692 is: 1
+12-23-2017 @ 13:31:34 - Requesting token for order 3057 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE3057]]></reference>
+  <sender>
+    <email><![CDATA[karolmccm@hotmail.com]]></email>
+    <name><![CDATA[Caroline Costa Mendes]]></name>
+    <phone>
+      <areaCode>41</areaCode>
+      <number>998620888</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua RomÃ©dio Dorigo]]></street>
+      <number>85</number>
+      <complement><![CDATA[Apto 1704b]]></complement>
+      <district><![CDATA[Ãgua Verde]]></district>
+      <postalCode>80620140</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>0</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Havaianas Slim Pop Up - 37/38]]></description>
+      <amount>27.28</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>2</id>
+      <description><![CDATA[Canga Toalha Encantadas]]></description>
+      <amount>90.00</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>3</id>
+      <description><![CDATA[Canga Toalha Kabak]]></description>
+      <amount>90.00</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>4</id>
+      <description><![CDATA[Toalha de Praia PicolÃ©]]></description>
+      <amount>52.08</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>5</id>
+      <description><![CDATA[Bico de Pato CoraÃ§Ãµes/amarela e pÃªssego]]></description>
+      <amount>12.72</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>6</id>
+      <description><![CDATA[Piranha Orelhinhas Rosa]]></description>
+      <amount>8.72</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>7</id>
+      <description><![CDATA[Toalha de Praia Conchas]]></description>
+      <amount>52.08</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[http://www.aniastore.com.br/finalizar-compra/order-received/3057?key=wc_order_5a3e76d338425]]></redirectURL>
+  <notificationURL><![CDATA[http://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+12-23-2017 @ 13:31:35 - PagSeguro Payment Token created with success! The Token is: 38DDBF72B8B8394664624F95A7364B09
+12-31-2017 @ 08:01:06 - Checking IPN request...
+12-31-2017 @ 08:01:19 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2017-12-18T18:21:39.000-02:00
+    [code] => EB624865-6EFA-492A-8F79-739A23F1D85E
+    [reference] => ANIASTORE2692
+    [type] => 1
+    [status] => 7
+    [cancellationSource] => INTERNAL
+    [lastEventDate] => 2017-12-31T08:01:04.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 2
+            [code] => 202
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/booklet/print.jhtml?c=3026e929ad8f54c8dcd0d6a40103d8c92d7c517b1e455abd0f7d4f849db5036ba849e7ad2f8d2310
+    [grossAmount] => 24.50
+    [discountAmount] => 0.00
+    [feeAmount] => 1.38
+    [netAmount] => 23.12
+    [extraAmount] => 0.00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinca Goldy
+                    [quantity] => 1
+                    [amount] => 24.50
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => William Kunitake
+            [email] => c50616992408585437545@sandbox.pagseguro.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992229812
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Adaguimar de Pinho Klat
+                    [number] => 73
+                    [complement] => Casa
+                    [district] => SÃ£o Francisco
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 82300357
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+12-31-2017 @ 08:01:19 - PagSeguro payment status for order 2692 is: 7
+12-31-2017 @ 10:15:47 - Checking IPN request...
+12-31-2017 @ 10:15:49 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2017-12-18T18:21:39.000-02:00
+    [code] => EB624865-6EFA-492A-8F79-739A23F1D85E
+    [reference] => ANIASTORE2692
+    [type] => 1
+    [status] => 7
+    [cancellationSource] => INTERNAL
+    [lastEventDate] => 2017-12-31T08:01:04.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 2
+            [code] => 202
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/booklet/print.jhtml?c=3026e929ad8f54c8dcd0d6a40103d8c92d7c517b1e455abd0f7d4f849db5036ba849e7ad2f8d2310
+    [grossAmount] => 24.50
+    [discountAmount] => 0.00
+    [feeAmount] => 1.38
+    [netAmount] => 23.12
+    [extraAmount] => 0.00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinca Goldy
+                    [quantity] => 1
+                    [amount] => 24.50
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => William Kunitake
+            [email] => c50616992408585437545@sandbox.pagseguro.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992229812
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Adaguimar de Pinho Klat
+                    [number] => 73
+                    [complement] => Casa
+                    [district] => SÃ£o Francisco
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 82300357
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+12-31-2017 @ 10:15:50 - PagSeguro payment status for order 2692 is: 7
+01-07-2018 @ 15:30:37 - Checking IPN request...
+01-07-2018 @ 15:30:38 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2017-12-08T15:20:54.000-02:00
+    [code] => E0898B3C-4339-48F7-AC02-4FF82968F5DC
+    [reference] => ANIASTORE2543
+    [type] => 1
+    [status] => 4
+    [lastEventDate] => 2018-01-07T15:30:02.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 31.12
+    [discountAmount] => 0.00
+    [feeAmount] => 1.64
+    [netAmount] => 29.48
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-01-07T15:27:10.000-02:00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Necessaire Barroca Grande
+                    [quantity] => 1
+                    [amount] => 31.12
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => marjorie coelho
+            [email] => marjoriecoelho@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 996968734
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Frei Fabiano de Cristo
+                    [number] => 445
+                    [complement] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [district] => Jardim das AmÃ©ricas
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 81530110
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+01-07-2018 @ 15:30:38 - PagSeguro payment status for order 2543 is: 4
+01-27-2018 @ 10:33:34 - Requesting token for order 3215 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE3215]]></reference>
+  <sender>
+    <email><![CDATA[tirellisiqueira@yahoo.com.br]]></email>
+    <name><![CDATA[Adriano Virgilio Tirelli de Siqueira]]></name>
+    <phone>
+      <areaCode>41</areaCode>
+      <number>991542338</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[CA 8]]></street>
+      <number>Lote 1 Premier TR 2</number>
+      <complement><![CDATA[Apto. 104]]></complement>
+      <district><![CDATA[Setor de HabitaÃ§Ãµes Individuais Norte]]></district>
+      <postalCode>71503508</postalCode>
+      <city><![CDATA[BrasÃ­lia]]></city>
+      <state>DF</state>
+      <country>BRA</country>
+    </address>
+    <cost>16.90</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Pulseira Infantil Little Castle]]></description>
+      <amount>44.50</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[https://www.aniastore.com.br/finalizar-compra/order-received/3215?key=wc_order_5a6c719a2007c]]></redirectURL>
+  <notificationURL><![CDATA[https://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+01-27-2018 @ 10:33:35 - PagSeguro Payment Token created with success! The Token is: D88348DD7F7F1FE11432DF9F81B277C0
+01-27-2018 @ 10:37:25 - Checking IPN request...
+01-27-2018 @ 10:37:26 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-01-27T10:33:40.000-02:00
+    [code] => 0189E103-EDEB-48AD-86A0-439662219E34
+    [reference] => ANIASTORE3215
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2018-01-27T10:37:22.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 61.40
+    [discountAmount] => 0.00
+    [feeAmount] => 2.85
+    [netAmount] => 58.55
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-02-26T09:37:23.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Pulseira Infantil Little Castle
+                    [quantity] => 1
+                    [amount] => 44.50
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Adriano VirgÃ­lio Tirelli de Siqueira
+            [email] => tirellisiqueira@yahoo.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 21
+                    [number] => 67422416
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => CA 8
+                    [number] => Lote 1 Premier TR 2
+                    [complement] => Apto. 104
+                    [district] => Setor de HabitaÃ§Ãµes Individuais Norte
+                    [city] => BrasÃ­lia
+                    [state] => DF
+                    [country] => BRA
+                    [postalCode] => 71503508
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+01-27-2018 @ 10:37:26 - PagSeguro payment status for order 3215 is: 3
+01-27-2018 @ 10:37:31 - Checking IPN request...
+01-27-2018 @ 10:37:32 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-01-27T10:33:40.000-02:00
+    [code] => 0189E103-EDEB-48AD-86A0-439662219E34
+    [reference] => ANIASTORE3215
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2018-01-27T10:37:22.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 61.40
+    [discountAmount] => 0.00
+    [feeAmount] => 2.85
+    [netAmount] => 58.55
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-02-26T09:37:23.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Pulseira Infantil Little Castle
+                    [quantity] => 1
+                    [amount] => 44.50
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Adriano VirgÃ­lio Tirelli de Siqueira
+            [email] => tirellisiqueira@yahoo.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 21
+                    [number] => 67422416
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => CA 8
+                    [number] => Lote 1 Premier TR 2
+                    [complement] => Apto. 104
+                    [district] => Setor de HabitaÃ§Ãµes Individuais Norte
+                    [city] => BrasÃ­lia
+                    [state] => DF
+                    [country] => BRA
+                    [postalCode] => 71503508
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+01-27-2018 @ 10:37:32 - PagSeguro payment status for order 3215 is: 3
+01-30-2018 @ 13:01:23 - Requesting token for order 3228 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE3228]]></reference>
+  <sender>
+    <email><![CDATA[dauluana@hotmail.com]]></email>
+    <name><![CDATA[Dauluana Menezes]]></name>
+    <phone>
+      <areaCode>41</areaCode>
+      <number>992614321</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua Maria Theodora de Paula Costa]]></street>
+      <number>29</number>
+      <district><![CDATA[Jardim das AmÃ©ricas]]></district>
+      <postalCode>81530270</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>0</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Necessaire Pineapple Grande]]></description>
+      <amount>36.90</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>2</id>
+      <description><![CDATA[Havaianas Slim Candy - 39/40]]></description>
+      <amount>25.90</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[https://www.aniastore.com.br/finalizar-compra/order-received/3228?key=wc_order_5a7088c078fae]]></redirectURL>
+  <notificationURL><![CDATA[https://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+01-30-2018 @ 13:01:25 - PagSeguro Payment Token created with success! The Token is: 42527F752D2D9A2884DFBF8842E4CBDF
+01-30-2018 @ 13:06:02 - Checking IPN request...
+01-30-2018 @ 13:06:03 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-01-30T13:01:30.000-02:00
+    [code] => FBCDDE47-A4F0-4F07-9257-3B7008A09431
+    [reference] => ANIASTORE3228
+    [recoveryCode] => 7df5a68dd88c50bb85e2b9064cfff0a2e0787c7bbd4485ae
+    [type] => 1
+    [status] => 1
+    [lastEventDate] => 2018-01-30T13:05:59.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 3
+            [code] => 301
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/eft/print.jhtml?c=30ce59e0f1914532a90d8533c1d68fe598228fce930a814094fcf98de93183b73218626bea0ee2bf
+    [grossAmount] => 62.80
+    [discountAmount] => 0.00
+    [feeAmount] => 2.91
+    [netAmount] => 59.89
+    [extraAmount] => 0.00
+    [installmentCount] => 1
+    [itemCount] => 2
+    [items] => SimpleXMLElement Object
+        (
+            [item] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [id] => 1
+                            [description] => Necessaire Pineapple Grande
+                            [quantity] => 1
+                            [amount] => 36.90
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [id] => 2
+                            [description] => Havaianas Slim Candy - 39/40
+                            [quantity] => 1
+                            [amount] => 25.90
+                        )
+
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Dauluana Menezes
+            [email] => dauluana@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992614321
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Maria Theodora de Paula Costa
+                    [number] => 29
+                    [complement] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [district] => Jardim das AmÃ©ricas
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 81530270
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+01-30-2018 @ 13:06:03 - PagSeguro payment status for order 3228 is: 1
+01-30-2018 @ 13:25:03 - Checking IPN request...
+01-30-2018 @ 13:25:04 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-01-30T13:01:30.000-02:00
+    [code] => FBCDDE47-A4F0-4F07-9257-3B7008A09431
+    [reference] => ANIASTORE3228
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2018-01-30T13:24:59.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 3
+            [code] => 301
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/eft/print.jhtml?c=30ce59e0f1914532a90d8533c1d68fe598228fce930a814094fcf98de93183b73218626bea0ee2bf
+    [grossAmount] => 62.80
+    [discountAmount] => 0.00
+    [feeAmount] => 2.91
+    [netAmount] => 59.89
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-03-01T12:24:59.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 2
+    [items] => SimpleXMLElement Object
+        (
+            [item] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [id] => 1
+                            [description] => Necessaire Pineapple Grande
+                            [quantity] => 1
+                            [amount] => 36.90
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [id] => 2
+                            [description] => Havaianas Slim Candy - 39/40
+                            [quantity] => 1
+                            [amount] => 25.90
+                        )
+
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Dauluana Menezes
+            [email] => dauluana@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992614321
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Maria Theodora de Paula Costa
+                    [number] => 29
+                    [complement] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [district] => Jardim das AmÃ©ricas
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 81530270
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+01-30-2018 @ 13:25:04 - PagSeguro payment status for order 3228 is: 3
+01-30-2018 @ 13:25:08 - Checking IPN request...
+01-30-2018 @ 13:25:09 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-01-30T13:01:30.000-02:00
+    [code] => FBCDDE47-A4F0-4F07-9257-3B7008A09431
+    [reference] => ANIASTORE3228
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2018-01-30T13:24:59.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 3
+            [code] => 301
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/eft/print.jhtml?c=30ce59e0f1914532a90d8533c1d68fe598228fce930a814094fcf98de93183b73218626bea0ee2bf
+    [grossAmount] => 62.80
+    [discountAmount] => 0.00
+    [feeAmount] => 2.91
+    [netAmount] => 59.89
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-03-01T12:24:59.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 2
+    [items] => SimpleXMLElement Object
+        (
+            [item] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [id] => 1
+                            [description] => Necessaire Pineapple Grande
+                            [quantity] => 1
+                            [amount] => 36.90
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [id] => 2
+                            [description] => Havaianas Slim Candy - 39/40
+                            [quantity] => 1
+                            [amount] => 25.90
+                        )
+
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Dauluana Menezes
+            [email] => dauluana@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992614321
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Maria Theodora de Paula Costa
+                    [number] => 29
+                    [complement] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [district] => Jardim das AmÃ©ricas
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 81530270
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+01-30-2018 @ 13:25:09 - PagSeguro payment status for order 3228 is: 3
+02-07-2018 @ 13:02:45 - Requesting token for order 3240 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE3240]]></reference>
+  <sender>
+    <email><![CDATA[crissjochims2@gmail.com]]></email>
+    <name><![CDATA[Luiza Cristina Silveira]]></name>
+    <phone>
+      <areaCode>41</areaCode>
+      <number>992729422</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Avenida Prefeito Erasto Gaertner]]></street>
+      <number>2034</number>
+      <complement><![CDATA[Bloco 6 apto 67]]></complement>
+      <district><![CDATA[Bacacheri]]></district>
+      <postalCode>82515000</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>0</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Havaianas Slim Petunia - 35/36]]></description>
+      <amount>25.90</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[https://www.aniastore.com.br/finalizar-compra/order-received/3240?key=wc_order_5a7b15113d8b7]]></redirectURL>
+  <notificationURL><![CDATA[https://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+02-07-2018 @ 13:02:46 - PagSeguro Payment Token created with success! The Token is: 5F54FC0BC7C72C7774195FA61E21D8C0
+02-07-2018 @ 13:06:06 - Checking IPN request...
+02-07-2018 @ 13:06:08 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-02-07T13:02:54.000-02:00
+    [code] => 2F49518C-2140-48E0-AC15-07CC55EBA4E1
+    [reference] => ANIASTORE3240
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2018-02-07T13:06:04.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 25.90
+    [discountAmount] => 0.00
+    [feeAmount] => 1.43
+    [netAmount] => 24.47
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-03-09T12:06:04.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Havaianas Slim Petunia - 35/36
+                    [quantity] => 1
+                    [amount] => 25.90
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Luiza C Silveira
+            [email] => crissjochims2@gmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992729422
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Avenida Prefeito Erasto Gaertner
+                    [number] => 2034
+                    [complement] => Bloco 6 apto 67
+                    [district] => Bacacheri
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 82515000
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+02-07-2018 @ 13:06:08 - PagSeguro payment status for order 3240 is: 3
+02-07-2018 @ 13:06:13 - Checking IPN request...
+02-07-2018 @ 13:06:14 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-02-07T13:02:54.000-02:00
+    [code] => 2F49518C-2140-48E0-AC15-07CC55EBA4E1
+    [reference] => ANIASTORE3240
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2018-02-07T13:06:04.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 25.90
+    [discountAmount] => 0.00
+    [feeAmount] => 1.43
+    [netAmount] => 24.47
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-03-09T12:06:04.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Havaianas Slim Petunia - 35/36
+                    [quantity] => 1
+                    [amount] => 25.90
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Luiza C Silveira
+            [email] => crissjochims2@gmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992729422
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Avenida Prefeito Erasto Gaertner
+                    [number] => 2034
+                    [complement] => Bloco 6 apto 67
+                    [district] => Bacacheri
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 82515000
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+02-07-2018 @ 13:06:14 - PagSeguro payment status for order 3240 is: 3
+02-10-2018 @ 00:17:17 - Requesting token for order 3245 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE3245]]></reference>
+  <sender>
+    <email><![CDATA[igvoneka@yahoo.com.br]]></email>
+    <name><![CDATA[Ivone Gomes dos Santos]]></name>
+    <phone>
+      <areaCode>12</areaCode>
+      <number>981226039</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua Rio Jurubatuba]]></street>
+      <number>79</number>
+      <district><![CDATA[Jardim Pararangaba]]></district>
+      <postalCode>12224770</postalCode>
+      <city><![CDATA[SÃ£o JosÃ© dos Campos]]></city>
+      <state>SP</state>
+      <country>BRA</country>
+    </address>
+    <cost>16.90</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Toalha de Praia Surf]]></description>
+      <amount>69.90</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[https://www.aniastore.com.br/finalizar-compra/order-received/3245?key=wc_order_5a7e5627b3274]]></redirectURL>
+  <notificationURL><![CDATA[https://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+02-10-2018 @ 00:17:18 - PagSeguro Payment Token created with success! The Token is: A4F517C68A8A817334BB3FA2CE48326C
+02-10-2018 @ 00:21:25 - Checking IPN request...
+02-10-2018 @ 00:21:26 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-02-10T00:17:39.000-02:00
+    [code] => 7FC6261C-C3CF-4145-907D-4FB275AF0344
+    [reference] => ANIASTORE3245
+    [type] => 1
+    [status] => 1
+    [lastEventDate] => 2018-02-10T00:18:26.000-02:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 2
+            [code] => 202
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/booklet/print.jhtml?c=3c87848a7518be66a74ff5caa6b83135e6c547c3ad3771568db5840abb9c1afc5438b16dd06742cf
+    [grossAmount] => 86.80
+    [discountAmount] => 0.00
+    [feeAmount] => 3.86
+    [netAmount] => 82.94
+    [extraAmount] => 0.00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Toalha de Praia Surf
+                    [quantity] => 1
+                    [amount] => 69.90
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Ivone Gomes dos Santos
+            [email] => igvoneka@yahoo.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 12
+                    [number] => 981226039
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Rio Jurubatuba
+                    [number] => 79
+                    [complement] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [district] => Jardim Pararangaba
+                    [city] => SÃ£o JosÃ© dos Campos
+                    [state] => SP
+                    [country] => BRA
+                    [postalCode] => 12224770
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+02-10-2018 @ 00:21:26 - PagSeguro payment status for order 3245 is: 1
+02-26-2018 @ 08:12:58 - Checking IPN request...
+02-26-2018 @ 08:12:59 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-02-10T00:17:39.000-02:00
+    [code] => 7FC6261C-C3CF-4145-907D-4FB275AF0344
+    [reference] => ANIASTORE3245
+    [type] => 1
+    [status] => 7
+    [cancellationSource] => INTERNAL
+    [lastEventDate] => 2018-02-26T08:12:53.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 2
+            [code] => 202
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/booklet/print.jhtml?c=3c87848a7518be66a74ff5caa6b83135e6c547c3ad3771568db5840abb9c1afc5438b16dd06742cf
+    [grossAmount] => 86.80
+    [discountAmount] => 0.00
+    [feeAmount] => 3.86
+    [netAmount] => 82.94
+    [extraAmount] => 0.00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Toalha de Praia Surf
+                    [quantity] => 1
+                    [amount] => 69.90
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Ivone Gomes dos Santos
+            [email] => igvoneka@yahoo.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 12
+                    [number] => 981226039
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Rio Jurubatuba
+                    [number] => 79
+                    [complement] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [district] => Jardim Pararangaba
+                    [city] => SÃ£o JosÃ© dos Campos
+                    [state] => SP
+                    [country] => BRA
+                    [postalCode] => 12224770
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+02-26-2018 @ 08:12:59 - PagSeguro payment status for order 3245 is: 7
+02-26-2018 @ 08:13:06 - Checking IPN request...
+02-26-2018 @ 08:13:07 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-02-10T00:17:39.000-02:00
+    [code] => 7FC6261C-C3CF-4145-907D-4FB275AF0344
+    [reference] => ANIASTORE3245
+    [type] => 1
+    [status] => 7
+    [cancellationSource] => INTERNAL
+    [lastEventDate] => 2018-02-26T08:12:53.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 2
+            [code] => 202
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/booklet/print.jhtml?c=3c87848a7518be66a74ff5caa6b83135e6c547c3ad3771568db5840abb9c1afc5438b16dd06742cf
+    [grossAmount] => 86.80
+    [discountAmount] => 0.00
+    [feeAmount] => 3.86
+    [netAmount] => 82.94
+    [extraAmount] => 0.00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Toalha de Praia Surf
+                    [quantity] => 1
+                    [amount] => 69.90
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Ivone Gomes dos Santos
+            [email] => igvoneka@yahoo.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 12
+                    [number] => 981226039
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Rio Jurubatuba
+                    [number] => 79
+                    [complement] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [district] => Jardim Pararangaba
+                    [city] => SÃ£o JosÃ© dos Campos
+                    [state] => SP
+                    [country] => BRA
+                    [postalCode] => 12224770
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+02-26-2018 @ 08:13:07 - PagSeguro payment status for order 3245 is: 7
+02-26-2018 @ 09:39:15 - Checking IPN request...
+02-26-2018 @ 09:39:16 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-01-27T10:33:40.000-02:00
+    [code] => 0189E103-EDEB-48AD-86A0-439662219E34
+    [reference] => ANIASTORE3215
+    [type] => 1
+    [status] => 4
+    [lastEventDate] => 2018-02-26T09:39:06.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 61.40
+    [discountAmount] => 0.00
+    [feeAmount] => 2.85
+    [netAmount] => 58.55
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-02-26T09:37:23.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Pulseira Infantil Little Castle
+                    [quantity] => 1
+                    [amount] => 44.50
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Adriano VirgÃ­lio Tirelli de Siqueira
+            [email] => tirellisiqueira@yahoo.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 21
+                    [number] => 67422416
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => CA 8
+                    [number] => Lote 1 Premier TR 2
+                    [complement] => Apto. 104
+                    [district] => Setor de HabitaÃ§Ãµes Individuais Norte
+                    [city] => BrasÃ­lia
+                    [state] => DF
+                    [country] => BRA
+                    [postalCode] => 71503508
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+02-26-2018 @ 09:39:16 - PagSeguro payment status for order 3215 is: 4
+02-26-2018 @ 09:39:19 - Checking IPN request...
+02-26-2018 @ 09:39:20 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-01-27T10:33:40.000-02:00
+    [code] => 0189E103-EDEB-48AD-86A0-439662219E34
+    [reference] => ANIASTORE3215
+    [type] => 1
+    [status] => 4
+    [lastEventDate] => 2018-02-26T09:39:06.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 61.40
+    [discountAmount] => 0.00
+    [feeAmount] => 2.85
+    [netAmount] => 58.55
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-02-26T09:37:23.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Pulseira Infantil Little Castle
+                    [quantity] => 1
+                    [amount] => 44.50
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Adriano VirgÃ­lio Tirelli de Siqueira
+            [email] => tirellisiqueira@yahoo.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 21
+                    [number] => 67422416
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => CA 8
+                    [number] => Lote 1 Premier TR 2
+                    [complement] => Apto. 104
+                    [district] => Setor de HabitaÃ§Ãµes Individuais Norte
+                    [city] => BrasÃ­lia
+                    [state] => DF
+                    [country] => BRA
+                    [postalCode] => 71503508
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+02-26-2018 @ 09:39:20 - PagSeguro payment status for order 3215 is: 4
+02-26-2018 @ 13:09:48 - Requesting token for order 3294 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE3294]]></reference>
+  <sender>
+    <email><![CDATA[dani.minetto@hotmail.com]]></email>
+    <name><![CDATA[Daniela Minetto Robles]]></name>
+    <phone>
+      <areaCode>11</areaCode>
+      <number>983709932</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua Oliveira Alves]]></street>
+      <number>495</number>
+      <complement><![CDATA[apto. 132, bloco 1]]></complement>
+      <district><![CDATA[Ipiranga]]></district>
+      <postalCode>04210061</postalCode>
+      <city><![CDATA[SÃ£o Paulo]]></city>
+      <state>SP</state>
+      <country>BRA</country>
+    </address>
+    <cost>16.90</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Canga Toalha Mombasa]]></description>
+      <amount>90.00</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[https://www.aniastore.com.br/finalizar-compra/order-received/3294?key=wc_order_5a94314648922]]></redirectURL>
+  <notificationURL><![CDATA[https://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+02-26-2018 @ 13:09:50 - Error generating the PagSeguro payment token: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Mon, 26 Feb 2018 16:09:50 GMT
+                    [last-modified] => Mon, 13 Feb 2017 23:57:27 GMT
+                    [accept-ranges] => bytes
+                    [vary] => Accept-Encoding,User-Agent
+                    [content-encoding] => gzip
+                    [strict-transport-security] => max-age=31536000
+                    [content-length] => 2645
+                    [content-type] => text/html
+                    [set-cookie] => TS01b793ab=01ed0a5ec22fbee3b56079d8c5b39bef680a8694c55ff740b5698574ea337bdf9d6bf09d1c; Path=/
+                )
+
+        )
+
+    [body] => <!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="pt-br" class="ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 nosvg"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="pt-br" class="ie7 ie-lt10 ie-lt9 ie-lt8 nosvg"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="pt-br" class="ie8 ie-lt10 ie-lt9 nosvg"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="pt-br" class="ie9 ie-lt10"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="pt-br"> <!--<![endif]-->
+<html lang="pt-br">
+    
+    <head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    	<meta http-equiv="content-type" content="application/xhtml+xml; charset=iso-8859-1" />
+    	<meta http-equiv="content-language" content="pt-BR" />
+    	<meta http-equiv="cache-control" content="no-cache,no-store" />
+    	<meta http-equiv="pragma" content="no-cache" />
+    	<meta http-equiv="expires" content="Mon, 22 jul 2006 11:12:01 GMT" />
+    	<meta name="description" content="" />
+    	
+    	<meta name="robots" content="noindex,nofollow" />
+    	
+    	<title>PagSeguro - A solução completa para pagamentos online</title>
+		
+		<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/bundles/lib.ibanking.scss" />
+		<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/lib/commons/widgets/pagseguro.buttons.css" />
+		<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/pagestyles/maintenance/maintenance.css" />
+		
+		<link rel="Shortcut Icon" href="https://stc.pagseguro.uol.com.br/pagseguro/i/favicon.ico" type="image/x-icon" />
+    	
+    	<!--[if lt IE 9]>
+    		<script src="https://stc.pagseguro.uol.com.br/pagseguro/j/etc/google/html5.js"></script>
+    	<![endif]-->
+    </head>
+	
+    <body>
+	
+		<header id="main-header">
+			<div class="wrapper main-info">
+				<figure id="logo">
+					<a href="/" title="A forma mais completa de vender dentro e fora da internet">
+						<img src="https://stc.pagseguro.uol.com.br/pagseguro/i/logos/logo_pagseguro200x41.png" alt="PagSeguro UOL" />
+					</a>
+				</figure>
+			</div>
+		</header>
+		
+		<section id="page-app-down">
+			<div class="wrapper">
+				<div class="uolMsg uolMsg-alert uolMsg-medium">
+					<dl>
+						<dt>Ops! Houve um problema e não foi possível exibir a página</dt>
+						<dd>Nossa equipe acabou de receber um alerta avisando sobre o ocorrido. Por favor, tente novamente mais tarde.</dd>
+					</dl>
+				</div>
+			</div>
+			
+			<div id="pagseguro-content">
+				<div class="wrapper">
+				
+					<div class="features" id="buyer-features">
+						
+						<h2 class="icon-after">Por que <strong>comprar</strong> com o PagSeguro?</h2>
+						
+						<div class="feature icon-before" id="buyer-buy-feature">
+							<dl>
+								<dt>Compre com tranquilidade</dt>
+								<dd>
+									Se o seu produto não chegar em<br /> até 14 dias devolvemos o seu dinheiro.
+									<br /><a href="/para_voce/como_funciona_a_disputa.jhtml">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="feature icon-before" id="buyer-security-feature">
+							<dl>
+								<dt>Proteja seus dados financeiros</dt>
+								<dd>
+									Os seus dados financeiros ficam sempre protegidos e nunca são compartilhados<br /> com ninguém.
+									<a href="/para_voce/protecao_contra_fraudes.jhtml">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="feature icon-before icon-after" id="buyer-installment-feature">
+							<dl>
+								<dt>Parcele suas compras</dt>
+								<dd>
+									Você pode parcelar as suas compras em até 18x.
+									<a href="/para_voce/meios_de_pagamento_e_parcelamento.jhtml">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="start-link icon-before">
+							<a href="/registration/registration.jhtml?tipo=cadastro#!comprador" class="pagseguro-button">Comece a comprar agora!</a>
+						</div>
+						
+					</div>
+					
+					<div class="features" id="seller-features">
+						
+						<h2 class="icon-after">Por que <strong>vender</strong> com o PagSeguro?</h2>
+						
+						<div class="feature icon-before" id="seller-sell-feature">
+							<dl>
+								<dt>Venda pela internet com agilidade.</dt>
+								<dd>
+									Ofereça mais de 23 meios de pagamento<br /> em seu site, blog ou plataforma <br />de e-commerce.
+									<a href="/para_seu_negocio/venda_pela_internet.jhtml">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="feature icon-before" id="seller-mobile-feature">
+							<dl>
+								<dt>Receba com cartões de crédito no celular</dt>
+								<dd>
+									Sem pagar mensalidade e taxa de adesão.
+									<br />Basta ter um cadastro no PagSeguro.
+									<br /><a href="/venda-pelo-celular/">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="feature icon-before icon-after" id="seller-charging-feature">
+							<dl>
+								<dt>Solicite pagamento por e-mail</dt>
+								<dd>
+									Em poucos cliques você envia cobranças de seus serviços para o e-mail dos seus clientes.
+									<a href="/para_seu_negocio/cobranca.jhtml">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="start-link icon-before">
+							<a href="/registration/registration.jhtml?tipo=cadastro#!vendedor" class="pagseguro-button">Comece a vender agora!</a>
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		
+		<footer id="main-footer" >
+			<div class="wrapper">
+				<nav class="links">
+					<dl class="solutions">
+			 			<dt>Soluções para</dt>
+						<dd><a href="/vender/">Vendedores</a></dd>
+						<dd><a href="/comprar/">Compradores</a></dd>
+						<dd><a href="/v2/guia-de-integracao/index.html">Desenvolvedores</a></dd>
+					</dl>
+					<dl class="contacts">
+			 			<dt>Contato</dt>
+						<dd><a href="/atendimento/ligue-para-o-pagseguro.jhtml">Fale com o PagSeguro</a></dd>
+						<dd><a href="/atendimento/contato_comercial.jhtml">Contato comercial</a></dd>
+						<dd><a href="/atendimento/novo_atendimento.jhtml">Envie um e-mail</a></dd>
+					</dl>
+					<dl class="doubts">
+			 			<dt>Ajuda</dt>
+						<dd><a href="/atendimento/perguntas_frequentes.jhtml">Perguntas frequentes</a></dd>
+						<dd><a href="https://pagseguro.uol.com.br/para_voce/como_funciona_a_disputa.jhtml">Como funciona a disputa</a></dd>
+						<dd><a href="http://forum.pagseguro.uol.com.br" target="_blank">Fórum de desenvolvedores</a></dd>
+					</dl>
+					<dl class="security">
+			 			<dt>Segurança</dt>
+						<dd><a href="https://sac.uol.com.br/info/protecao_privacidade/normas_protecao_privacidade.jhtm">Segurança e privacidade</a></dd>
+						<dd><a href="/dicas-de-seguranca-online.jhtml">Dicas de segurança</a></dd>
+					</dl>
+					<dl class="knowPS">
+			 			<dt>Conheça o PagSeguro</dt>
+						<dd><a href="/sobre_o_pagseguro.jhtml">Sobre o PagSeguro</a></dd>
+						<dd><a href="/regras-de-uso.jhtml">Regras de uso</a></dd>
+						<dd><a href="/taxas_e_tarifas.jhtml">Taxas e tarifas</a></dd>
+						<dd><a href="/contrato_de_servicos.jhtml">Contrato</a></dd>
+						<dd><a href="/venda-presencial/politica-de-troca.jhtml">Política de troca</a></dd>
+					</dl>
+				</nav>
+				<aside>
+					<dl class="social">
+						<dt>Acompanhe o PagSeguro</dt>
+						<dd><a href="http://www.facebook.com/pagseguro" target="_blank" title="PagSeguro no Facebook">Curta nossa página</a></dd>
+						<dd><a href="http://blogpagseguro.com.br/" target="_blank" title="Blog do PagSeguro">Blog do PagSeguro</a></dd>
+						<dd><a href="https://www.youtube.com/user/PagSeguro/videos" target="_blank" title="Vídeos do PagSeguro">Vídeos do PagSeguro</a></dd>
+					</dl>
+					<dl class="selos-seguranca">
+						<dd><a href="/selo/pci/index.html" target="_blank" title="Selo PCI DSS"><img src="https://stc.pagseguro.uol.com.br/pagseguro/i/selo/pci.png" /></a></dd>
+						<dd><a title="Selo MSS UOL Diveo"><img src="https://stc.pagseguro.uol.com.br/pagseguro/i/selo/diveo.png" /></a></dd>
+					</dl>
+					<div class="securityPS">Todas as páginas do PagSeguro estão </br>em ambiente de segurança</div>
+				</aside>
+			</div>
+			<div class="info-data-uol">
+				<div class="wrapper">
+					<div class="dataUOL">
+						<p>						
+							&copy; 1996-<time>2016</time> O melhor conteúdo. Todos os direitos reservados. <br>
+							PAGSEGURO INTERNET LTDA - CNPJ/MF 08.561.701/0001-01 - Av. Brigadeiro Faria Lima, 1.384, São Paulo - SP - CEP 01452-002
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+    </body>
+</html>
+    [response] => Array
+        (
+            [code] => 502
+            [message] => Bad Gateway
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => TS01b793ab
+                    [value] => 01ed0a5ec22fbee3b56079d8c5b39bef680a8694c55ff740b5698574ea337bdf9d6bf09d1c
+                    [expires] => 
+                    [path] => /
+                    [domain] => ws.pagseguro.uol.com.br
+                )
+
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => <!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="pt-br" class="ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 nosvg"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="pt-br" class="ie7 ie-lt10 ie-lt9 ie-lt8 nosvg"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="pt-br" class="ie8 ie-lt10 ie-lt9 nosvg"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="pt-br" class="ie9 ie-lt10"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="pt-br"> <!--<![endif]-->
+<html lang="pt-br">
+    
+    <head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    	<meta http-equiv="content-type" content="application/xhtml+xml; charset=iso-8859-1" />
+    	<meta http-equiv="content-language" content="pt-BR" />
+    	<meta http-equiv="cache-control" content="no-cache,no-store" />
+    	<meta http-equiv="pragma" content="no-cache" />
+    	<meta http-equiv="expires" content="Mon, 22 jul 2006 11:12:01 GMT" />
+    	<meta name="description" content="" />
+    	
+    	<meta name="robots" content="noindex,nofollow" />
+    	
+    	<title>PagSeguro - A solução completa para pagamentos online</title>
+		
+		<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/bundles/lib.ibanking.scss" />
+		<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/lib/commons/widgets/pagseguro.buttons.css" />
+		<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/pagestyles/maintenance/maintenance.css" />
+		
+		<link rel="Shortcut Icon" href="https://stc.pagseguro.uol.com.br/pagseguro/i/favicon.ico" type="image/x-icon" />
+    	
+    	<!--[if lt IE 9]>
+    		<script src="https://stc.pagseguro.uol.com.br/pagseguro/j/etc/google/html5.js"></script>
+    	<![endif]-->
+    </head>
+	
+    <body>
+	
+		<header id="main-header">
+			<div class="wrapper main-info">
+				<figure id="logo">
+					<a href="/" title="A forma mais completa de vender dentro e fora da internet">
+						<img src="https://stc.pagseguro.uol.com.br/pagseguro/i/logos/logo_pagseguro200x41.png" alt="PagSeguro UOL" />
+					</a>
+				</figure>
+			</div>
+		</header>
+		
+		<section id="page-app-down">
+			<div class="wrapper">
+				<div class="uolMsg uolMsg-alert uolMsg-medium">
+					<dl>
+						<dt>Ops! Houve um problema e não foi possível exibir a página</dt>
+						<dd>Nossa equipe acabou de receber um alerta avisando sobre o ocorrido. Por favor, tente novamente mais tarde.</dd>
+					</dl>
+				</div>
+			</div>
+			
+			<div id="pagseguro-content">
+				<div class="wrapper">
+				
+					<div class="features" id="buyer-features">
+						
+						<h2 class="icon-after">Por que <strong>comprar</strong> com o PagSeguro?</h2>
+						
+						<div class="feature icon-before" id="buyer-buy-feature">
+							<dl>
+								<dt>Compre com tranquilidade</dt>
+								<dd>
+									Se o seu produto não chegar em<br /> até 14 dias devolvemos o seu dinheiro.
+									<br /><a href="/para_voce/como_funciona_a_disputa.jhtml">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="feature icon-before" id="buyer-security-feature">
+							<dl>
+								<dt>Proteja seus dados financeiros</dt>
+								<dd>
+									Os seus dados financeiros ficam sempre protegidos e nunca são compartilhados<br /> com ninguém.
+									<a href="/para_voce/protecao_contra_fraudes.jhtml">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="feature icon-before icon-after" id="buyer-installment-feature">
+							<dl>
+								<dt>Parcele suas compras</dt>
+								<dd>
+									Você pode parcelar as suas compras em até 18x.
+									<a href="/para_voce/meios_de_pagamento_e_parcelamento.jhtml">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="start-link icon-before">
+							<a href="/registration/registration.jhtml?tipo=cadastro#!comprador" class="pagseguro-button">Comece a comprar agora!</a>
+						</div>
+						
+					</div>
+					
+					<div class="features" id="seller-features">
+						
+						<h2 class="icon-after">Por que <strong>vender</strong> com o PagSeguro?</h2>
+						
+						<div class="feature icon-before" id="seller-sell-feature">
+							<dl>
+								<dt>Venda pela internet com agilidade.</dt>
+								<dd>
+									Ofereça mais de 23 meios de pagamento<br /> em seu site, blog ou plataforma <br />de e-commerce.
+									<a href="/para_seu_negocio/venda_pela_internet.jhtml">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="feature icon-before" id="seller-mobile-feature">
+							<dl>
+								<dt>Receba com cartões de crédito no celular</dt>
+								<dd>
+									Sem pagar mensalidade e taxa de adesão.
+									<br />Basta ter um cadastro no PagSeguro.
+									<br /><a href="/venda-pelo-celular/">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="feature icon-before icon-after" id="seller-charging-feature">
+							<dl>
+								<dt>Solicite pagamento por e-mail</dt>
+								<dd>
+									Em poucos cliques você envia cobranças de seus serviços para o e-mail dos seus clientes.
+									<a href="/para_seu_negocio/cobranca.jhtml">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="start-link icon-before">
+							<a href="/registration/registration.jhtml?tipo=cadastro#!vendedor" class="pagseguro-button">Comece a vender agora!</a>
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		
+		<footer id="main-footer" >
+			<div class="wrapper">
+				<nav class="links">
+					<dl class="solutions">
+			 			<dt>Soluções para</dt>
+						<dd><a href="/vender/">Vendedores</a></dd>
+						<dd><a href="/comprar/">Compradores</a></dd>
+						<dd><a href="/v2/guia-de-integracao/index.html">Desenvolvedores</a></dd>
+					</dl>
+					<dl class="contacts">
+			 			<dt>Contato</dt>
+						<dd><a href="/atendimento/ligue-para-o-pagseguro.jhtml">Fale com o PagSeguro</a></dd>
+						<dd><a href="/atendimento/contato_comercial.jhtml">Contato comercial</a></dd>
+						<dd><a href="/atendimento/novo_atendimento.jhtml">Envie um e-mail</a></dd>
+					</dl>
+					<dl class="doubts">
+			 			<dt>Ajuda</dt>
+						<dd><a href="/atendimento/perguntas_frequentes.jhtml">Perguntas frequentes</a></dd>
+						<dd><a href="https://pagseguro.uol.com.br/para_voce/como_funciona_a_disputa.jhtml">Como funciona a disputa</a></dd>
+						<dd><a href="http://forum.pagseguro.uol.com.br" target="_blank">Fórum de desenvolvedores</a></dd>
+					</dl>
+					<dl class="security">
+			 			<dt>Segurança</dt>
+						<dd><a href="https://sac.uol.com.br/info/protecao_privacidade/normas_protecao_privacidade.jhtm">Segurança e privacidade</a></dd>
+						<dd><a href="/dicas-de-seguranca-online.jhtml">Dicas de segurança</a></dd>
+					</dl>
+					<dl class="knowPS">
+			 			<dt>Conheça o PagSeguro</dt>
+						<dd><a href="/sobre_o_pagseguro.jhtml">Sobre o PagSeguro</a></dd>
+						<dd><a href="/regras-de-uso.jhtml">Regras de uso</a></dd>
+						<dd><a href="/taxas_e_tarifas.jhtml">Taxas e tarifas</a></dd>
+						<dd><a href="/contrato_de_servicos.jhtml">Contrato</a></dd>
+						<dd><a href="/venda-presencial/politica-de-troca.jhtml">Política de troca</a></dd>
+					</dl>
+				</nav>
+				<aside>
+					<dl class="social">
+						<dt>Acompanhe o PagSeguro</dt>
+						<dd><a href="http://www.facebook.com/pagseguro" target="_blank" title="PagSeguro no Facebook">Curta nossa página</a></dd>
+						<dd><a href="http://blogpagseguro.com.br/" target="_blank" title="Blog do PagSeguro">Blog do PagSeguro</a></dd>
+						<dd><a href="https://www.youtube.com/user/PagSeguro/videos" target="_blank" title="Vídeos do PagSeguro">Vídeos do PagSeguro</a></dd>
+					</dl>
+					<dl class="selos-seguranca">
+						<dd><a href="/selo/pci/index.html" target="_blank" title="Selo PCI DSS"><img src="https://stc.pagseguro.uol.com.br/pagseguro/i/selo/pci.png" /></a></dd>
+						<dd><a title="Selo MSS UOL Diveo"><img src="https://stc.pagseguro.uol.com.br/pagseguro/i/selo/diveo.png" /></a></dd>
+					</dl>
+					<div class="securityPS">Todas as páginas do PagSeguro estão </br>em ambiente de segurança</div>
+				</aside>
+			</div>
+			<div class="info-data-uol">
+				<div class="wrapper">
+					<div class="dataUOL">
+						<p>						
+							&copy; 1996-<time>2016</time> O melhor conteúdo. Todos os direitos reservados. <br>
+							PAGSEGURO INTERNET LTDA - CNPJ/MF 08.561.701/0001-01 - Av. Brigadeiro Faria Lima, 1.384, São Paulo - SP - CEP 01452-002
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+    </body>
+</html>
+                    [raw] => HTTP/1.1 502 Bad Gateway
+Date: Mon, 26 Feb 2018 16:09:50 GMT
+Last-Modified: Mon, 13 Feb 2017 23:57:27 GMT
+Accept-Ranges: bytes
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=31536000
+Content-Length: 2645
+Connection: close
+Content-Type: text/html
+Set-Cookie: TS01b793ab=01ed0a5ec22fbee3b56079d8c5b39bef680a8694c55ff740b5698574ea337bdf9d6bf09d1c; Path=/
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="pt-br" class="ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 nosvg"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="pt-br" class="ie7 ie-lt10 ie-lt9 ie-lt8 nosvg"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="pt-br" class="ie8 ie-lt10 ie-lt9 nosvg"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="pt-br" class="ie9 ie-lt10"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="pt-br"> <!--<![endif]-->
+<html lang="pt-br">
+    
+    <head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    	<meta http-equiv="content-type" content="application/xhtml+xml; charset=iso-8859-1" />
+    	<meta http-equiv="content-language" content="pt-BR" />
+    	<meta http-equiv="cache-control" content="no-cache,no-store" />
+    	<meta http-equiv="pragma" content="no-cache" />
+    	<meta http-equiv="expires" content="Mon, 22 jul 2006 11:12:01 GMT" />
+    	<meta name="description" content="" />
+    	
+    	<meta name="robots" content="noindex,nofollow" />
+    	
+    	<title>PagSeguro - A solução completa para pagamentos online</title>
+		
+		<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/bundles/lib.ibanking.scss" />
+		<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/lib/commons/widgets/pagseguro.buttons.css" />
+		<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/pagestyles/maintenance/maintenance.css" />
+		
+		<link rel="Shortcut Icon" href="https://stc.pagseguro.uol.com.br/pagseguro/i/favicon.ico" type="image/x-icon" />
+    	
+    	<!--[if lt IE 9]>
+    		<script src="https://stc.pagseguro.uol.com.br/pagseguro/j/etc/google/html5.js"></script>
+    	<![endif]-->
+    </head>
+	
+    <body>
+	
+		<header id="main-header">
+			<div class="wrapper main-info">
+				<figure id="logo">
+					<a href="/" title="A forma mais completa de vender dentro e fora da internet">
+						<img src="https://stc.pagseguro.uol.com.br/pagseguro/i/logos/logo_pagseguro200x41.png" alt="PagSeguro UOL" />
+					</a>
+				</figure>
+			</div>
+		</header>
+		
+		<section id="page-app-down">
+			<div class="wrapper">
+				<div class="uolMsg uolMsg-alert uolMsg-medium">
+					<dl>
+						<dt>Ops! Houve um problema e não foi possível exibir a página</dt>
+						<dd>Nossa equipe acabou de receber um alerta avisando sobre o ocorrido. Por favor, tente novamente mais tarde.</dd>
+					</dl>
+				</div>
+			</div>
+			
+			<div id="pagseguro-content">
+				<div class="wrapper">
+				
+					<div class="features" id="buyer-features">
+						
+						<h2 class="icon-after">Por que <strong>comprar</strong> com o PagSeguro?</h2>
+						
+						<div class="feature icon-before" id="buyer-buy-feature">
+							<dl>
+								<dt>Compre com tranquilidade</dt>
+								<dd>
+									Se o seu produto não chegar em<br /> até 14 dias devolvemos o seu dinheiro.
+									<br /><a href="/para_voce/como_funciona_a_disputa.jhtml">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="feature icon-before" id="buyer-security-feature">
+							<dl>
+								<dt>Proteja seus dados financeiros</dt>
+								<dd>
+									Os seus dados financeiros ficam sempre protegidos e nunca são compartilhados<br /> com ninguém.
+									<a href="/para_voce/protecao_contra_fraudes.jhtml">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="feature icon-before icon-after" id="buyer-installment-feature">
+							<dl>
+								<dt>Parcele suas compras</dt>
+								<dd>
+									Você pode parcelar as suas compras em até 18x.
+									<a href="/para_voce/meios_de_pagamento_e_parcelamento.jhtml">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="start-link icon-before">
+							<a href="/registration/registration.jhtml?tipo=cadastro#!comprador" class="pagseguro-button">Comece a comprar agora!</a>
+						</div>
+						
+					</div>
+					
+					<div class="features" id="seller-features">
+						
+						<h2 class="icon-after">Por que <strong>vender</strong> com o PagSeguro?</h2>
+						
+						<div class="feature icon-before" id="seller-sell-feature">
+							<dl>
+								<dt>Venda pela internet com agilidade.</dt>
+								<dd>
+									Ofereça mais de 23 meios de pagamento<br /> em seu site, blog ou plataforma <br />de e-commerce.
+									<a href="/para_seu_negocio/venda_pela_internet.jhtml">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="feature icon-before" id="seller-mobile-feature">
+							<dl>
+								<dt>Receba com cartões de crédito no celular</dt>
+								<dd>
+									Sem pagar mensalidade e taxa de adesão.
+									<br />Basta ter um cadastro no PagSeguro.
+									<br /><a href="/venda-pelo-celular/">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="feature icon-before icon-after" id="seller-charging-feature">
+							<dl>
+								<dt>Solicite pagamento por e-mail</dt>
+								<dd>
+									Em poucos cliques você envia cobranças de seus serviços para o e-mail dos seus clientes.
+									<a href="/para_seu_negocio/cobranca.jhtml">Saiba mais</a>
+								</dd>
+							</dl>
+						</div>
+						
+						<div class="start-link icon-before">
+							<a href="/registration/registration.jhtml?tipo=cadastro#!vendedor" class="pagseguro-button">Comece a vender agora!</a>
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		
+		<footer id="main-footer" >
+			<div class="wrapper">
+				<nav class="links">
+					<dl class="solutions">
+			 			<dt>Soluções para</dt>
+						<dd><a href="/vender/">Vendedores</a></dd>
+						<dd><a href="/comprar/">Compradores</a></dd>
+						<dd><a href="/v2/guia-de-integracao/index.html">Desenvolvedores</a></dd>
+					</dl>
+					<dl class="contacts">
+			 			<dt>Contato</dt>
+						<dd><a href="/atendimento/ligue-para-o-pagseguro.jhtml">Fale com o PagSeguro</a></dd>
+						<dd><a href="/atendimento/contato_comercial.jhtml">Contato comercial</a></dd>
+						<dd><a href="/atendimento/novo_atendimento.jhtml">Envie um e-mail</a></dd>
+					</dl>
+					<dl class="doubts">
+			 			<dt>Ajuda</dt>
+						<dd><a href="/atendimento/perguntas_frequentes.jhtml">Perguntas frequentes</a></dd>
+						<dd><a href="https://pagseguro.uol.com.br/para_voce/como_funciona_a_disputa.jhtml">Como funciona a disputa</a></dd>
+						<dd><a href="http://forum.pagseguro.uol.com.br" target="_blank">Fórum de desenvolvedores</a></dd>
+					</dl>
+					<dl class="security">
+			 			<dt>Segurança</dt>
+						<dd><a href="https://sac.uol.com.br/info/protecao_privacidade/normas_protecao_privacidade.jhtm">Segurança e privacidade</a></dd>
+						<dd><a href="/dicas-de-seguranca-online.jhtml">Dicas de segurança</a></dd>
+					</dl>
+					<dl class="knowPS">
+			 			<dt>Conheça o PagSeguro</dt>
+						<dd><a href="/sobre_o_pagseguro.jhtml">Sobre o PagSeguro</a></dd>
+						<dd><a href="/regras-de-uso.jhtml">Regras de uso</a></dd>
+						<dd><a href="/taxas_e_tarifas.jhtml">Taxas e tarifas</a></dd>
+						<dd><a href="/contrato_de_servicos.jhtml">Contrato</a></dd>
+						<dd><a href="/venda-presencial/politica-de-troca.jhtml">Política de troca</a></dd>
+					</dl>
+				</nav>
+				<aside>
+					<dl class="social">
+						<dt>Acompanhe o PagSeguro</dt>
+						<dd><a href="http://www.facebook.com/pagseguro" target="_blank" title="PagSeguro no Facebook">Curta nossa página</a></dd>
+						<dd><a href="http://blogpagseguro.com.br/" target="_blank" title="Blog do PagSeguro">Blog do PagSeguro</a></dd>
+						<dd><a href="https://www.youtube.com/user/PagSeguro/videos" target="_blank" title="Vídeos do PagSeguro">Vídeos do PagSeguro</a></dd>
+					</dl>
+					<dl class="selos-seguranca">
+						<dd><a href="/selo/pci/index.html" target="_blank" title="Selo PCI DSS"><img src="https://stc.pagseguro.uol.com.br/pagseguro/i/selo/pci.png" /></a></dd>
+						<dd><a title="Selo MSS UOL Diveo"><img src="https://stc.pagseguro.uol.com.br/pagseguro/i/selo/diveo.png" /></a></dd>
+					</dl>
+					<div class="securityPS">Todas as páginas do PagSeguro estão </br>em ambiente de segurança</div>
+				</aside>
+			</div>
+			<div class="info-data-uol">
+				<div class="wrapper">
+					<div class="dataUOL">
+						<p>						
+							&copy; 1996-<time>2016</time> O melhor conteúdo. Todos os direitos reservados. <br>
+							PAGSEGURO INTERNET LTDA - CNPJ/MF 08.561.701/0001-01 - Av. Brigadeiro Faria Lima, 1.384, São Paulo - SP - CEP 01452-002
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+    </body>
+</html>
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 26 Feb 2018 16:09:50 GMT
+                                        )
+
+                                    [last-modified] => Array
+                                        (
+                                            [0] => Mon, 13 Feb 2017 23:57:27 GMT
+                                        )
+
+                                    [accept-ranges] => Array
+                                        (
+                                            [0] => bytes
+                                        )
+
+                                    [vary] => Array
+                                        (
+                                            [0] => Accept-Encoding,User-Agent
+                                        )
+
+                                    [content-encoding] => Array
+                                        (
+                                            [0] => gzip
+                                        )
+
+                                    [strict-transport-security] => Array
+                                        (
+                                            [0] => max-age=31536000
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 2645
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => text/html
+                                        )
+
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => TS01b793ab=01ed0a5ec22fbee3b56079d8c5b39bef680a8694c55ff740b5698574ea337bdf9d6bf09d1c; Path=/
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 502
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://ws.pagseguro.uol.com.br/v2/checkout?email=aniapstore@gmail.com&token=6D96E10B3EF6401DB331197DF3600678
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                    [TS01b793ab] => Requests_Cookie Object
+                                        (
+                                            [name] => TS01b793ab
+                                            [value] => 01ed0a5ec22fbee3b56079d8c5b39bef680a8694c55ff740b5698574ea337bdf9d6bf09d1c
+                                            [attributes] => Requests_Utility_CaseInsensitiveDictionary Object
+                                                (
+                                                    [data:protected] => Array
+                                                        (
+                                                            [path] => /
+                                                            [domain] => ws.pagseguro.uol.com.br
+                                                        )
+
+                                                )
+
+                                            [flags] => Array
+                                                (
+                                                    [creation] => 1519661390
+                                                    [last-access] => 1519661390
+                                                    [persistent] => 
+                                                    [host-only] => 1
+                                                )
+
+                                            [reference_time] => 1519661390
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+02-26-2018 @ 13:11:46 - Requesting token for order 3296 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE3296]]></reference>
+  <sender>
+    <email><![CDATA[dani.minetto@hotmail.com]]></email>
+    <name><![CDATA[Daniela Minetto Robles]]></name>
+    <phone>
+      <areaCode>11</areaCode>
+      <number>983709932</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua Oliveira Alves]]></street>
+      <number>495</number>
+      <complement><![CDATA[apto. 132, bloco 1]]></complement>
+      <postalCode>04210061</postalCode>
+      <city><![CDATA[SÃ£o Paulo]]></city>
+      <state>SP</state>
+      <country>BRA</country>
+    </address>
+    <cost>16.90</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Canga Toalha Mombasa]]></description>
+      <amount>90.00</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[https://www.aniastore.com.br/finalizar-compra/order-received/3296?key=wc_order_5a9431bed8fa3]]></redirectURL>
+  <notificationURL><![CDATA[https://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+02-26-2018 @ 13:11:47 - PagSeguro Payment Token created with success! The Token is: 6405A3247474F1F664181F8F514BF4BC
+02-26-2018 @ 13:13:33 - Checking IPN request...
+02-26-2018 @ 13:13:34 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-02-26T13:11:53.000-03:00
+    [code] => 019319B1-778A-4341-868E-50092561B3AE
+    [reference] => ANIASTORE3296
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2018-02-26T13:13:29.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 106.90
+    [discountAmount] => 0.00
+    [feeAmount] => 4.67
+    [netAmount] => 102.23
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-03-28T13:13:29.000-03:00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Canga Toalha Mombasa
+                    [quantity] => 1
+                    [amount] => 90.00
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Daniela Minetto Robles
+            [email] => dani.minetto@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 11
+                    [number] => 983709932
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => RUA OLIVEIRA ALVES
+                    [number] => 495
+                    [complement] => apto. 132, bloco 1
+                    [district] => Ipiranga
+                    [city] => SAO PAULO
+                    [state] => SP
+                    [country] => BRA
+                    [postalCode] => 04210061
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+02-26-2018 @ 13:13:34 - PagSeguro payment status for order 3296 is: 3
+02-26-2018 @ 13:13:41 - Checking IPN request...
+02-26-2018 @ 13:13:42 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-02-26T13:11:53.000-03:00
+    [code] => 019319B1-778A-4341-868E-50092561B3AE
+    [reference] => ANIASTORE3296
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2018-02-26T13:13:29.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 106.90
+    [discountAmount] => 0.00
+    [feeAmount] => 4.67
+    [netAmount] => 102.23
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-03-28T13:13:29.000-03:00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Canga Toalha Mombasa
+                    [quantity] => 1
+                    [amount] => 90.00
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Daniela Minetto Robles
+            [email] => dani.minetto@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 11
+                    [number] => 983709932
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => RUA OLIVEIRA ALVES
+                    [number] => 495
+                    [complement] => apto. 132, bloco 1
+                    [district] => Ipiranga
+                    [city] => SAO PAULO
+                    [state] => SP
+                    [country] => BRA
+                    [postalCode] => 04210061
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+02-26-2018 @ 13:13:42 - PagSeguro payment status for order 3296 is: 3
+03-01-2018 @ 12:27:20 - Checking IPN request...
+03-01-2018 @ 12:27:21 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-01-30T13:01:30.000-02:00
+    [code] => FBCDDE47-A4F0-4F07-9257-3B7008A09431
+    [reference] => ANIASTORE3228
+    [type] => 1
+    [status] => 4
+    [lastEventDate] => 2018-03-01T12:27:12.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 3
+            [code] => 301
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/eft/print.jhtml?c=30ce59e0f1914532a90d8533c1d68fe598228fce930a814094fcf98de93183b73218626bea0ee2bf
+    [grossAmount] => 62.80
+    [discountAmount] => 0.00
+    [feeAmount] => 2.91
+    [netAmount] => 59.89
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-03-01T12:24:59.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 2
+    [items] => SimpleXMLElement Object
+        (
+            [item] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [id] => 1
+                            [description] => Necessaire Pineapple Grande
+                            [quantity] => 1
+                            [amount] => 36.90
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [id] => 2
+                            [description] => Havaianas Slim Candy - 39/40
+                            [quantity] => 1
+                            [amount] => 25.90
+                        )
+
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Dauluana Menezes
+            [email] => dauluana@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992614321
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Maria Theodora de Paula Costa
+                    [number] => 29
+                    [complement] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [district] => Jardim das AmÃ©ricas
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 81530270
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+03-01-2018 @ 12:27:21 - PagSeguro payment status for order 3228 is: 4
+03-01-2018 @ 12:27:25 - Checking IPN request...
+03-01-2018 @ 12:27:26 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-01-30T13:01:30.000-02:00
+    [code] => FBCDDE47-A4F0-4F07-9257-3B7008A09431
+    [reference] => ANIASTORE3228
+    [type] => 1
+    [status] => 4
+    [lastEventDate] => 2018-03-01T12:27:12.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 3
+            [code] => 301
+        )
+
+    [paymentLink] => https://pagseguro.uol.com.br/checkout/payment/eft/print.jhtml?c=30ce59e0f1914532a90d8533c1d68fe598228fce930a814094fcf98de93183b73218626bea0ee2bf
+    [grossAmount] => 62.80
+    [discountAmount] => 0.00
+    [feeAmount] => 2.91
+    [netAmount] => 59.89
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-03-01T12:24:59.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 2
+    [items] => SimpleXMLElement Object
+        (
+            [item] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [id] => 1
+                            [description] => Necessaire Pineapple Grande
+                            [quantity] => 1
+                            [amount] => 36.90
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [id] => 2
+                            [description] => Havaianas Slim Candy - 39/40
+                            [quantity] => 1
+                            [amount] => 25.90
+                        )
+
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Dauluana Menezes
+            [email] => dauluana@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992614321
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Maria Theodora de Paula Costa
+                    [number] => 29
+                    [complement] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [district] => Jardim das AmÃ©ricas
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 81530270
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+03-01-2018 @ 12:27:27 - PagSeguro payment status for order 3228 is: 4
+03-09-2018 @ 12:10:01 - Checking IPN request...
+03-09-2018 @ 12:10:04 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-02-07T13:02:54.000-02:00
+    [code] => 2F49518C-2140-48E0-AC15-07CC55EBA4E1
+    [reference] => ANIASTORE3240
+    [type] => 1
+    [status] => 4
+    [lastEventDate] => 2018-03-09T12:09:06.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 25.90
+    [discountAmount] => 0.00
+    [feeAmount] => 1.43
+    [netAmount] => 24.47
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-03-09T12:06:04.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Havaianas Slim Petunia - 35/36
+                    [quantity] => 1
+                    [amount] => 25.90
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Luiza C Silveira
+            [email] => crissjochims2@gmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992729422
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Avenida Prefeito Erasto Gaertner
+                    [number] => 2034
+                    [complement] => Bloco 6 apto 67
+                    [district] => Bacacheri
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 82515000
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+03-09-2018 @ 12:10:04 - PagSeguro payment status for order 3240 is: 4
+03-09-2018 @ 12:10:08 - Checking IPN request...
+03-09-2018 @ 12:10:09 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-02-07T13:02:54.000-02:00
+    [code] => 2F49518C-2140-48E0-AC15-07CC55EBA4E1
+    [reference] => ANIASTORE3240
+    [type] => 1
+    [status] => 4
+    [lastEventDate] => 2018-03-09T12:09:06.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 25.90
+    [discountAmount] => 0.00
+    [feeAmount] => 1.43
+    [netAmount] => 24.47
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-03-09T12:06:04.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Havaianas Slim Petunia - 35/36
+                    [quantity] => 1
+                    [amount] => 25.90
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Luiza C Silveira
+            [email] => crissjochims2@gmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 992729422
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Avenida Prefeito Erasto Gaertner
+                    [number] => 2034
+                    [complement] => Bloco 6 apto 67
+                    [district] => Bacacheri
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 82515000
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+03-09-2018 @ 12:10:09 - PagSeguro payment status for order 3240 is: 4
+03-28-2018 @ 13:15:17 - Checking IPN request...
+03-28-2018 @ 13:15:18 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-02-26T13:11:53.000-03:00
+    [code] => 019319B1-778A-4341-868E-50092561B3AE
+    [reference] => ANIASTORE3296
+    [type] => 1
+    [status] => 4
+    [lastEventDate] => 2018-03-28T13:15:12.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 106.90
+    [discountAmount] => 0.00
+    [feeAmount] => 4.67
+    [netAmount] => 102.23
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-03-28T13:13:29.000-03:00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Canga Toalha Mombasa
+                    [quantity] => 1
+                    [amount] => 90.00
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Daniela Minetto Robles
+            [email] => dani.minetto@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 11
+                    [number] => 983709932
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => RUA OLIVEIRA ALVES
+                    [number] => 495
+                    [complement] => apto. 132, bloco 1
+                    [district] => Ipiranga
+                    [city] => SAO PAULO
+                    [state] => SP
+                    [country] => BRA
+                    [postalCode] => 04210061
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+03-28-2018 @ 13:15:19 - PagSeguro payment status for order 3296 is: 4
+05-21-2018 @ 21:32:47 - Requesting token for order 3823 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE3823]]></reference>
+  <sender>
+    <email><![CDATA[mbtadeusa@hotmail.com]]></email>
+    <name><![CDATA[Maria Bernardete T da silva Silva]]></name>
+    <phone>
+      <areaCode>11</areaCode>
+      <number>981806712</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Avenida Senador Vergueiro]]></street>
+      <number>2685</number>
+      <complement><![CDATA[Bloco 8B Apto 92]]></complement>
+      <district><![CDATA[Anchieta]]></district>
+      <postalCode>09601000</postalCode>
+      <city><![CDATA[SÃ£o Bernardo do Campo]]></city>
+      <state>SP</state>
+      <country>BRA</country>
+    </address>
+    <cost>16.90</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Anel Meia AlianÃ§a Trio Bride]]></description>
+      <amount>52.90</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[https://www.aniastore.com.br/finalizar-compra/order-received/3823?key=wc_order_5b03652bbf8c9]]></redirectURL>
+  <notificationURL><![CDATA[https://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+05-21-2018 @ 21:32:48 - PagSeguro Payment Token created with success! The Token is: 46C8BA8FF6F6CA711459CFBDDADB9E0E
+06-01-2018 @ 10:09:28 - Requesting token for order 3854 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE3854]]></reference>
+  <sender>
+    <email><![CDATA[leticia_szan@hotmail.com]]></email>
+    <name><![CDATA[LetÃ­cia Zan]]></name>
+    <phone>
+      <areaCode>41</areaCode>
+      <number>999056141</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua Coronel Ottoni Maciel]]></street>
+      <number>490</number>
+      <district><![CDATA[Vila Izabel]]></district>
+      <postalCode>80320000</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>0</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Brinco RÃ³dio Safira Fusion]]></description>
+      <amount>54.90</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[https://www.aniastore.com.br/finalizar-compra/order-received/3854?key=wc_order_5b11458216fa5]]></redirectURL>
+  <notificationURL><![CDATA[https://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+06-01-2018 @ 10:09:29 - PagSeguro Payment Token created with success! The Token is: A02AD13FF6F6A9CCC4A0DFB79F4A54D4
+06-01-2018 @ 10:40:50 - Checking IPN request...
+06-01-2018 @ 10:40:51 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-06-01T10:09:41.000-03:00
+    [code] => 795A2036-E4D8-4008-9563-5DC63B91232E
+    [reference] => ANIASTORE3854
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2018-06-01T10:40:39.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 54.90
+    [discountAmount] => 0.00
+    [feeAmount] => 4.96
+    [netAmount] => 49.94
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-07-01T10:40:40.000-03:00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinco RÃ³dio Safira Fusion
+                    [quantity] => 1
+                    [amount] => 54.90
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => MARGARETH S ZAN
+            [email] => leticia_szan@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 999878730
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Coronel Ottoni Maciel
+                    [number] => 490
+                    [complement] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [district] => Vila Izabel
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80320000
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+06-01-2018 @ 10:40:51 - PagSeguro payment status for order 3854 is: 3
+06-01-2018 @ 10:40:55 - Checking IPN request...
+06-01-2018 @ 10:40:56 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-06-01T10:09:41.000-03:00
+    [code] => 795A2036-E4D8-4008-9563-5DC63B91232E
+    [reference] => ANIASTORE3854
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2018-06-01T10:40:39.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 54.90
+    [discountAmount] => 0.00
+    [feeAmount] => 4.96
+    [netAmount] => 49.94
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-07-01T10:40:40.000-03:00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinco RÃ³dio Safira Fusion
+                    [quantity] => 1
+                    [amount] => 54.90
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => MARGARETH S ZAN
+            [email] => leticia_szan@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 999878730
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Coronel Ottoni Maciel
+                    [number] => 490
+                    [complement] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [district] => Vila Izabel
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80320000
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+06-01-2018 @ 10:40:56 - PagSeguro payment status for order 3854 is: 3
+06-07-2018 @ 22:36:37 - Requesting token for order 3913 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE3913]]></reference>
+  <sender>
+    <email><![CDATA[tamy_weiss@hotmail.com]]></email>
+    <name><![CDATA[tamyris weiss]]></name>
+    <phone>
+      <areaCode>41</areaCode>
+      <number>988845903</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[francisco Derosso]]></street>
+      <number>375</number>
+      <complement><![CDATA[apto53 bloco 4a]]></complement>
+      <district><![CDATA[xaxim]]></district>
+      <postalCode>81710000</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>0</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Faixa Amarela BebÃª - CoraÃ§Ã£o Brasileirinho]]></description>
+      <amount>29.90</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>2</id>
+      <description><![CDATA[Tiara Ouro Copa - Pra Frente Brasil]]></description>
+      <amount>30.00</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>3</id>
+      <description><![CDATA[Faixa Verde BebÃª - CoraÃ§Ã£o Brasileirinho]]></description>
+      <amount>29.90</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>4</id>
+      <description><![CDATA[Faixa MaleÃ¡vel - EsquadrÃ£o de Ouro]]></description>
+      <amount>22.80</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>5</id>
+      <description><![CDATA[HeadBand Diamond Silver]]></description>
+      <amount>17.90</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[https://www.aniastore.com.br/finalizar-compra/order-received/3913?key=wc_order_5b19dd9ede6b2]]></redirectURL>
+  <notificationURL><![CDATA[https://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+06-07-2018 @ 22:36:39 - PagSeguro Payment Token created with success! The Token is: D3D97F7CBBBB94EAA4D61F845A73383C
+06-23-2018 @ 11:02:52 - Requesting token for order 3946 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE3946]]></reference>
+  <sender>
+    <email><![CDATA[aline.paulino79@gmail.com]]></email>
+    <name><![CDATA[Aline Lacerda]]></name>
+    <phone>
+      <areaCode>41</areaCode>
+      <number>987057376</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Avenida IguaÃ§u]]></street>
+      <number>2666</number>
+      <complement><![CDATA[apt 1001 b1]]></complement>
+      <district><![CDATA[Ãgua Verde]]></district>
+      <postalCode>80240030</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>16.90</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Bico de Pato LaÃ§o em GorgurÃ£o]]></description>
+      <amount>14.90</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>2</id>
+      <description><![CDATA[Bico de Pato Pompom]]></description>
+      <amount>17.90</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>3</id>
+      <description><![CDATA[LaÃ§o Copa - Salve a SeleÃ§Ã£o!]]></description>
+      <amount>24.90</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>4</id>
+      <description><![CDATA[Bico de Pato LaÃ§o Xadrez]]></description>
+      <amount>27.00</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>5</id>
+      <description><![CDATA[Bico de Pato LaÃ§o Xadrez/Mini]]></description>
+      <amount>27.00</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>6</id>
+      <description><![CDATA[ElÃ¡stico Pingentes Dog]]></description>
+      <amount>13.90</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>7</id>
+      <description><![CDATA[Par Piranhas Coelhinho Royal]]></description>
+      <amount>8.90</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>8</id>
+      <description><![CDATA[Presilha com Pedra White]]></description>
+      <amount>21.50</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>9</id>
+      <description><![CDATA[Bico de Pato LaÃ§o em GorgurÃ£o]]></description>
+      <amount>14.90</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[https://www.aniastore.com.br/finalizar-compra/order-received/3946?key=wc_order_5b2e5306b1f30]]></redirectURL>
+  <notificationURL><![CDATA[https://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+06-23-2018 @ 11:02:54 - PagSeguro Payment Token created with success! The Token is: 6D55A4729D9D680334620F9CAAADC65C
+06-23-2018 @ 11:11:50 - Checking IPN request...
+06-23-2018 @ 11:11:51 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-06-23T11:03:02.000-03:00
+    [code] => 876EFA26-9643-4140-B648-C30BEF0304AE
+    [reference] => ANIASTORE3946
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2018-06-23T11:11:42.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 187.80
+    [discountAmount] => 0.00
+    [feeAmount] => 18.59
+    [netAmount] => 169.21
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-07-23T11:11:42.000-03:00
+    [installmentCount] => 3
+    [itemCount] => 9
+    [items] => SimpleXMLElement Object
+        (
+            [item] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [id] => 1
+                            [description] => Bico de Pato LaÃ§o em GorgurÃ£o
+                            [quantity] => 1
+                            [amount] => 14.90
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [id] => 2
+                            [description] => Bico de Pato Pompom
+                            [quantity] => 1
+                            [amount] => 17.90
+                        )
+
+                    [2] => SimpleXMLElement Object
+                        (
+                            [id] => 3
+                            [description] => LaÃ§o Copa - Salve a SeleÃ§Ã£o!
+                            [quantity] => 1
+                            [amount] => 24.90
+                        )
+
+                    [3] => SimpleXMLElement Object
+                        (
+                            [id] => 4
+                            [description] => Bico de Pato LaÃ§o Xadrez
+                            [quantity] => 1
+                            [amount] => 27.00
+                        )
+
+                    [4] => SimpleXMLElement Object
+                        (
+                            [id] => 5
+                            [description] => Bico de Pato LaÃ§o Xadrez/Mini
+                            [quantity] => 1
+                            [amount] => 27.00
+                        )
+
+                    [5] => SimpleXMLElement Object
+                        (
+                            [id] => 6
+                            [description] => ElÃ¡stico Pingentes Dog
+                            [quantity] => 1
+                            [amount] => 13.90
+                        )
+
+                    [6] => SimpleXMLElement Object
+                        (
+                            [id] => 7
+                            [description] => Par Piranhas Coelhinho Royal
+                            [quantity] => 1
+                            [amount] => 8.90
+                        )
+
+                    [7] => SimpleXMLElement Object
+                        (
+                            [id] => 8
+                            [description] => Presilha com Pedra White
+                            [quantity] => 1
+                            [amount] => 21.50
+                        )
+
+                    [8] => SimpleXMLElement Object
+                        (
+                            [id] => 9
+                            [description] => Bico de Pato LaÃ§o em GorgurÃ£o
+                            [quantity] => 1
+                            [amount] => 14.90
+                        )
+
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => ALINE C M PAULINO
+            [email] => aline.paulino79@gmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 30534756
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Avenida IguaÃ§u
+                    [number] => 2666
+                    [complement] => apt 1001 b1
+                    [district] => Ãgua Verde
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80240030
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+06-23-2018 @ 11:11:51 - PagSeguro payment status for order 3946 is: 3
+06-23-2018 @ 11:11:55 - Checking IPN request...
+06-23-2018 @ 11:11:56 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-06-23T11:03:02.000-03:00
+    [code] => 876EFA26-9643-4140-B648-C30BEF0304AE
+    [reference] => ANIASTORE3946
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2018-06-23T11:11:42.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 187.80
+    [discountAmount] => 0.00
+    [feeAmount] => 18.59
+    [netAmount] => 169.21
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-07-23T11:11:42.000-03:00
+    [installmentCount] => 3
+    [itemCount] => 9
+    [items] => SimpleXMLElement Object
+        (
+            [item] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [id] => 1
+                            [description] => Bico de Pato LaÃ§o em GorgurÃ£o
+                            [quantity] => 1
+                            [amount] => 14.90
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [id] => 2
+                            [description] => Bico de Pato Pompom
+                            [quantity] => 1
+                            [amount] => 17.90
+                        )
+
+                    [2] => SimpleXMLElement Object
+                        (
+                            [id] => 3
+                            [description] => LaÃ§o Copa - Salve a SeleÃ§Ã£o!
+                            [quantity] => 1
+                            [amount] => 24.90
+                        )
+
+                    [3] => SimpleXMLElement Object
+                        (
+                            [id] => 4
+                            [description] => Bico de Pato LaÃ§o Xadrez
+                            [quantity] => 1
+                            [amount] => 27.00
+                        )
+
+                    [4] => SimpleXMLElement Object
+                        (
+                            [id] => 5
+                            [description] => Bico de Pato LaÃ§o Xadrez/Mini
+                            [quantity] => 1
+                            [amount] => 27.00
+                        )
+
+                    [5] => SimpleXMLElement Object
+                        (
+                            [id] => 6
+                            [description] => ElÃ¡stico Pingentes Dog
+                            [quantity] => 1
+                            [amount] => 13.90
+                        )
+
+                    [6] => SimpleXMLElement Object
+                        (
+                            [id] => 7
+                            [description] => Par Piranhas Coelhinho Royal
+                            [quantity] => 1
+                            [amount] => 8.90
+                        )
+
+                    [7] => SimpleXMLElement Object
+                        (
+                            [id] => 8
+                            [description] => Presilha com Pedra White
+                            [quantity] => 1
+                            [amount] => 21.50
+                        )
+
+                    [8] => SimpleXMLElement Object
+                        (
+                            [id] => 9
+                            [description] => Bico de Pato LaÃ§o em GorgurÃ£o
+                            [quantity] => 1
+                            [amount] => 14.90
+                        )
+
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => ALINE C M PAULINO
+            [email] => aline.paulino79@gmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 30534756
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Avenida IguaÃ§u
+                    [number] => 2666
+                    [complement] => apt 1001 b1
+                    [district] => Ãgua Verde
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80240030
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+06-23-2018 @ 11:11:56 - PagSeguro payment status for order 3946 is: 3
+06-28-2018 @ 08:02:38 - Requesting token for order 3960 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE3960]]></reference>
+  <sender>
+    <email><![CDATA[carlos.cavalheiro@ymail.com]]></email>
+    <name><![CDATA[Carlos Eduardo Cavalheiro]]></name>
+    <phone>
+      <areaCode>41</areaCode>
+      <number>999187655</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua Frederico Maurer]]></street>
+      <number>1254</number>
+      <complement><![CDATA[torre 2 apto 410]]></complement>
+      <district><![CDATA[Hauer]]></district>
+      <postalCode>81630020</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>0</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Faixa Verde BebÃª - CoraÃ§Ã£o Brasileirinho]]></description>
+      <amount>29.90</amount>
+      <quantity>1</quantity>
+    </item>
+    <item>
+      <id>2</id>
+      <description><![CDATA[Faixa Amarela BebÃª - CoraÃ§Ã£o Brasileirinho]]></description>
+      <amount>29.90</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[https://www.aniastore.com.br/finalizar-compra/order-received/3960?key=wc_order_5b34c049e7d65]]></redirectURL>
+  <notificationURL><![CDATA[https://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+06-28-2018 @ 08:02:39 - PagSeguro Payment Token created with success! The Token is: 35066610D2D2291CC44BBFB89F3BFEC3
+06-28-2018 @ 08:03:55 - Checking IPN request...
+06-28-2018 @ 08:03:58 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-06-28T08:02:43.000-03:00
+    [code] => FD83F071-50D3-4400-AEBB-AB060254B12D
+    [reference] => ANIASTORE3960
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2018-06-28T08:03:53.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 59.80
+    [discountAmount] => 0.00
+    [feeAmount] => 2.79
+    [netAmount] => 57.01
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-07-28T08:03:53.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 2
+    [items] => SimpleXMLElement Object
+        (
+            [item] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [id] => 1
+                            [description] => Faixa Verde BebÃª - CoraÃ§Ã£o Brasileirinho
+                            [quantity] => 1
+                            [amount] => 29.90
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [id] => 2
+                            [description] => Faixa Amarela BebÃª - CoraÃ§Ã£o Brasileirinho
+                            [quantity] => 1
+                            [amount] => 29.90
+                        )
+
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Carlos Eduardo Cavalheiro
+            [email] => carlos.cavalheiro@ymail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 999187655
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Frederico Maurer
+                    [number] => 1254
+                    [complement] => torre 2 apto 410
+                    [district] => Hauer
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 81630020
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+06-28-2018 @ 08:03:58 - PagSeguro payment status for order 3960 is: 3
+06-28-2018 @ 08:04:01 - Checking IPN request...
+06-28-2018 @ 08:04:02 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-06-28T08:02:43.000-03:00
+    [code] => FD83F071-50D3-4400-AEBB-AB060254B12D
+    [reference] => ANIASTORE3960
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2018-06-28T08:03:53.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 59.80
+    [discountAmount] => 0.00
+    [feeAmount] => 2.79
+    [netAmount] => 57.01
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-07-28T08:03:53.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 2
+    [items] => SimpleXMLElement Object
+        (
+            [item] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [id] => 1
+                            [description] => Faixa Verde BebÃª - CoraÃ§Ã£o Brasileirinho
+                            [quantity] => 1
+                            [amount] => 29.90
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [id] => 2
+                            [description] => Faixa Amarela BebÃª - CoraÃ§Ã£o Brasileirinho
+                            [quantity] => 1
+                            [amount] => 29.90
+                        )
+
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Carlos Eduardo Cavalheiro
+            [email] => carlos.cavalheiro@ymail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 999187655
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Frederico Maurer
+                    [number] => 1254
+                    [complement] => torre 2 apto 410
+                    [district] => Hauer
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 81630020
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+06-28-2018 @ 08:04:02 - PagSeguro payment status for order 3960 is: 3
+06-28-2018 @ 11:40:13 - Requesting token for order 3965 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE3965]]></reference>
+  <sender>
+    <email><![CDATA[cristianedecampos42@gmail.com]]></email>
+    <name><![CDATA[Cristiane De campos]]></name>
+    <phone>
+      <areaCode>41</areaCode>
+      <number>998381838</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Sargento lauro pinto de oliveira]]></street>
+      <number>59</number>
+      <complement><![CDATA[Casa]]></complement>
+      <district><![CDATA[Sao braz]]></district>
+      <postalCode>82300390</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>16.90</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Brinco Nossa Senhora Aparecida]]></description>
+      <amount>15.92</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[https://www.aniastore.com.br/finalizar-compra/order-received/3965?key=wc_order_5b34f345a8191]]></redirectURL>
+  <notificationURL><![CDATA[https://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+06-28-2018 @ 11:40:15 - PagSeguro Payment Token created with success! The Token is: 6DB36D926767D2F004E37F94D80EE132
+07-01-2018 @ 10:42:18 - Checking IPN request...
+07-01-2018 @ 10:42:23 - Checking IPN request...
+07-01-2018 @ 10:42:27 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-06-01T10:09:41.000-03:00
+    [code] => 795A2036-E4D8-4008-9563-5DC63B91232E
+    [reference] => ANIASTORE3854
+    [type] => 1
+    [status] => 4
+    [lastEventDate] => 2018-07-01T10:42:08.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 54.90
+    [discountAmount] => 0.00
+    [feeAmount] => 4.96
+    [netAmount] => 49.94
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-07-01T10:40:40.000-03:00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinco RÃ³dio Safira Fusion
+                    [quantity] => 1
+                    [amount] => 54.90
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => MARGARETH S ZAN
+            [email] => leticia_szan@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 999878730
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Coronel Ottoni Maciel
+                    [number] => 490
+                    [complement] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [district] => Vila Izabel
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80320000
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+07-01-2018 @ 10:42:27 - PagSeguro payment status for order 3854 is: 4
+07-01-2018 @ 10:42:27 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-06-01T10:09:41.000-03:00
+    [code] => 795A2036-E4D8-4008-9563-5DC63B91232E
+    [reference] => ANIASTORE3854
+    [type] => 1
+    [status] => 4
+    [lastEventDate] => 2018-07-01T10:42:08.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 54.90
+    [discountAmount] => 0.00
+    [feeAmount] => 4.96
+    [netAmount] => 49.94
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-07-01T10:40:40.000-03:00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinco RÃ³dio Safira Fusion
+                    [quantity] => 1
+                    [amount] => 54.90
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => MARGARETH S ZAN
+            [email] => leticia_szan@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 999878730
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Coronel Ottoni Maciel
+                    [number] => 490
+                    [complement] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [district] => Vila Izabel
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80320000
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+07-01-2018 @ 10:42:27 - PagSeguro payment status for order 3854 is: 4
+07-01-2018 @ 10:42:28 - Checking IPN request...
+07-01-2018 @ 10:42:29 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-06-01T10:09:41.000-03:00
+    [code] => 795A2036-E4D8-4008-9563-5DC63B91232E
+    [reference] => ANIASTORE3854
+    [type] => 1
+    [status] => 4
+    [lastEventDate] => 2018-07-01T10:42:08.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 54.90
+    [discountAmount] => 0.00
+    [feeAmount] => 4.96
+    [netAmount] => 49.94
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-07-01T10:40:40.000-03:00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinco RÃ³dio Safira Fusion
+                    [quantity] => 1
+                    [amount] => 54.90
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => MARGARETH S ZAN
+            [email] => leticia_szan@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 999878730
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Coronel Ottoni Maciel
+                    [number] => 490
+                    [complement] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [district] => Vila Izabel
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80320000
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+)
+
+07-01-2018 @ 10:42:29 - PagSeguro payment status for order 3854 is: 4
+07-23-2018 @ 11:12:58 - Checking IPN request...
+07-23-2018 @ 11:12:58 - Checking IPN request...
+07-23-2018 @ 11:12:58 - Checking IPN request...
+07-23-2018 @ 11:12:58 - Checking IPN request...
+07-23-2018 @ 11:12:58 - Checking IPN request...
+07-23-2018 @ 11:12:59 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-06-23T11:03:02.000-03:00
+    [code] => 876EFA26-9643-4140-B648-C30BEF0304AE
+    [reference] => ANIASTORE3946
+    [type] => 1
+    [status] => 4
+    [lastEventDate] => 2018-07-23T11:12:12.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 187.80
+    [discountAmount] => 0.00
+    [feeAmount] => 18.59
+    [netAmount] => 169.21
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-07-23T11:11:42.000-03:00
+    [installmentCount] => 3
+    [itemCount] => 9
+    [items] => SimpleXMLElement Object
+        (
+            [item] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [id] => 1
+                            [description] => Bico de Pato LaÃ§o em GorgurÃ£o
+                            [quantity] => 1
+                            [amount] => 14.90
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [id] => 2
+                            [description] => Bico de Pato Pompom
+                            [quantity] => 1
+                            [amount] => 17.90
+                        )
+
+                    [2] => SimpleXMLElement Object
+                        (
+                            [id] => 3
+                            [description] => LaÃ§o Copa - Salve a SeleÃ§Ã£o!
+                            [quantity] => 1
+                            [amount] => 24.90
+                        )
+
+                    [3] => SimpleXMLElement Object
+                        (
+                            [id] => 4
+                            [description] => Bico de Pato LaÃ§o Xadrez
+                            [quantity] => 1
+                            [amount] => 27.00
+                        )
+
+                    [4] => SimpleXMLElement Object
+                        (
+                            [id] => 5
+                            [description] => Bico de Pato LaÃ§o Xadrez/Mini
+                            [quantity] => 1
+                            [amount] => 27.00
+                        )
+
+                    [5] => SimpleXMLElement Object
+                        (
+                            [id] => 6
+                            [description] => ElÃ¡stico Pingentes Dog
+                            [quantity] => 1
+                            [amount] => 13.90
+                        )
+
+                    [6] => SimpleXMLElement Object
+                        (
+                            [id] => 7
+                            [description] => Par Piranhas Coelhinho Royal
+                            [quantity] => 1
+                            [amount] => 8.90
+                        )
+
+                    [7] => SimpleXMLElement Object
+                        (
+                            [id] => 8
+                            [description] => Presilha com Pedra White
+                            [quantity] => 1
+                            [amount] => 21.50
+                        )
+
+                    [8] => SimpleXMLElement Object
+                        (
+                            [id] => 9
+                            [description] => Bico de Pato LaÃ§o em GorgurÃ£o
+                            [quantity] => 1
+                            [amount] => 14.90
+                        )
+
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => ALINE C M PAULINO
+            [email] => aline.paulino79@gmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 30534756
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Avenida IguaÃ§u
+                    [number] => 2666
+                    [complement] => apt 1001 b1
+                    [district] => Ãgua Verde
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80240030
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+07-23-2018 @ 11:12:59 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-06-23T11:03:02.000-03:00
+    [code] => 876EFA26-9643-4140-B648-C30BEF0304AE
+    [reference] => ANIASTORE3946
+    [type] => 1
+    [status] => 4
+    [lastEventDate] => 2018-07-23T11:12:12.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 187.80
+    [discountAmount] => 0.00
+    [feeAmount] => 18.59
+    [netAmount] => 169.21
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-07-23T11:11:42.000-03:00
+    [installmentCount] => 3
+    [itemCount] => 9
+    [items] => SimpleXMLElement Object
+        (
+            [item] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [id] => 1
+                            [description] => Bico de Pato LaÃ§o em GorgurÃ£o
+                            [quantity] => 1
+                            [amount] => 14.90
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [id] => 2
+                            [description] => Bico de Pato Pompom
+                            [quantity] => 1
+                            [amount] => 17.90
+                        )
+
+                    [2] => SimpleXMLElement Object
+                        (
+                            [id] => 3
+                            [description] => LaÃ§o Copa - Salve a SeleÃ§Ã£o!
+                            [quantity] => 1
+                            [amount] => 24.90
+                        )
+
+                    [3] => SimpleXMLElement Object
+                        (
+                            [id] => 4
+                            [description] => Bico de Pato LaÃ§o Xadrez
+                            [quantity] => 1
+                            [amount] => 27.00
+                        )
+
+                    [4] => SimpleXMLElement Object
+                        (
+                            [id] => 5
+                            [description] => Bico de Pato LaÃ§o Xadrez/Mini
+                            [quantity] => 1
+                            [amount] => 27.00
+                        )
+
+                    [5] => SimpleXMLElement Object
+                        (
+                            [id] => 6
+                            [description] => ElÃ¡stico Pingentes Dog
+                            [quantity] => 1
+                            [amount] => 13.90
+                        )
+
+                    [6] => SimpleXMLElement Object
+                        (
+                            [id] => 7
+                            [description] => Par Piranhas Coelhinho Royal
+                            [quantity] => 1
+                            [amount] => 8.90
+                        )
+
+                    [7] => SimpleXMLElement Object
+                        (
+                            [id] => 8
+                            [description] => Presilha com Pedra White
+                            [quantity] => 1
+                            [amount] => 21.50
+                        )
+
+                    [8] => SimpleXMLElement Object
+                        (
+                            [id] => 9
+                            [description] => Bico de Pato LaÃ§o em GorgurÃ£o
+                            [quantity] => 1
+                            [amount] => 14.90
+                        )
+
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => ALINE C M PAULINO
+            [email] => aline.paulino79@gmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 30534756
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Avenida IguaÃ§u
+                    [number] => 2666
+                    [complement] => apt 1001 b1
+                    [district] => Ãgua Verde
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80240030
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+07-23-2018 @ 11:12:59 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-06-23T11:03:02.000-03:00
+    [code] => 876EFA26-9643-4140-B648-C30BEF0304AE
+    [reference] => ANIASTORE3946
+    [type] => 1
+    [status] => 4
+    [lastEventDate] => 2018-07-23T11:12:12.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 187.80
+    [discountAmount] => 0.00
+    [feeAmount] => 18.59
+    [netAmount] => 169.21
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-07-23T11:11:42.000-03:00
+    [installmentCount] => 3
+    [itemCount] => 9
+    [items] => SimpleXMLElement Object
+        (
+            [item] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [id] => 1
+                            [description] => Bico de Pato LaÃ§o em GorgurÃ£o
+                            [quantity] => 1
+                            [amount] => 14.90
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [id] => 2
+                            [description] => Bico de Pato Pompom
+                            [quantity] => 1
+                            [amount] => 17.90
+                        )
+
+                    [2] => SimpleXMLElement Object
+                        (
+                            [id] => 3
+                            [description] => LaÃ§o Copa - Salve a SeleÃ§Ã£o!
+                            [quantity] => 1
+                            [amount] => 24.90
+                        )
+
+                    [3] => SimpleXMLElement Object
+                        (
+                            [id] => 4
+                            [description] => Bico de Pato LaÃ§o Xadrez
+                            [quantity] => 1
+                            [amount] => 27.00
+                        )
+
+                    [4] => SimpleXMLElement Object
+                        (
+                            [id] => 5
+                            [description] => Bico de Pato LaÃ§o Xadrez/Mini
+                            [quantity] => 1
+                            [amount] => 27.00
+                        )
+
+                    [5] => SimpleXMLElement Object
+                        (
+                            [id] => 6
+                            [description] => ElÃ¡stico Pingentes Dog
+                            [quantity] => 1
+                            [amount] => 13.90
+                        )
+
+                    [6] => SimpleXMLElement Object
+                        (
+                            [id] => 7
+                            [description] => Par Piranhas Coelhinho Royal
+                            [quantity] => 1
+                            [amount] => 8.90
+                        )
+
+                    [7] => SimpleXMLElement Object
+                        (
+                            [id] => 8
+                            [description] => Presilha com Pedra White
+                            [quantity] => 1
+                            [amount] => 21.50
+                        )
+
+                    [8] => SimpleXMLElement Object
+                        (
+                            [id] => 9
+                            [description] => Bico de Pato LaÃ§o em GorgurÃ£o
+                            [quantity] => 1
+                            [amount] => 14.90
+                        )
+
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => ALINE C M PAULINO
+            [email] => aline.paulino79@gmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 30534756
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Avenida IguaÃ§u
+                    [number] => 2666
+                    [complement] => apt 1001 b1
+                    [district] => Ãgua Verde
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80240030
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+07-23-2018 @ 11:12:59 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-06-23T11:03:02.000-03:00
+    [code] => 876EFA26-9643-4140-B648-C30BEF0304AE
+    [reference] => ANIASTORE3946
+    [type] => 1
+    [status] => 4
+    [lastEventDate] => 2018-07-23T11:12:12.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 187.80
+    [discountAmount] => 0.00
+    [feeAmount] => 18.59
+    [netAmount] => 169.21
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-07-23T11:11:42.000-03:00
+    [installmentCount] => 3
+    [itemCount] => 9
+    [items] => SimpleXMLElement Object
+        (
+            [item] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [id] => 1
+                            [description] => Bico de Pato LaÃ§o em GorgurÃ£o
+                            [quantity] => 1
+                            [amount] => 14.90
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [id] => 2
+                            [description] => Bico de Pato Pompom
+                            [quantity] => 1
+                            [amount] => 17.90
+                        )
+
+                    [2] => SimpleXMLElement Object
+                        (
+                            [id] => 3
+                            [description] => LaÃ§o Copa - Salve a SeleÃ§Ã£o!
+                            [quantity] => 1
+                            [amount] => 24.90
+                        )
+
+                    [3] => SimpleXMLElement Object
+                        (
+                            [id] => 4
+                            [description] => Bico de Pato LaÃ§o Xadrez
+                            [quantity] => 1
+                            [amount] => 27.00
+                        )
+
+                    [4] => SimpleXMLElement Object
+                        (
+                            [id] => 5
+                            [description] => Bico de Pato LaÃ§o Xadrez/Mini
+                            [quantity] => 1
+                            [amount] => 27.00
+                        )
+
+                    [5] => SimpleXMLElement Object
+                        (
+                            [id] => 6
+                            [description] => ElÃ¡stico Pingentes Dog
+                            [quantity] => 1
+                            [amount] => 13.90
+                        )
+
+                    [6] => SimpleXMLElement Object
+                        (
+                            [id] => 7
+                            [description] => Par Piranhas Coelhinho Royal
+                            [quantity] => 1
+                            [amount] => 8.90
+                        )
+
+                    [7] => SimpleXMLElement Object
+                        (
+                            [id] => 8
+                            [description] => Presilha com Pedra White
+                            [quantity] => 1
+                            [amount] => 21.50
+                        )
+
+                    [8] => SimpleXMLElement Object
+                        (
+                            [id] => 9
+                            [description] => Bico de Pato LaÃ§o em GorgurÃ£o
+                            [quantity] => 1
+                            [amount] => 14.90
+                        )
+
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => ALINE C M PAULINO
+            [email] => aline.paulino79@gmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 30534756
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Avenida IguaÃ§u
+                    [number] => 2666
+                    [complement] => apt 1001 b1
+                    [district] => Ãgua Verde
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80240030
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+07-23-2018 @ 11:12:59 - PagSeguro payment status for order 3946 is: 4
+07-23-2018 @ 11:12:59 - PagSeguro payment status for order 3946 is: 4
+07-23-2018 @ 11:12:59 - PagSeguro payment status for order 3946 is: 4
+07-23-2018 @ 11:12:59 - PagSeguro payment status for order 3946 is: 4
+07-23-2018 @ 11:12:59 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-06-23T11:03:02.000-03:00
+    [code] => 876EFA26-9643-4140-B648-C30BEF0304AE
+    [reference] => ANIASTORE3946
+    [type] => 1
+    [status] => 4
+    [lastEventDate] => 2018-07-23T11:12:12.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 102
+        )
+
+    [grossAmount] => 187.80
+    [discountAmount] => 0.00
+    [feeAmount] => 18.59
+    [netAmount] => 169.21
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2018-07-23T11:11:42.000-03:00
+    [installmentCount] => 3
+    [itemCount] => 9
+    [items] => SimpleXMLElement Object
+        (
+            [item] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [id] => 1
+                            [description] => Bico de Pato LaÃ§o em GorgurÃ£o
+                            [quantity] => 1
+                            [amount] => 14.90
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [id] => 2
+                            [description] => Bico de Pato Pompom
+                            [quantity] => 1
+                            [amount] => 17.90
+                        )
+
+                    [2] => SimpleXMLElement Object
+                        (
+                            [id] => 3
+                            [description] => LaÃ§o Copa - Salve a SeleÃ§Ã£o!
+                            [quantity] => 1
+                            [amount] => 24.90
+                        )
+
+                    [3] => SimpleXMLElement Object
+                        (
+                            [id] => 4
+                            [description] => Bico de Pato LaÃ§o Xadrez
+                            [quantity] => 1
+                            [amount] => 27.00
+                        )
+
+                    [4] => SimpleXMLElement Object
+                        (
+                            [id] => 5
+                            [description] => Bico de Pato LaÃ§o Xadrez/Mini
+                            [quantity] => 1
+                            [amount] => 27.00
+                        )
+
+                    [5] => SimpleXMLElement Object
+                        (
+                            [id] => 6
+                            [description] => ElÃ¡stico Pingentes Dog
+                            [quantity] => 1
+                            [amount] => 13.90
+                        )
+
+                    [6] => SimpleXMLElement Object
+                        (
+                            [id] => 7
+                            [description] => Par Piranhas Coelhinho Royal
+                            [quantity] => 1
+                            [amount] => 8.90
+                        )
+
+                    [7] => SimpleXMLElement Object
+                        (
+                            [id] => 8
+                            [description] => Presilha com Pedra White
+                            [quantity] => 1
+                            [amount] => 21.50
+                        )
+
+                    [8] => SimpleXMLElement Object
+                        (
+                            [id] => 9
+                            [description] => Bico de Pato LaÃ§o em GorgurÃ£o
+                            [quantity] => 1
+                            [amount] => 14.90
+                        )
+
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => ALINE C M PAULINO
+            [email] => aline.paulino79@gmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 30534756
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Avenida IguaÃ§u
+                    [number] => 2666
+                    [complement] => apt 1001 b1
+                    [district] => Ãgua Verde
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80240030
+                )
+
+            [type] => 3
+            [cost] => 16.90
+        )
+
+)
+
+07-23-2018 @ 11:13:00 - PagSeguro payment status for order 3946 is: 4
+07-24-2018 @ 12:30:20 - Requesting token for order 3980 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE3980]]></reference>
+  <sender>
+    <email><![CDATA[gi.gi_2009@hotmail.com]]></email>
+    <name><![CDATA[Gisele Duarte]]></name>
+    <phone>
+      <areaCode>41</areaCode>
+      <number>999503255</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua Ponta Grossa]]></street>
+      <number>336</number>
+      <complement><![CDATA[Ap 402]]></complement>
+      <district><![CDATA[PortÃ£o]]></district>
+      <postalCode>80610160</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>5.00</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Brinco Ania Store Curvo PÃ©rola]]></description>
+      <amount>79.69</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[https://www.aniastore.com.br/finalizar-compra/order-received/3980?key=wc_order_5b574603bdf7d]]></redirectURL>
+  <notificationURL><![CDATA[https://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+07-24-2018 @ 12:30:22 - PagSeguro Payment Token created with success! The Token is: A7494C1FADADDA2224A31F94616833CE
+07-24-2018 @ 16:26:08 - Checking IPN request...
+07-24-2018 @ 16:26:11 - Checking IPN request...
+07-24-2018 @ 16:26:11 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-07-24T12:30:28.000-03:00
+    [code] => C8DC918D-E3D7-47C8-993E-C044B61C0764
+    [reference] => ANIASTORE3980
+    [recoveryCode] => 7df5a68dd88c50bbf11d77cd32adad14eaabc5b0a1958230
+    [type] => 1
+    [status] => 1
+    [lastEventDate] => 2018-07-24T16:26:02.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 84.69
+    [discountAmount] => 0.00
+    [feeAmount] => 7.44
+    [netAmount] => 77.25
+    [extraAmount] => 0.00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinco Ania Store Curvo PÃ©rola
+                    [quantity] => 1
+                    [amount] => 79.69
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => gisele parente
+            [email] => gi.gi_2009@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 999503255
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Ponta Grossa
+                    [number] => 336
+                    [complement] => Ap 402
+                    [district] => PortÃ£o
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80610160
+                )
+
+            [type] => 3
+            [cost] => 5.00
+        )
+
+)
+
+07-24-2018 @ 16:26:11 - PagSeguro payment status for order 3980 is: 1
+07-24-2018 @ 16:26:12 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-07-24T12:30:28.000-03:00
+    [code] => C8DC918D-E3D7-47C8-993E-C044B61C0764
+    [reference] => ANIASTORE3980
+    [recoveryCode] => 7df5a68dd88c50bbf11d77cd32adad14eaabc5b0a1958230
+    [type] => 1
+    [status] => 1
+    [lastEventDate] => 2018-07-24T16:26:02.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 84.69
+    [discountAmount] => 0.00
+    [feeAmount] => 7.44
+    [netAmount] => 77.25
+    [extraAmount] => 0.00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinco Ania Store Curvo PÃ©rola
+                    [quantity] => 1
+                    [amount] => 79.69
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => gisele parente
+            [email] => gi.gi_2009@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 999503255
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Ponta Grossa
+                    [number] => 336
+                    [complement] => Ap 402
+                    [district] => PortÃ£o
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80610160
+                )
+
+            [type] => 3
+            [cost] => 5.00
+        )
+
+)
+
+07-24-2018 @ 16:26:12 - PagSeguro payment status for order 3980 is: 1
+07-24-2018 @ 16:57:04 - Checking IPN request...
+07-24-2018 @ 16:57:06 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-07-24T12:30:28.000-03:00
+    [code] => C8DC918D-E3D7-47C8-993E-C044B61C0764
+    [reference] => ANIASTORE3980
+    [type] => 1
+    [status] => 7
+    [cancellationSource] => EXTERNAL
+    [lastEventDate] => 2018-07-24T16:56:59.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 84.69
+    [discountAmount] => 0.00
+    [feeAmount] => 7.44
+    [netAmount] => 77.25
+    [extraAmount] => 0.00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinco Ania Store Curvo PÃ©rola
+                    [quantity] => 1
+                    [amount] => 79.69
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => gisele parente
+            [email] => gi.gi_2009@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 999503255
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Ponta Grossa
+                    [number] => 336
+                    [complement] => Ap 402
+                    [district] => PortÃ£o
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80610160
+                )
+
+            [type] => 3
+            [cost] => 5.00
+        )
+
+)
+
+07-24-2018 @ 16:57:06 - PagSeguro payment status for order 3980 is: 7
+07-24-2018 @ 16:57:10 - Checking IPN request...
+07-24-2018 @ 16:57:11 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-07-24T12:30:28.000-03:00
+    [code] => C8DC918D-E3D7-47C8-993E-C044B61C0764
+    [reference] => ANIASTORE3980
+    [type] => 1
+    [status] => 7
+    [cancellationSource] => EXTERNAL
+    [lastEventDate] => 2018-07-24T16:56:59.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 84.69
+    [discountAmount] => 0.00
+    [feeAmount] => 7.44
+    [netAmount] => 77.25
+    [extraAmount] => 0.00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinco Ania Store Curvo PÃ©rola
+                    [quantity] => 1
+                    [amount] => 79.69
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => gisele parente
+            [email] => gi.gi_2009@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 999503255
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Ponta Grossa
+                    [number] => 336
+                    [complement] => Ap 402
+                    [district] => PortÃ£o
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80610160
+                )
+
+            [type] => 3
+            [cost] => 5.00
+        )
+
+)
+
+07-24-2018 @ 16:57:11 - PagSeguro payment status for order 3980 is: 7
+07-24-2018 @ 16:57:15 - Checking IPN request...
+07-24-2018 @ 16:57:16 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-07-24T12:30:28.000-03:00
+    [code] => C8DC918D-E3D7-47C8-993E-C044B61C0764
+    [reference] => ANIASTORE3980
+    [type] => 1
+    [status] => 7
+    [cancellationSource] => EXTERNAL
+    [lastEventDate] => 2018-07-24T16:56:59.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 84.69
+    [discountAmount] => 0.00
+    [feeAmount] => 7.44
+    [netAmount] => 77.25
+    [extraAmount] => 0.00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinco Ania Store Curvo PÃ©rola
+                    [quantity] => 1
+                    [amount] => 79.69
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => gisele parente
+            [email] => gi.gi_2009@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 999503255
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Ponta Grossa
+                    [number] => 336
+                    [complement] => Ap 402
+                    [district] => PortÃ£o
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80610160
+                )
+
+            [type] => 3
+            [cost] => 5.00
+        )
+
+)
+
+07-24-2018 @ 16:57:16 - PagSeguro payment status for order 3980 is: 7
+07-24-2018 @ 17:37:05 - Requesting token for order 3985 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE3985]]></reference>
+  <sender>
+    <email><![CDATA[Karolmccm@hotmail.com]]></email>
+    <name><![CDATA[Caroline Costa Mendes]]></name>
+    <phone>
+      <areaCode>41</areaCode>
+      <number>998620888</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua RomÃ©dio Dorigo]]></street>
+      <number>85</number>
+      <complement><![CDATA[Apto 1704b]]></complement>
+      <district><![CDATA[Ãgua Verde]]></district>
+      <postalCode>80620140</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>5.00</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Gorro Ania Store Alpes Cinza]]></description>
+      <amount>45.00</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[https://www.aniastore.com.br/finalizar-compra/order-received/3985?key=wc_order_5b578deb974b3]]></redirectURL>
+  <notificationURL><![CDATA[https://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+07-24-2018 @ 17:37:07 - PagSeguro Payment Token created with success! The Token is: 7C2B1E697A7A89788433CF9005715993
+07-25-2018 @ 14:24:14 - Requesting token for order 3988 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[ANIASTORE3988]]></reference>
+  <sender>
+    <email><![CDATA[gi.gi_2009@hotmail.com]]></email>
+    <name><![CDATA[Gisele Duarte]]></name>
+    <phone>
+      <areaCode>41</areaCode>
+      <number>999503255</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua Ponta Grossa]]></street>
+      <number>336</number>
+      <complement><![CDATA[Ap 402]]></complement>
+      <district><![CDATA[PortÃ£o]]></district>
+      <postalCode>80610160</postalCode>
+      <city><![CDATA[Curitiba]]></city>
+      <state>PR</state>
+      <country>BRA</country>
+    </address>
+    <cost>5.00</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Brinco Ania Store Curvo PÃ©rola]]></description>
+      <amount>79.69</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[https://www.aniastore.com.br/finalizar-compra/order-received/3988?key=wc_order_5b58b23601490]]></redirectURL>
+  <notificationURL><![CDATA[https://www.aniastore.com.br/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+07-25-2018 @ 14:24:16 - PagSeguro Payment Token created with success! The Token is: 49F77F6EE8E8B02CC4DEFFA2DC4D9278
+07-25-2018 @ 14:30:15 - Checking IPN request...
+07-25-2018 @ 14:30:16 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-07-25T14:24:22.000-03:00
+    [code] => 58317AA4-7ED4-497D-9C11-CF724572A638
+    [reference] => ANIASTORE3988
+    [recoveryCode] => 7df5a68dd88c50bbd6a936d0b368b9ef152d7883c038bb16
+    [type] => 1
+    [status] => 1
+    [lastEventDate] => 2018-07-25T14:30:11.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 84.69
+    [discountAmount] => 0.00
+    [feeAmount] => 3.78
+    [netAmount] => 80.91
+    [extraAmount] => 0.00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinco Ania Store Curvo PÃ©rola
+                    [quantity] => 1
+                    [amount] => 79.69
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => gisele parente
+            [email] => gi.gi_2009@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 999503255
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Ponta Grossa
+                    [number] => 336
+                    [complement] => Ap 402
+                    [district] => PortÃ£o
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80610160
+                )
+
+            [type] => 3
+            [cost] => 5.00
+        )
+
+)
+
+07-25-2018 @ 14:30:16 - PagSeguro payment status for order 3988 is: 1
+07-25-2018 @ 14:30:34 - Checking IPN request...
+07-25-2018 @ 14:30:36 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-07-25T14:24:22.000-03:00
+    [code] => 58317AA4-7ED4-497D-9C11-CF724572A638
+    [reference] => ANIASTORE3988
+    [recoveryCode] => 7df5a68dd88c50bbd6a936d0b368b9ef152d7883c038bb16
+    [type] => 1
+    [status] => 1
+    [lastEventDate] => 2018-07-25T14:30:11.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 84.69
+    [discountAmount] => 0.00
+    [feeAmount] => 3.78
+    [netAmount] => 80.91
+    [extraAmount] => 0.00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinco Ania Store Curvo PÃ©rola
+                    [quantity] => 1
+                    [amount] => 79.69
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => gisele parente
+            [email] => gi.gi_2009@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 999503255
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Ponta Grossa
+                    [number] => 336
+                    [complement] => Ap 402
+                    [district] => PortÃ£o
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80610160
+                )
+
+            [type] => 3
+            [cost] => 5.00
+        )
+
+)
+
+07-25-2018 @ 14:30:36 - PagSeguro payment status for order 3988 is: 1
+07-25-2018 @ 14:30:37 - Checking IPN request...
+07-25-2018 @ 14:30:38 - Checking IPN request...
+07-25-2018 @ 14:30:38 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-07-25T14:24:22.000-03:00
+    [code] => 58317AA4-7ED4-497D-9C11-CF724572A638
+    [reference] => ANIASTORE3988
+    [recoveryCode] => 7df5a68dd88c50bbd6a936d0b368b9ef152d7883c038bb16
+    [type] => 1
+    [status] => 1
+    [lastEventDate] => 2018-07-25T14:30:11.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 84.69
+    [discountAmount] => 0.00
+    [feeAmount] => 3.78
+    [netAmount] => 80.91
+    [extraAmount] => 0.00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinco Ania Store Curvo PÃ©rola
+                    [quantity] => 1
+                    [amount] => 79.69
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => gisele parente
+            [email] => gi.gi_2009@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 999503255
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Ponta Grossa
+                    [number] => 336
+                    [complement] => Ap 402
+                    [district] => PortÃ£o
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80610160
+                )
+
+            [type] => 3
+            [cost] => 5.00
+        )
+
+)
+
+07-25-2018 @ 14:30:38 - PagSeguro payment status for order 3988 is: 1
+07-25-2018 @ 14:30:39 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-07-25T14:24:22.000-03:00
+    [code] => 58317AA4-7ED4-497D-9C11-CF724572A638
+    [reference] => ANIASTORE3988
+    [recoveryCode] => 7df5a68dd88c50bbd6a936d0b368b9ef152d7883c038bb16
+    [type] => 1
+    [status] => 1
+    [lastEventDate] => 2018-07-25T14:30:11.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 84.69
+    [discountAmount] => 0.00
+    [feeAmount] => 3.78
+    [netAmount] => 80.91
+    [extraAmount] => 0.00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinco Ania Store Curvo PÃ©rola
+                    [quantity] => 1
+                    [amount] => 79.69
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => gisele parente
+            [email] => gi.gi_2009@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 999503255
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Ponta Grossa
+                    [number] => 336
+                    [complement] => Ap 402
+                    [district] => PortÃ£o
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80610160
+                )
+
+            [type] => 3
+            [cost] => 5.00
+        )
+
+)
+
+07-25-2018 @ 14:30:39 - PagSeguro payment status for order 3988 is: 1
+07-25-2018 @ 14:30:41 - Checking IPN request...
+07-25-2018 @ 14:30:42 - PagSeguro IPN is valid! The return is: SimpleXMLElement Object
+(
+    [date] => 2018-07-25T14:24:22.000-03:00
+    [code] => 58317AA4-7ED4-497D-9C11-CF724572A638
+    [reference] => ANIASTORE3988
+    [recoveryCode] => 7df5a68dd88c50bbd6a936d0b368b9ef152d7883c038bb16
+    [type] => 1
+    [status] => 1
+    [lastEventDate] => 2018-07-25T14:30:11.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 84.69
+    [discountAmount] => 0.00
+    [feeAmount] => 3.78
+    [netAmount] => 80.91
+    [extraAmount] => 0.00
+    [installmentCount] => 2
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 1
+                    [description] => Brinco Ania Store Curvo PÃ©rola
+                    [quantity] => 1
+                    [amount] => 79.69
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => gisele parente
+            [email] => gi.gi_2009@hotmail.com
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 41
+                    [number] => 999503255
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => Rua Ponta Grossa
+                    [number] => 336
+                    [complement] => Ap 402
+                    [district] => PortÃ£o
+                    [city] => Curitiba
+                    [state] => PR
+                    [country] => BRA
+                    [postalCode] => 80610160
+                )
+
+            [type] => 3
+            [cost] => 5.00
+        )
+
+)
+
+07-25-2018 @ 14:30:42 - PagSeguro payment status for order 3988 is: 1

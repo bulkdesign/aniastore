@@ -1,0 +1,388 @@
+2017-11-29T10:19:47+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2017-11-29T10:19:47+00:00 DEBUG Parsing products CSV.
+2017-11-29T10:19:47+00:00 DEBUG Finished parsing products CSV.
+2017-11-29T10:19:47+00:00 DEBUG ---
+2017-11-29T10:19:47+00:00 DEBUG Processing products.
+2017-11-29T10:19:47+00:00 DEBUG > Row 1 - preparing for import.
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term Coral e Ice Blue ID = 88
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term 33/34 ID = 118
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term 35/36 ID = 120
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term 37/38 ID = 122
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term 39/40 ID = 124
+2017-11-29T10:19:47+00:00 DEBUG > &#8220;Havaianas Allegra Print&#8221;Product already exists.
+2017-11-29T10:19:47+00:00 DEBUG > Row 2 - preparing for import.
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term Petunia ID = 93
+2017-11-29T10:19:47+00:00 DEBUG > &#8220;Havaianas Slim Petunia&#8221;Product already exists.
+2017-11-29T10:19:47+00:00 DEBUG > Row 3 - preparing for import.
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term Led ID = 95
+2017-11-29T10:19:47+00:00 DEBUG > &#8220;Havaianas Slim LED&#8221;Product already exists.
+2017-11-29T10:19:47+00:00 DEBUG > Row 4 - preparing for import.
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term Laranja Cyber ID = 97
+2017-11-29T10:19:47+00:00 DEBUG > &#8220;Havaianas Slim Candy&#8221;Product already exists.
+2017-11-29T10:19:47+00:00 DEBUG > Row 5 - preparing for import.
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term Rosa Maravilha ID = 98
+2017-11-29T10:19:47+00:00 DEBUG > &#8220;Havaianas Slim Pop Up&#8221;Product already exists.
+2017-11-29T10:19:47+00:00 DEBUG > Row 6 - preparing for import.
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term Purpura ID = 99
+2017-11-29T10:19:47+00:00 DEBUG > &#8220;Havaianas Teen Slim Fresh&#8221;Product already exists.
+2017-11-29T10:19:47+00:00 DEBUG > Row 7 - preparing for import.
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term Rose Gold ID = 101
+2017-11-29T10:19:47+00:00 DEBUG > &#8220;Havaianas Kids Slim Pop&#8221;Product already exists.
+2017-11-29T10:19:47+00:00 DEBUG > Row 8 - preparing for import.
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term Azul ID = 102
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term 23/24 ID = 109
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term 24/25 ID = 110
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term 25/26 ID = 111
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term 26/27 ID = 112
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term 27/28 ID = 113
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term 28/29 ID = 114
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term 29/30 ID = 115
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term 30/31 ID = 116
+2017-11-29T10:19:47+00:00 DEBUG > > Raw Term 31/32 ID = 117
+2017-11-29T10:19:47+00:00 DEBUG > &#8220;Havaianas Kids Minions&#8221;Product already exists.
+2017-11-29T10:19:47+00:00 DEBUG > Row 9 - preparing for import.
+2017-11-29T10:19:47+00:00 DEBUG > &#8220;Toalha de Praia Naútica&#8221;Product already exists.
+2017-11-29T10:19:47+00:00 DEBUG Finished processing products.
+2017-11-29T10:19:49+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2017-11-29T10:19:49+00:00 DEBUG Parsing products CSV.
+2017-11-29T10:19:49+00:00 DEBUG Finished parsing products CSV.
+2017-11-29T10:19:49+00:00 DEBUG ---
+2017-11-29T10:19:49+00:00 DEBUG Processing products.
+2017-11-29T10:19:49+00:00 DEBUG > Row 1 - preparing for import.
+2017-11-29T10:19:49+00:00 DEBUG > &#8220;Toalha de Praia Surf&#8221;Product already exists.
+2017-11-29T10:19:49+00:00 DEBUG > Row 2 - preparing for import.
+2017-11-29T10:19:49+00:00 DEBUG > &#8220;Toalha de Praia Tropical&#8221;Product already exists.
+2017-11-29T10:19:49+00:00 DEBUG > Row 3 - preparing for import.
+2017-11-29T10:19:49+00:00 DEBUG > &#8220;Toalha de praia Flamingo&#8221;Product already exists.
+2017-11-29T10:19:49+00:00 DEBUG > Row 4 - preparing for import.
+2017-11-29T10:19:49+00:00 DEBUG > &#8220;Toalha de Praia Boia&#8221;Product already exists.
+2017-11-29T10:19:49+00:00 DEBUG > Row 5 - preparing for import.
+2017-11-29T10:19:49+00:00 DEBUG > &#8220;Toalha de Praia Aloha&#8221;Product already exists.
+2017-11-29T10:19:49+00:00 DEBUG > Row 6 - preparing for import.
+2017-11-29T10:19:49+00:00 DEBUG > &#8220;Toalha de Praia Placas Beach&#8221;Product already exists.
+2017-11-29T10:19:49+00:00 DEBUG > Row 7 - preparing for import.
+2017-11-29T10:19:49+00:00 DEBUG > &#8220;Toalha de Praia Fresh&#8221;Product already exists.
+2017-11-29T10:19:49+00:00 DEBUG > Row 8 - preparing for import.
+2017-11-29T10:19:49+00:00 DEBUG > &#8220;Toalha de Praia Caipirinha&#8221;Product already exists.
+2017-11-29T10:19:49+00:00 DEBUG > Row 9 - preparing for import.
+2017-11-29T10:19:49+00:00 DEBUG > &#8220;Toalha de Praia Conchas&#8221;Product already exists.
+2017-11-29T10:19:49+00:00 DEBUG > Row 10 - preparing for import.
+2017-11-29T10:19:49+00:00 DEBUG > &#8220;Toalha de Praia Picolé&#8221;Product already exists.
+2017-11-29T10:19:49+00:00 DEBUG Finished processing products.
+2017-11-29T10:19:51+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2017-11-29T10:19:51+00:00 DEBUG Parsing products CSV.
+2017-11-29T10:19:51+00:00 DEBUG Finished parsing products CSV.
+2017-11-29T10:19:51+00:00 DEBUG ---
+2017-11-29T10:19:51+00:00 DEBUG Processing products.
+2017-11-29T10:19:51+00:00 DEBUG > Row 1 - preparing for import.
+2017-11-29T10:19:51+00:00 DEBUG > &#8220;Toalha de Praia Summer Dog&#8221;Product already exists.
+2017-11-29T10:19:51+00:00 DEBUG > Row 2 - preparing for import.
+2017-11-29T10:19:51+00:00 DEBUG > &#8220;Toalha de Praia Animal Print Lilás&#8221;Product already exists.
+2017-11-29T10:19:51+00:00 DEBUG > Row 3 - preparing for import.
+2017-11-29T10:19:51+00:00 DEBUG > &#8220;Toalha Kids Birds&#8221;Product already exists.
+2017-11-29T10:19:51+00:00 DEBUG > Row 4 - preparing for import.
+2017-11-29T10:19:51+00:00 DEBUG > &#8220;435&#8221; ID already exists.
+2017-11-29T10:19:51+00:00 DEBUG > Row 5 - preparing for import.
+2017-11-29T10:19:51+00:00 DEBUG > > Raw Term Amarela ID = 125
+2017-11-29T10:19:51+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:19:51+00:00 DEBUG > &#8220;Bolsa de Palha Shine Ibiza&#8221;Product already exists.
+2017-11-29T10:19:51+00:00 DEBUG > Row 6 - preparing for import.
+2017-11-29T10:19:51+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:19:51+00:00 DEBUG > &#8220;Bolsa de Taboa Dune&#8221;Product already exists.
+2017-11-29T10:19:51+00:00 DEBUG > Row 7 - preparing for import.
+2017-11-29T10:19:51+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:19:51+00:00 DEBUG > &#8220;Bolsa de Taboa Hood&#039;s Bay&#8221;Product already exists.
+2017-11-29T10:19:51+00:00 DEBUG > Row 8 - preparing for import.
+2017-11-29T10:19:51+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:19:51+00:00 DEBUG > &#8220;Bolsa de Palha Matira&#8221;Product already exists.
+2017-11-29T10:19:51+00:00 DEBUG > Row 9 - preparing for import.
+2017-11-29T10:19:51+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:19:51+00:00 DEBUG > &#8220;Bolsa de Palha Atlantic Pineapple&#8221;Product already exists.
+2017-11-29T10:19:51+00:00 DEBUG > Row 10 - preparing for import.
+2017-11-29T10:19:51+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:19:51+00:00 DEBUG > &#8220;Bolsa de Palha Búzios&#8221;Product already exists.
+2017-11-29T10:19:51+00:00 DEBUG Finished processing products.
+2017-11-29T10:19:52+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2017-11-29T10:19:52+00:00 DEBUG Parsing products CSV.
+2017-11-29T10:19:52+00:00 DEBUG Finished parsing products CSV.
+2017-11-29T10:19:52+00:00 DEBUG ---
+2017-11-29T10:19:52+00:00 DEBUG Processing products.
+2017-11-29T10:19:52+00:00 DEBUG > Row 1 - preparing for import.
+2017-11-29T10:19:52+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:19:52+00:00 DEBUG > &#8220;Bolsa de Palha Curaçao&#8221;Product already exists.
+2017-11-29T10:19:52+00:00 DEBUG > Row 2 - preparing for import.
+2017-11-29T10:19:52+00:00 DEBUG > > Raw Term M ID = 127
+2017-11-29T10:19:52+00:00 DEBUG > &#8220;Bolsa de Palha Mia Beach&#8221;Product already exists.
+2017-11-29T10:19:52+00:00 DEBUG > Row 3 - preparing for import.
+2017-11-29T10:19:52+00:00 DEBUG > > Raw Term Verde e Azul ID = 134
+2017-11-29T10:19:52+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:19:52+00:00 DEBUG > &#8220;Bolsa de Palha Santorini&#8221;Product already exists.
+2017-11-29T10:19:52+00:00 DEBUG > Row 4 - preparing for import.
+2017-11-29T10:19:52+00:00 DEBUG > > Raw Term Verde Neon ID = 135
+2017-11-29T10:19:52+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:19:52+00:00 DEBUG > &#8220;Bolsa de Palha Flúor Tamae&#8221;Product already exists.
+2017-11-29T10:19:52+00:00 DEBUG > Row 5 - preparing for import.
+2017-11-29T10:19:52+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:19:52+00:00 DEBUG > &#8220;Bolsa de Palha Pink Tamae&#8221;Product already exists.
+2017-11-29T10:19:52+00:00 DEBUG > Row 6 - preparing for import.
+2017-11-29T10:19:52+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:19:52+00:00 DEBUG > &#8220;Bolsa de Palha Sweet Maya&#8221;Product already exists.
+2017-11-29T10:19:53+00:00 DEBUG > Row 7 - preparing for import.
+2017-11-29T10:19:53+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:19:53+00:00 DEBUG > &#8220;Bolsa de Palha Dark Maya&#8221;Product already exists.
+2017-11-29T10:19:53+00:00 DEBUG > Row 8 - preparing for import.
+2017-11-29T10:19:53+00:00 DEBUG > > Raw Term Rosa ID = 137
+2017-11-29T10:19:53+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:19:53+00:00 DEBUG > &#8220;Bolsa de Palha Flúor Pineapple&#8221;Product already exists.
+2017-11-29T10:19:53+00:00 DEBUG > Row 9 - preparing for import.
+2017-11-29T10:19:53+00:00 DEBUG > > Raw Term Verde Neon ID = 135
+2017-11-29T10:19:53+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:19:53+00:00 DEBUG > &#8220;Bolsa de Palha Ipanema&#8221;Product already exists.
+2017-11-29T10:19:53+00:00 DEBUG > Row 10 - preparing for import.
+2017-11-29T10:19:53+00:00 DEBUG > > Raw Term Amarelo Neon e Rosa ID = 138
+2017-11-29T10:19:53+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:19:53+00:00 DEBUG > &#8220;Bolsa de Palha Aruba&#8221;Product already exists.
+2017-11-29T10:19:53+00:00 DEBUG Finished processing products.
+2017-11-29T10:19:54+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2017-11-29T10:19:54+00:00 DEBUG Parsing products CSV.
+2017-11-29T10:19:54+00:00 DEBUG Finished parsing products CSV.
+2017-11-29T10:19:54+00:00 DEBUG ---
+2017-11-29T10:19:54+00:00 DEBUG Processing products.
+2017-11-29T10:19:54+00:00 DEBUG > Row 1 - preparing for import.
+2017-11-29T10:19:54+00:00 DEBUG > > Raw Term Rosa Neon ID = 139
+2017-11-29T10:19:54+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:19:54+00:00 DEBUG > &#8220;Bolsa de Palha Bubble Cake&#8221;Product already exists.
+2017-11-29T10:19:54+00:00 DEBUG > Row 2 - preparing for import.
+2017-11-29T10:19:54+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:19:54+00:00 DEBUG > &#8220;Bolsa de Palha Chocolate Cake&#8221;Product already exists.
+2017-11-29T10:19:54+00:00 DEBUG > Row 3 - preparing for import.
+2017-11-29T10:19:54+00:00 DEBUG > > Raw Term Rosa Neon ID = 139
+2017-11-29T10:19:54+00:00 DEBUG > &#8220;Bolsa de Palha Sweet Cake&#8221;Product already exists.
+2017-11-29T10:19:54+00:00 DEBUG > Row 4 - preparing for import.
+2017-11-29T10:19:54+00:00 DEBUG > > Raw Term U ID = 130
+2017-11-29T10:19:54+00:00 DEBUG > &#8220;Brinco Ruby Sofia&#8221;Product already exists.
+2017-11-29T10:19:54+00:00 DEBUG > Row 5 - preparing for import.
+2017-11-29T10:19:54+00:00 DEBUG > &#8220;Brinco Rubi Scarlet&#8221;Product already exists.
+2017-11-29T10:19:54+00:00 DEBUG > Row 6 - preparing for import.
+2017-11-29T10:19:54+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:19:54+00:00 DEBUG > &#8220;Brinco Sofie Loren&#8221;Product already exists.
+2017-11-29T10:19:54+00:00 DEBUG > Row 7 - preparing for import.
+2017-11-29T10:19:54+00:00 DEBUG > > Raw Term U ID = 130
+2017-11-29T10:19:54+00:00 DEBUG > &#8220;Ruby Tulie&#8221;Product already exists.
+2017-11-29T10:19:54+00:00 DEBUG > Row 8 - preparing for import.
+2017-11-29T10:19:54+00:00 DEBUG > > Raw Term U ID = 130
+2017-11-29T10:19:54+00:00 DEBUG > &#8220;Ruby Princess&#8221;Product already exists.
+2017-11-29T10:19:54+00:00 DEBUG > Row 9 - preparing for import.
+2017-11-29T10:19:54+00:00 DEBUG > > Raw Term U ID = 130
+2017-11-29T10:19:54+00:00 DEBUG > &#8220;Brinco Bettie Pink&#8221;Product already exists.
+2017-11-29T10:19:54+00:00 DEBUG > Row 10 - preparing for import.
+2017-11-29T10:19:54+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:19:54+00:00 DEBUG > &#8220;Ruby Greta&#8221;Product already exists.
+2017-11-29T10:19:54+00:00 DEBUG Finished processing products.
+2017-11-29T10:19:56+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2017-11-29T10:19:56+00:00 DEBUG Parsing products CSV.
+2017-11-29T10:19:56+00:00 DEBUG Finished parsing products CSV.
+2017-11-29T10:19:56+00:00 DEBUG ---
+2017-11-29T10:19:56+00:00 DEBUG Processing products.
+2017-11-29T10:19:56+00:00 DEBUG > Row 1 - preparing for import.
+2017-11-29T10:19:56+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:19:56+00:00 DEBUG > &#8220;Brinco Light Drope&#8221;Product already exists.
+2017-11-29T10:19:56+00:00 DEBUG > Row 2 - preparing for import.
+2017-11-29T10:19:56+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:19:56+00:00 DEBUG > &#8220;Brinco Light Marie&#8221;Product already exists.
+2017-11-29T10:19:56+00:00 DEBUG > Row 3 - preparing for import.
+2017-11-29T10:19:56+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:19:56+00:00 DEBUG > &#8220;Brinco Lily Hearth&#8221;Product already exists.
+2017-11-29T10:19:56+00:00 DEBUG > Row 4 - preparing for import.
+2017-11-29T10:19:56+00:00 DEBUG > &#8220;Brinco Duo Light&#8221;Product already exists.
+2017-11-29T10:19:56+00:00 DEBUG > Row 5 - preparing for import.
+2017-11-29T10:19:56+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:19:56+00:00 DEBUG > &#8220;Brinco Black Pizza&#8221;Product already exists.
+2017-11-29T10:19:56+00:00 DEBUG > Row 6 - preparing for import.
+2017-11-29T10:19:56+00:00 DEBUG > &#8220;Brinco Light Pizza&#8221;Product already exists.
+2017-11-29T10:19:56+00:00 DEBUG > Row 7 - preparing for import.
+2017-11-29T10:19:56+00:00 DEBUG > &#8220;Brinco Gold Diamond&#8221;Product already exists.
+2017-11-29T10:19:56+00:00 DEBUG > Row 8 - preparing for import.
+2017-11-29T10:19:56+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:19:56+00:00 DEBUG > &#8220;Brinco Pink Scorpion&#8221;Product already exists.
+2017-11-29T10:19:56+00:00 DEBUG > Row 9 - preparing for import.
+2017-11-29T10:19:56+00:00 DEBUG > &#8220;595&#8221; ID already exists.
+2017-11-29T10:19:56+00:00 DEBUG > Row 10 - preparing for import.
+2017-11-29T10:19:56+00:00 DEBUG > &#8220;597&#8221; ID already exists.
+2017-11-29T10:19:56+00:00 DEBUG Finished processing products.
+2017-11-29T10:19:58+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2017-11-29T10:19:58+00:00 DEBUG Parsing products CSV.
+2017-11-29T10:19:58+00:00 DEBUG Finished parsing products CSV.
+2017-11-29T10:19:58+00:00 DEBUG ---
+2017-11-29T10:19:58+00:00 DEBUG Processing products.
+2017-11-29T10:19:58+00:00 DEBUG > Row 1 - preparing for import.
+2017-11-29T10:19:58+00:00 DEBUG > &#8220;Brinco Pink Troia&#8221;Product already exists.
+2017-11-29T10:19:58+00:00 DEBUG > Row 2 - preparing for import.
+2017-11-29T10:19:58+00:00 DEBUG > &#8220;Brinco Pink Flowers&#8221;Product already exists.
+2017-11-29T10:19:58+00:00 DEBUG > Row 3 - preparing for import.
+2017-11-29T10:19:58+00:00 DEBUG > &#8220;Brinco Green Wings&#8221;Product already exists.
+2017-11-29T10:19:58+00:00 DEBUG > Row 4 - preparing for import.
+2017-11-29T10:19:58+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:19:58+00:00 DEBUG > &#8220;Brinco Green Norient&#8221;Product already exists.
+2017-11-29T10:19:58+00:00 DEBUG > Row 5 - preparing for import.
+2017-11-29T10:19:58+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:19:58+00:00 DEBUG > &#8220;Brinco Green Louren&#8221;Product already exists.
+2017-11-29T10:19:58+00:00 DEBUG > Row 6 - preparing for import.
+2017-11-29T10:19:58+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:19:58+00:00 DEBUG > &#8220;Brinco Green Falls&#8221;Product already exists.
+2017-11-29T10:19:58+00:00 DEBUG > Row 7 - preparing for import.
+2017-11-29T10:19:58+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:19:58+00:00 DEBUG > &#8220;Brinco Green Cleópatra&#8221;Product already exists.
+2017-11-29T10:19:58+00:00 DEBUG > Row 8 - preparing for import.
+2017-11-29T10:19:58+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:19:58+00:00 DEBUG > &#8220;Brinco Elisabeth Moon&#8221;Product already exists.
+2017-11-29T10:19:58+00:00 DEBUG > Row 9 - preparing for import.
+2017-11-29T10:19:58+00:00 DEBUG > &#8220;617&#8221; ID already exists.
+2017-11-29T10:19:58+00:00 DEBUG > Row 10 - preparing for import.
+2017-11-29T10:19:58+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:19:58+00:00 DEBUG > &#8220;Brinco Ritahay Worth&#8221;Product already exists.
+2017-11-29T10:19:58+00:00 DEBUG Finished processing products.
+2017-11-29T10:20:00+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2017-11-29T10:20:00+00:00 DEBUG Parsing products CSV.
+2017-11-29T10:20:00+00:00 DEBUG Finished parsing products CSV.
+2017-11-29T10:20:00+00:00 DEBUG ---
+2017-11-29T10:20:00+00:00 DEBUG Processing products.
+2017-11-29T10:20:00+00:00 DEBUG > Row 1 - preparing for import.
+2017-11-29T10:20:00+00:00 DEBUG > &#8220;Brinco Blue Pandora&#8221;Product already exists.
+2017-11-29T10:20:00+00:00 DEBUG > Row 2 - preparing for import.
+2017-11-29T10:20:00+00:00 DEBUG > &#8220;625&#8221; ID already exists.
+2017-11-29T10:20:00+00:00 DEBUG > Row 3 - preparing for import.
+2017-11-29T10:20:00+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:00+00:00 DEBUG > &#8220;627&#8221; ID already exists.
+2017-11-29T10:20:00+00:00 DEBUG > Row 4 - preparing for import.
+2017-11-29T10:20:00+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:00+00:00 DEBUG > Inserting Brinco Green Anne
+2017-11-29T10:20:00+00:00 DEBUG > Inserted - post ID is 629.
+2017-11-29T10:20:00+00:00 DEBUG > > Importing image "http://www.bulkdesign.com.br/aniastore/wp-content/uploads/2017/11/BRINCO-CRAVEJADO-GREENANNE-ANIASTORE.png"
+2017-11-29T10:20:01+00:00 DEBUG > > Inserted image attachment "http://www.bulkdesign.com.br/aniastore/wp-content/uploads/2017/11/BRINCO-CRAVEJADO-GREENANNE-ANIASTORE.png"
+2017-11-29T10:20:01+00:00 DEBUG > > Imported image "http://www.bulkdesign.com.br/aniastore/wp-content/uploads/2017/11/BRINCO-CRAVEJADO-GREENANNE-ANIASTORE.png"
+2017-11-29T10:20:01+00:00 DEBUG > > Images set
+2017-11-29T10:20:01+00:00 DEBUG > Finished importing post ID 629.
+2017-11-29T10:20:01+00:00 DEBUG > Row 5 - preparing for import.
+2017-11-29T10:20:01+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:01+00:00 DEBUG > &#8220;631&#8221; ID already exists.
+2017-11-29T10:20:01+00:00 DEBUG > Row 6 - preparing for import.
+2017-11-29T10:20:01+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:01+00:00 DEBUG > &#8220;633&#8221; ID already exists.
+2017-11-29T10:20:01+00:00 DEBUG > Row 7 - preparing for import.
+2017-11-29T10:20:01+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:01+00:00 DEBUG > &#8220;635&#8221; ID already exists.
+2017-11-29T10:20:01+00:00 DEBUG > Row 8 - preparing for import.
+2017-11-29T10:20:01+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:01+00:00 DEBUG > &#8220;637&#8221; ID already exists.
+2017-11-29T10:20:01+00:00 DEBUG > Row 9 - preparing for import.
+2017-11-29T10:20:01+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:01+00:00 DEBUG > &#8220;639&#8221; ID already exists.
+2017-11-29T10:20:01+00:00 DEBUG > Row 10 - preparing for import.
+2017-11-29T10:20:01+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:01+00:00 DEBUG > &#8220;641&#8221; ID already exists.
+2017-11-29T10:20:01+00:00 DEBUG Finished processing products.
+2017-11-29T10:20:03+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2017-11-29T10:20:03+00:00 DEBUG Parsing products CSV.
+2017-11-29T10:20:03+00:00 DEBUG Finished parsing products CSV.
+2017-11-29T10:20:03+00:00 DEBUG ---
+2017-11-29T10:20:03+00:00 DEBUG Processing products.
+2017-11-29T10:20:03+00:00 DEBUG > Row 1 - preparing for import.
+2017-11-29T10:20:03+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:03+00:00 DEBUG > &#8220;643&#8221; ID already exists.
+2017-11-29T10:20:03+00:00 DEBUG > Row 2 - preparing for import.
+2017-11-29T10:20:03+00:00 DEBUG > &#8220;645&#8221; ID already exists.
+2017-11-29T10:20:03+00:00 DEBUG > Row 3 - preparing for import.
+2017-11-29T10:20:03+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:03+00:00 DEBUG > &#8220;647&#8221; ID already exists.
+2017-11-29T10:20:03+00:00 DEBUG > Row 4 - preparing for import.
+2017-11-29T10:20:03+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:03+00:00 DEBUG > &#8220;650&#8221; ID already exists.
+2017-11-29T10:20:03+00:00 DEBUG > Row 5 - preparing for import.
+2017-11-29T10:20:03+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:03+00:00 DEBUG > &#8220;653&#8221; ID already exists.
+2017-11-29T10:20:03+00:00 DEBUG > Row 6 - preparing for import.
+2017-11-29T10:20:03+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:03+00:00 DEBUG > &#8220;655&#8221; ID already exists.
+2017-11-29T10:20:03+00:00 DEBUG > Row 7 - preparing for import.
+2017-11-29T10:20:03+00:00 DEBUG > > Raw Term M ID = 127
+2017-11-29T10:20:03+00:00 DEBUG > &#8220;657&#8221; ID already exists.
+2017-11-29T10:20:03+00:00 DEBUG > Row 8 - preparing for import.
+2017-11-29T10:20:03+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:03+00:00 DEBUG > &#8220;659&#8221; ID already exists.
+2017-11-29T10:20:03+00:00 DEBUG > Row 9 - preparing for import.
+2017-11-29T10:20:03+00:00 DEBUG > > Raw Term M ID = 127
+2017-11-29T10:20:03+00:00 DEBUG > &#8220;661&#8221; ID already exists.
+2017-11-29T10:20:03+00:00 DEBUG > Row 10 - preparing for import.
+2017-11-29T10:20:03+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:03+00:00 DEBUG > &#8220;665&#8221; ID already exists.
+2017-11-29T10:20:03+00:00 DEBUG Finished processing products.
+2017-11-29T10:20:05+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2017-11-29T10:20:05+00:00 DEBUG Parsing products CSV.
+2017-11-29T10:20:05+00:00 DEBUG Finished parsing products CSV.
+2017-11-29T10:20:05+00:00 DEBUG ---
+2017-11-29T10:20:05+00:00 DEBUG Processing products.
+2017-11-29T10:20:05+00:00 DEBUG > Row 1 - preparing for import.
+2017-11-29T10:20:05+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:05+00:00 DEBUG > &#8220;667&#8221; ID already exists.
+2017-11-29T10:20:05+00:00 DEBUG > Row 2 - preparing for import.
+2017-11-29T10:20:05+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:05+00:00 DEBUG > &#8220;669&#8221; ID already exists.
+2017-11-29T10:20:05+00:00 DEBUG > Row 3 - preparing for import.
+2017-11-29T10:20:05+00:00 DEBUG > > Raw Term M ID = 127
+2017-11-29T10:20:05+00:00 DEBUG > &#8220;671&#8221; ID already exists.
+2017-11-29T10:20:05+00:00 DEBUG > Row 4 - preparing for import.
+2017-11-29T10:20:05+00:00 DEBUG > > Raw Term M ID = 127
+2017-11-29T10:20:05+00:00 DEBUG > &#8220;Brinco Silver Bride&#8221;Product already exists.
+2017-11-29T10:20:05+00:00 DEBUG > Row 5 - preparing for import.
+2017-11-29T10:20:05+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:05+00:00 DEBUG > &#8220;676&#8221; ID already exists.
+2017-11-29T10:20:05+00:00 DEBUG > Row 6 - preparing for import.
+2017-11-29T10:20:05+00:00 DEBUG > > Raw Term M ID = 127
+2017-11-29T10:20:05+00:00 DEBUG > &#8220;679&#8221; ID already exists.
+2017-11-29T10:20:05+00:00 DEBUG > Row 7 - preparing for import.
+2017-11-29T10:20:05+00:00 DEBUG > > Raw Term M ID = 127
+2017-11-29T10:20:05+00:00 DEBUG > &#8220;681&#8221; ID already exists.
+2017-11-29T10:20:05+00:00 DEBUG > Row 8 - preparing for import.
+2017-11-29T10:20:05+00:00 DEBUG > > Raw Term M ID = 127
+2017-11-29T10:20:05+00:00 DEBUG > &#8220;683&#8221; ID already exists.
+2017-11-29T10:20:05+00:00 DEBUG > Row 9 - preparing for import.
+2017-11-29T10:20:05+00:00 DEBUG > > Raw Term M ID = 127
+2017-11-29T10:20:05+00:00 DEBUG > &#8220;685&#8221; ID already exists.
+2017-11-29T10:20:05+00:00 DEBUG > Row 10 - preparing for import.
+2017-11-29T10:20:05+00:00 DEBUG > > Raw Term M ID = 127
+2017-11-29T10:20:05+00:00 DEBUG > &#8220;687&#8221; ID already exists.
+2017-11-29T10:20:05+00:00 DEBUG Finished processing products.
+2017-11-29T10:20:06+00:00 DEBUG ---[ New Import ] PHP Memory: 128 MB, WP Memory: 40 MB
+2017-11-29T10:20:06+00:00 DEBUG Parsing products CSV.
+2017-11-29T10:20:07+00:00 DEBUG Finished parsing products CSV.
+2017-11-29T10:20:07+00:00 DEBUG ---
+2017-11-29T10:20:07+00:00 DEBUG Processing products.
+2017-11-29T10:20:07+00:00 DEBUG > Row 1 - preparing for import.
+2017-11-29T10:20:07+00:00 DEBUG > > Raw Term M ID = 127
+2017-11-29T10:20:07+00:00 DEBUG > &#8220;689&#8221; ID already exists.
+2017-11-29T10:20:07+00:00 DEBUG > Row 2 - preparing for import.
+2017-11-29T10:20:07+00:00 DEBUG > > Raw Term M ID = 127
+2017-11-29T10:20:07+00:00 DEBUG > &#8220;691&#8221; ID already exists.
+2017-11-29T10:20:07+00:00 DEBUG > Row 3 - preparing for import.
+2017-11-29T10:20:07+00:00 DEBUG > > Raw Term M ID = 127
+2017-11-29T10:20:07+00:00 DEBUG > &#8220;693&#8221; ID already exists.
+2017-11-29T10:20:07+00:00 DEBUG > Row 4 - preparing for import.
+2017-11-29T10:20:07+00:00 DEBUG > > Raw Term M ID = 127
+2017-11-29T10:20:07+00:00 DEBUG > &#8220;695&#8221; ID already exists.
+2017-11-29T10:20:07+00:00 DEBUG > Row 5 - preparing for import.
+2017-11-29T10:20:07+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:20:07+00:00 DEBUG > &#8220;697&#8221; ID already exists.
+2017-11-29T10:20:07+00:00 DEBUG > Row 6 - preparing for import.
+2017-11-29T10:20:07+00:00 DEBUG > > Raw Term M ID = 127
+2017-11-29T10:20:07+00:00 DEBUG > &#8220;699&#8221; ID already exists.
+2017-11-29T10:20:07+00:00 DEBUG > Row 7 - preparing for import.
+2017-11-29T10:20:07+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:07+00:00 DEBUG > &#8220;701&#8221; ID already exists.
+2017-11-29T10:20:07+00:00 DEBUG > Row 8 - preparing for import.
+2017-11-29T10:20:07+00:00 DEBUG > > Raw Term P ID = 126
+2017-11-29T10:20:07+00:00 DEBUG > &#8220;703&#8221; ID already exists.
+2017-11-29T10:20:07+00:00 DEBUG > Row 9 - preparing for import.
+2017-11-29T10:20:07+00:00 DEBUG > > Raw Term G ID = 128
+2017-11-29T10:20:07+00:00 DEBUG > &#8220;707&#8221; ID already exists.
+2017-11-29T10:20:07+00:00 DEBUG Finished processing products.
