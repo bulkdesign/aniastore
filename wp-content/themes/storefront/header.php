@@ -26,7 +26,7 @@
 
 <?php do_action( 'storefront_before_site' ); ?>
 
-<div class="navbar-fixed hide-on-small-only">
+<!-- <div class="navbar-fixed hide-on-small-only">
 	<div class="black">
 		<div class="container">
 			<p class="white-text left-align" style="padding:5px;font-size:14px;">“Produtos manuseados por mãos brasileiras com o maior cuidado e com o menor impacto ao nosso meio ambiente. Feitos um a um para você que é única.”
@@ -43,7 +43,7 @@
 			</p>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <div id="page" class="hfeed site">
 	<?php do_action( 'storefront_before_header' ); ?>

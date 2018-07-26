@@ -235,243 +235,59 @@ if ( ! function_exists( 'storefront_primary_navigation' ) ) {
 			<ul id="nav-mobile" class="left hide-on-med-and-down">
 				<!-- OPCAO 1 -->
 				<li>
-                	<a class='dropdown-button' data-beloworigin="true" href='#' data-activates='dropdown1'>Acessórios</a>
+                	<a class='dropdown-button' data-beloworigin="true" href='#' data-activates='dropdown1'>Semi-jóias</a>
                 </li>
 				<!-- Dropdown Structure -->
 				<ul id='dropdown1' class='dropdown-content auto-width'>
-					<div class="row">
-						<div class="col s12 paddingtop">												
-							<div class="col l2 m4 s12">
-								<a href="/categorias/acessorios/anel/">
-									<li class="paddingtop borda-baixo"><h5>Anéis</h5></li>
-								</a>
-							</div>
-							<div class="col l2 m4 s12">
-								<a href="/categorias/acessorios/brincos/">
-									<li class="paddingtop borda-baixo"><h5>Brincos</h5></li>
-								</a>
-							</div>
-							<div class="col l2 m4 s12">
-								<a href="/categorias/acessorios/colares/">
-									<li class="paddingtop borda-baixo"><h5>Colares</h5></li>
-								</a>
-							</div>
-							<div class="col l2 m4 s12">
-								<a href="/categorias/acessorios/pulseiras/">
-									<li class="paddingtop borda-baixo"><h5>Pulseiras</h5></li>
-								</a>
-							</div>
-							<div class="col l2 m4 s12">
-								<a href="/categorias/acessorios/hairpieces/">
-									<li class="paddingtop borda-baixo"><h5>Hairpieces</h5></li>
-								</a>
-							</div>
-							<div class="col l2 m4 s12">
-								<a href="/categorias/acessorios/tornozeleiras">
-									<li class="paddingtop borda-baixo"><h5>Tornozeleiras</h5></li>
-								</a>
-							</div>
-							<div class="col l2 m4 s12">
-								<a href="/categorias/acessorios/necessaire">
-									<li class="paddingtop borda-baixo"><h5>Nécessaire</h5></li>
-								</a>
-							</div>
-							<div class="col l2 m4 s12">
-								<a href="/categorias/acessorios/outros">
-									<li class="paddingtop borda-baixo"><h5>Outros</h5></li>
-								</a>
-							</div>
-							<div class="col l2 m4 s12">
-								<a href="/categorias/acessorios">
-									<li class="paddingtop borda-baixo"><h5>Ver Todos</h5></li>
-								</a>
-							</div>
-						</div>				
-					</div>
+					<li>
+						<a href="/categorias/semijoias/brincos/">
+							<h5>Brincos</h5>
+						</a>
+					</li>
+					<li>
+						<a href="/categorias/semijoias/colares/">
+							<h5>Colares</h5>
+						</a>
+					</li>
+					<li>
+						<a href="/categorias/semijoias/pulseiras/">
+							<h5>Pulseiras</h5>
+						</a>
+					</li>
 				</ul>
 				<!-- OPCAO 2 -->
 				<li>
-                	<a class='dropdown-button' data-beloworigin="true" href='#' data-activates='dropdown2'>Outono</a>
+                	<a class='dropdown-button' data-beloworigin="true" href='#' data-activates='dropdown2'>Acessórios de Cabelo</a>
                 </li>
 				<!-- Dropdown Structure -->
 				<ul id='dropdown2' class='dropdown-content auto-width'>
-					<div class="row">
-						<div class="col s12 paddingtop">
-							<div class="col l2 m4 s12">
-								<li class="paddingtop borda-baixo">
-									<a href="/categorias/outono/bolsas">
-										<h5>Bolsas</h5>
-									</a>
-								</li>
-							</div>
-<!-- 							<div class="col l2 m4 s12">
-								<li class="paddingtop borda-baixo">
-									<a href="/categorias/verao/canga">
-										<h5>Cangas</h5>
-									</a>
-								</li>
-							</div> -->
-							<div class="col l2 m4 s12">
-								<li class="paddingtop borda-baixo">
-									<a href="/categorias/outono/chapeus">
-										<h5>Chapéus</h5>
-									</a>
-								</li>
-							</div>
-<!-- 							<div class="col l2 m4 s12">
-								<li class="paddingtop borda-baixo">
-									<a href="/categorias/verao/toalha">
-										<h5>Toalhas</h5>
-									</a>
-								</li>
-							</div>
-							<div class="col l2 m4 s12">
-								<li class="paddingtop borda-baixo">
-									<a href="/categorias/verao/viseiras">
-										<h5>Viseiras</h5>
-									</a>
-								</li>
-							</div>
-							<div class="col l2 m4 s12">
-								<li class="paddingtop borda-baixo">
-									<a href="/categorias/verao/havaianas">
-										<h5>Havaianas</h5>
-									</a>
-								</li>
-							</div> -->
-							<div class="col l2 m4 s12">
-								<li class="paddingtop borda-baixo">
-									<a href="/categorias/outono/hairpieces">
-										<h5>Hairpieces</h5>
-									</a>
-								</li>
-							</div>
-							<div class="col l2 m4 s12">
-								<li class="paddingtop borda-baixo">
-									<a href="/categorias/outono/necessaires">
-										<h5>Nécessaires</h5>
-									</a>
-								</li>
-							</div>
-							<div class="col l1 m4 s12">
-								<li class="paddingtop borda-baixo">
-									<a href="/categorias/outono/outros">
-										<h5>Outros</h5>
-									</a>
-								</li>
-							</div>
-							<div class="col push-l1 l2 m4 s12">
-								<li class="paddingtop borda-baixo">
-									<a href="/outono/">
-										<h5>Ver Todos</h5>
-									</a>
-								</li>
-							</div>
-						</div>				
-					</div>
+					<li>
+						<a href="/categorias/acessorios/faixas-turbantes/">
+							<h5>Faixas/turbantes</h5>
+						</a>
+					</li>
+					<li>
+						<a href="/categorias/acessorios/grampos/">
+							<h5>Grampos</h5>
+						</a>
+					</li>
+					<li>
+						<a href="/categorias/acessorios/tiaras/">
+							<h5>Tiaras</h5>
+						</a>
+					</li>
+					<li>
+						<a href="/categorias/acessorios/prendedores/">
+							<h5>Prendedores</h5>
+						</a>
+					</li>
 				</ul>
 				<!-- OPCAO 3 -->
-				<li>
-                	<a class='dropdown-button' data-beloworigin="true" href='#' data-activates='dropdown3'>Kids</a>
-                </li>
-				<!-- Dropdown Structure -->
-				<ul id='dropdown3' class='dropdown-content auto-width'>
-					<div class="row">
-						<div class="col s12 paddingtop">												
-							<div class="col l2 m4 s12">
-								<a href="/categorias/kids/brincos-kids">
-									<li class="paddingtop borda-baixo"><h5>Brincos</h5></li>
-								</a>
-							</div>
-							<div class="col l2 m4 s12">
-								<a href="/categorias/kids/colares-kids">
-									<li class="paddingtop borda-baixo"><h5>Colares</h5></li>
-								</a>
-							</div>
-							<div class="col l2 m4 s12">
-								<a href="/categorias/kids/pulseiras-kids">
-									<li class="paddingtop borda-baixo"><h5>Pulseiras</h5></li>
-								</a>
-							</div>
-							<div class="col l2 m4 s12">
-								<a href="/categorias/kids/canga-kids">
-									<li class="paddingtop borda-baixo"><h5>Cangas</h5></li>
-								</a>
-							</div>
-							<div class="col l2 m4 s12">
-								<a href="/categorias/kids/bolsa">
-									<li class="paddingtop borda-baixo"><h5>Bolsas</h5></li>
-								</a>
-							</div>
-							<div class="col l2 m4 s12">
-								<a href="/categorias/kids/toalha-kids">
-									<li class="paddingtop borda-baixo"><h5>Toalhas</h5></li>
-								</a>
-							</div>
-							<div class="col l2 m4 s12">
-								<a href="/categorias/kids/havaianas-kids">
-									<li class="paddingtop borda-baixo"><h5>Havaianas</h5></li>
-								</a>
-							</div>
-							<div class="col l2 m4 s12">
-								<a href="/categorias/kids/hairpieces-kids">
-									<li class="paddingtop borda-baixo"><h5>Hairpieces</h5></li>
-								</a>
-							</div>
-							<div class="col l2 m4 s12">
-								<a href="/categorias/kids/outros">
-									<li class="paddingtop borda-baixo"><h5>Outros</h5></li>
-								</a>
-							</div>
-							<div class="col l2 m4 s12">
-								<a href="/categorias/kids">
-									<li class="paddingtop borda-baixo"><h5>Ver Todos</h5></li>
-								</a>
-							</div>
-						</div>				
-					</div>
-				</ul>
+				<li><a href="/bolsas">Bolsas</a></li>
 				<!-- OPCAO 4 -->
-				<li><a href='/personalizados'>Personalizados</a></li>
+				<li><a href='/comemorativas'>Comemorativas</a></li>
 				<!-- OPCAO 5 -->
-				<li>
-                	<a class='dropdown-button' data-beloworigin="true" href='#' data-activates='dropdown4'>Presentes (Kits)</a>
-                </li>
-				<!-- Dropdown Structure -->
-				<ul id='dropdown4' class='dropdown-content auto-width'>
-					<div class="row">
-						<div class="col s12 paddingtop">
-							<div class="col l2 m4 s12">
-								<li class="paddingtop borda-baixo">
-									<a href="/produto/kit-3990/">
-										<h5>R$39,90</h5>
-									</a>
-								</li>
-							</div>
-							<div class="col l2 m4 s12">
-								<li class="paddingtop borda-baixo">
-									<a href="/produto/kit-5990/">
-										<h5>R$59,90</h5>
-									</a>
-								</li>
-							</div>
-							<div class="col l2 m4 s12">
-								<li class="paddingtop borda-baixo">
-									<a href="/produto/kit-9990/">
-										<h5>R$99,90</h5>
-									</a>
-								</li>
-							</div>
-							<div class="col l2 m4 s12">
-								<li class="paddingtop borda-baixo">
-									<a href="/produto/kit-14990/">
-										<h5>R$149,90</h5>
-									</a>
-								</li>
-							</div>
-						</div>		
-					</div>
-				</ul>
+				<li><a href='/outros'>Outros</a></li>
             </ul>
 
 			<main class="hide-on-large-only">
@@ -496,7 +312,7 @@ if ( ! function_exists( 'storefront_primary_navigation' ) ) {
 				</nav>
 			</aside>
 
-		</nav><!-- #site-navigation -->
+		</nav>
 		<?php
 	}
 }
