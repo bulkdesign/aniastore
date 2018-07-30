@@ -2,39 +2,19 @@
 <?php get_header();?>
     <!--SESSÃO PRODUTOS-->
     <section id="Produtos" class="session scrollspy">
+      <?php do_action('slideshow_deploy', '3992'); ?>
       <div class="container">
         <div class="row">
-          <div class="col hide-on-small-only m12 l4">
-              <a href="http://www.aniastore.com.br/categorias/kids">
-                <div class="Destaque Destaque3" style=" background-image: url('<?php bloginfo('template_url');?>/images/gif-infantil.gif');">
-                </div>
-              </a>
-              <h4 class="paddingtop">Kids</h4>
-          </div>
-          <div class="col hide-on-small-only m12 l4">
-              <a href="http://www.aniastore.com.br/outono">
-                <div class="Destaque Destaque3" style=" background-image: url('<?php bloginfo('template_url');?>/images/outono.jpeg');">
-                </div>
-              </a>
-              <h4 class="paddingtop">Outono</h4>
-          </div>
-          <div class="col hide-on-small-only m12 l4">
-              <a href="http://www.aniastore.com.br/kits-presentes">
-                <div class="Destaque Destaque1" style=" background-image: url('<?php bloginfo('template_url');?>/images/gif-presentes.gif');">
-                </div>
-              </a>
-              <h4 class="paddingtop">Presentes</h4>
-          </div>
           <!--TITULO-->
           <div class="produtosrecentes">
             <div class="col m12 hide-on-small-only">
               <h1>New In</h1>
             </div> 
            <?php
-            $args = array( 'post_type' => 'product', 'posts_per_page' => 4, 'orderby' =>'date', 'order' => 'DESC' );
+            $args = array( 'post_type' => 'product', 'posts_per_page' => 12, 'orderby' =>'date', 'order' => 'DESC' );
             $loop = new WP_Query( $args );
             while ( $loop->have_posts() ) : $loop->the_post(); global $product; ?>
-            <div class="col s6 m6 l3 hoverable margin-top">   
+            <div class="col s6 m6 l3 hoverable margin-top" style="height: 500px;">   
               <a id="id-<?php the_id(); ?>" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
                 <?php if (has_post_thumbnail( $loop->post->ID )) echo get_the_post_thumbnail($loop->post->ID, 'shop_catalog'); else echo '<img src="'.wc_placeholder_img_src().'" alt="Placeholder" width="65px" height="115px" />'; ?>
                 <h3 class="woocommerce-loop-product__title"><?php the_title(); ?></h3>

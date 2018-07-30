@@ -40,6 +40,11 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 	padding: 10px 0 20px !important;
 }
 
+div#masthead-sticky-wrapper {
+    z-index: 99999;
+    position: relative;
+}
+
 img.vantagens {
 	height: 50px;
 	margin: 30px auto;
@@ -528,6 +533,10 @@ ul.page-numbers {
 	position: fixed !important;
 	top: 30% !important;
 	right: 120px !important;
+}
+
+img.attachment-shop_catalog.size-shop_catalog.wp-post-image {
+	height: 300px;
 }
 
 /*MEDIA QUERY*/
