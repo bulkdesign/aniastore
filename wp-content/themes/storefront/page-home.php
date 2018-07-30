@@ -14,7 +14,7 @@
         $args = array( 'post_type' => 'product', 'posts_per_page' => 12, 'orderby' =>'date', 'order' => 'DESC' );
         $loop = new WP_Query( $args );
         while ( $loop->have_posts() ) : $loop->the_post(); global $product; ?>
-          <div class="col s6 m6 l3 hoverable margin-top" style="height: 500px;">   
+          <div class="col s6 m6 l3 margin-top" style="height: 450px;">   
             <a id="id-<?php the_id(); ?>" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
               <?php if (has_post_thumbnail( $loop->post->ID )) echo get_the_post_thumbnail($loop->post->ID, 'shop_catalog'); else echo '<img src="'.wc_placeholder_img_src().'" alt="Placeholder" width="65px" height="115px" />'; ?>
               <h3 class="woocommerce-loop-product__title"><?php the_title(); ?></h3>
@@ -40,21 +40,20 @@
       <div class="col s12 center">
         <a href="produtos" class="btn">Lista Completa</a>
       </div>
-      <!-- VERAO -->
-      <div class="col s12 center">
+      <!-- COMEMORATIVAS -->
+      <div class="col s12 center paddingtop50">
         <?php
-        $banner = array( 'post_type' => 'banner', 'posts_per_page' => 1 );
-        $bannerdestaque = new WP_Query( $banner );
+        $comemorativas = array( 'post_type' => 'comemorativas', 'posts_per_page' => 1 );
+        $bannerdestaque = new WP_Query( $comemorativas );
         while ( $bannerdestaque->have_posts() ) : $bannerdestaque->the_post(); ?>
-          <h1 class="banner"><?php the_field('titulo'); ?> <i class="em em-heart"></i></h1>
-          <a href="<?php echo get_field('link_do_banner'); ?>">
+          <a href="https://<?php echo get_field('link'); ?>">
             <img src="<?php echo get_field('imagem'); ?>" class="responsive-img" style="margin: 0px auto;" />
           </a>
         <?php endwhile; wp_reset_query(); ?>
       </div>
     </div>
     <!-- INSTAGRAM -->
-    <h1 class="paddingtop50">Instagram</h1>
+    <h1 class="paddingtop30">Instagram</h1>
     <?php echo do_shortcode('[instagram-feed]'); ?>
     <!-- COMENTARIOS DE CLIENTES -->
     <div class="row" style="margin-bottom:0;">
