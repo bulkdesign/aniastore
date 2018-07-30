@@ -40,6 +40,13 @@ get_header( 'shop' ); ?>
 		do_action( 'woocommerce_before_main_content' );
 	?>
 
+		<div class="col s12 left-align paddingtop30 paddingbottom30">
+			<?php if(function_exists('bcn_display'))
+			{
+			    bcn_display();
+			}?>
+		</div>
+
 		<?php if( get_field('banner_de_destaque') ): ?>
 			<img src="<?php echo get_field('banner_de_destaque'); ?>" class="responsive-img" />
 		<?php else: ?>

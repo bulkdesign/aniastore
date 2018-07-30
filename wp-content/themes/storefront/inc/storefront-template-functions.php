@@ -162,7 +162,19 @@ if ( ! function_exists( 'storefront_site_branding' ) ) {
 	 */
 	function storefront_site_branding() {
 		?>
-		<div class="site-branding">
+		<div class="site-branding hide-on-med-and-up">
+			<div class="row">
+				<div class="col s12">
+					<div class="col s6">
+						<?php storefront_site_title_or_logo(); ?>
+					</div>
+					<div class="col s6 right-align">
+						<a class="black-text toggle-overlay"><i class="small material-icons">menu</i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="site-branding hide-on-small-only">
 			<?php storefront_site_title_or_logo(); ?>
 		</div>
 		<?php
@@ -288,10 +300,17 @@ if ( ! function_exists( 'storefront_primary_navigation' ) ) {
 				<li><a href='/comemorativas'>Comemorativas</a></li>
 				<!-- OPCAO 5 -->
 				<li><a href='/outros'>Outros</a></li>
+				<li>
+				<?php if ( is_user_logged_in() ) { ?>
+				    <a href="<?php echo wp_logout_url(); ?>">Sair</a>
+				<?php } else { ?>
+				    <a href="/wp-login.php" title="Login" rel="home">Entrar</a>
+				<?php } ?>
+				</li>
             </ul>
 
-			<main class="hide-on-large-only">
-				<a class="black-text toggle-overlay"><i class="small material-icons">menu</i></a>
+			<main class="hide-on-med-and-up">
+				<?php echo do_shortcode('[wd_asp id=2]'); ?>
 			</main>	
 
 			<aside>
@@ -299,7 +318,6 @@ if ( ! function_exists( 'storefront_primary_navigation' ) ) {
 				  <a class="black-text right close"><i class="margin-clear small material-icons">clear</i></a>
 				</div>
 				<nav class="mobile-menu">
-					<?php echo do_shortcode('[wd_asp id=2]'); ?>
 			        <ul>
 			            <?php
 						    wp_nav_menu(

@@ -8,6 +8,14 @@
 ?>
 
 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+	<div class="col s12 left paddingtop30 paddingbottom30">
+		<?php if(function_exists('bcn_display'))
+		{
+		    bcn_display();
+		}?>
+	</div>
+
 	<?php
 	/**
 	 * Functions hooked in to storefront_page add_action

@@ -329,7 +329,7 @@ div.ajaxsearchpro[id*="ajaxsearchpro1_"] {
     #ajaxsearchpro1_2 .probox,
 div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox {
   margin: 0px;
-  height: 30px;
+  height: 60px;
               background-image: -moz-radial-gradient(center, ellipse cover,  rgb(255, 255, 255), rgb(255, 255, 255));
             background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, rgb(255, 255, 255), rgb(255, 255, 255));
             background-image: -webkit-radial-gradient(center, ellipse cover,  rgb(255, 255, 255), rgb(255, 255, 255));
@@ -340,39 +340,6 @@ div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox {
 
 
 
-    #asp_absolute_overlay {
-        background: rgba(255, 255, 255, 0.5);
-    }
-
-            #ajaxsearchpro1_1 .probox,
-        #ajaxsearchpro1_2 .probox,
-        div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox {
-        width: 30px;
-    }
-
-            #ajaxsearchpro1_1,
-        #ajaxsearchpro1_2,
-        div.ajaxsearchpro[id*="ajaxsearchpro1_"] {
-        width: auto;
-        display: inline-block;
-        float: right;
-        position: absolute;
-        
-            top: 20%;
-            bottom: auto;
-            right: 10%;
-            left: auto;        z-index: 1000;
-    }
-
-    p[id*=asp-try-1] {
-            display: none;
-            position: absolute;
-            top: 20%;
-            bottom: auto;
-            right: 10%;
-            left: auto;
-            z-index: 1000;
-        }
 p[id*=asp-try-1] {
     color: rgb(85, 85, 85) !important;
     display: block;
@@ -409,7 +376,7 @@ div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .proinput input.orig {
     font-weight:normal;font-family:inherit;color:rgb(0, 0, 0);font-size:16px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    line-height: normal;
     border: 0;
     box-shadow: none;
-    height: 30px;
+    height: 60px;
     position: relative;
     z-index: 2;
     padding: 0 !important;
@@ -424,13 +391,13 @@ div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .proinput input.orig {
 div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .proinput input.autocomplete {
     font-weight:normal;font-family:inherit;color:rgb(0, 0, 0);font-size:16px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    line-height: normal;
     opacity: 0.25;
-    height: 30px;
+    height: 60px;
     display: block;
     position: relative;
     z-index: 1;
     padding: 0 !important;
     margin: -1px 0 0 -4px !important;
-    margin-top: -30px !important;
+    margin-top: -60px !important;
     width: 100%;
     background: transparent !important;
 }
@@ -497,13 +464,13 @@ div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .proloading,
 div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .proclose,
 div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .promagnifier,
 div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .prosettings {
-  width: 30px;
-  height: 30px;
-  flex: 0 0 30px;
+  width: 60px;
+  height: 60px;
+  flex: 0 0 60px;
   flex-grow: 0;
   order: 7;
     /* Ipad and stuff.. */
-    -webkit-flex: 0 0 30px;
+    -webkit-flex: 0 0 60px;
     -webkit-flex-grow: 0;
     -webkit-order: 7;
 }
@@ -511,30 +478,30 @@ div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .prosettings {
 	#ajaxsearchpro1_1 .probox .proloading,
 	#ajaxsearchpro1_2 .probox .proloading,
 div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .proloading {
-    width: 30px;
-    height: 30px;
-    min-width: 30px;
-    min-height: 30px;
-    max-width: 30px;
-    max-height: 30px;
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+    max-width: 60px;
+    max-height: 60px;
 }
 
 	#ajaxsearchpro1_1 .probox .proloading .asp_loader,
 	#ajaxsearchpro1_2 .probox .proloading .asp_loader,
 div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .proloading .asp_loader {
-    width: 26px;
-    height: 26px;
-    min-width: 26px;
-    min-height: 26px;
-    max-width: 26px;
-    max-height: 26px;
+    width: 56px;
+    height: 56px;
+    min-width: 56px;
+    min-height: 56px;
+    max-width: 56px;
+    max-height: 56px;
 }
 
 	#ajaxsearchpro1_1 .probox .promagnifier,
 	#ajaxsearchpro1_2 .probox .promagnifier,
 div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .promagnifier {
 	width: auto;
-	height: 30px;
+	height: 60px;
 	flex: 0 0 auto;
 	order: 7;
 	/* Ipad and stuff.. */
@@ -546,8 +513,8 @@ div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .promagnifier {
 	#ajaxsearchpro1_1 .probox .promagnifier div.innericon,
 	#ajaxsearchpro1_2 .probox .promagnifier div.innericon,
 div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .promagnifier div.innericon {
-	width: 30px;
-	height: 30px;
+	width: 60px;
+	height: 60px;
 	float: right;
 }
 
@@ -555,12 +522,12 @@ div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .promagnifier div.innericon {
 	#ajaxsearchpro1_2 .probox .promagnifier div.asp_text_button,
 div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .promagnifier div.asp_text_button {
 	width: auto;
-	height: 30px;
+	height: 60px;
 	float: right;
 	margin: 0;
 		    padding: 0 10px 0 2px;
 		font-weight:normal;font-family:'Open Sans';color:rgba(51, 51, 51, 1);font-size:15px;line-height:normal;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    /* to center the text, this must be identical with the height */
-    line-height: 30px;
+    line-height: 60px;
 }
 
     #ajaxsearchpro1_1 .probox .promagnifier .innericon svg,
@@ -579,15 +546,15 @@ div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .prosettings .innericon svg {
     #ajaxsearchpro1_1.asp_msie .probox .proloading,
     #ajaxsearchpro1_2.asp_msie .probox .proloading,
 div.ajaxsearchpro[id*="ajaxsearchpro1_"].asp_msie .probox .proloading {
-    background-image: url("https://www.aniastore.com.br/wp-content/plugins/ajax-search-pro//img/loading/newload1.gif");
+    background-image: url("http://localhost/aniastore/wp-content/plugins/ajax-search-pro//img/loading/newload1.gif");
     float: right;
 }
 
     #ajaxsearchpro1_1 .probox .promagnifier,
     #ajaxsearchpro1_2 .probox .promagnifier,
 div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .promagnifier {
-        width: 30px;
-    height: 30px;
+        width: 60px;
+    height: 60px;
               background-image: -webkit-linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0));
             background-image: -moz-linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0));
             background-image: -o-linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0));
@@ -613,8 +580,8 @@ div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .promagnifier {
     #ajaxsearchpro1_1 .probox .prosettings,
     #ajaxsearchpro1_2 .probox .prosettings,
 div.ajaxsearchpro[id*="ajaxsearchpro1_"] .probox .prosettings {
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
               background-image: -webkit-linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));
             background-image: -moz-linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));
             background-image: -o-linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));
@@ -1023,7 +990,7 @@ div.ajaxsearchpro[id*="ajaxsearchprores1_"] .mCSBap_scrollTools .mCSBap_buttonUp
     border-width: 0 5px 6px 5px;
     border-color: transparent transparent rgb(0, 0, 0) transparent;
 }.wpdreams_asp_sc-1, .asp-try-1 {display: block; max-height: none; overflow: visible;}
-/* Generated at: 2018-03-12 21:42:24 */ 
+/* Generated at: 2018-07-30 14:10:23 */ 
 div[id*='ajaxsearchpro2_'] div.asp_loader,
 div[id*='ajaxsearchpro2_'] div.asp_loader * {
     /* display: none; */
@@ -1571,7 +1538,7 @@ div.ajaxsearchpro[id*="ajaxsearchpro2_"] .probox .prosettings .innericon svg {
     #ajaxsearchpro2_1.asp_msie .probox .proloading,
     #ajaxsearchpro2_2.asp_msie .probox .proloading,
 div.ajaxsearchpro[id*="ajaxsearchpro2_"].asp_msie .probox .proloading {
-    background-image: url("https://www.aniastore.com.br/wp-content/plugins/ajax-search-pro//img/loading/newload1.gif");
+    background-image: url("http://localhost/aniastore/wp-content/plugins/ajax-search-pro//img/loading/newload1.gif");
     float: right;
 }
 
@@ -2015,4 +1982,4 @@ div.ajaxsearchpro[id*="ajaxsearchprores2_"] .mCSBap_scrollTools .mCSBap_buttonUp
     border-width: 0 5px 6px 5px;
     border-color: transparent transparent rgb(0, 0, 0) transparent;
 }.wpdreams_asp_sc-2, .asp-try-2 {display: block; max-height: none; overflow: visible;}
-/* Generated at: 2018-03-12 21:42:24 */
+/* Generated at: 2018-07-30 14:10:23 */

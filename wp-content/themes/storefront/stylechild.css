@@ -140,12 +140,18 @@ footer {
 
 .mobile-menu ul li a {
     padding: 0;
-    font-size: 20px;
-    height: 40px;
+    font-size: 16px;
+    line-height: 2;
+}
+
+@media (max-width: 650px) {
+	img.attachment-shop_catalog.size-shop_catalog.wp-post-image {
+		height: auto !important;
+	}
 }
 
 @media (max-width: 800px) {
 	.site-header .custom-logo-link img {
-		margin-left: 70px;
+		margin-left: 0px;
 	}
 }

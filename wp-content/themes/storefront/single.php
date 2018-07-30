@@ -3,6 +3,7 @@
 get_header('blog'); ?>
 
 	<div class="container">
+
 		<main id="main" class="site-main" role="main">
 		<?php
 		// Start the loop.
@@ -42,8 +43,14 @@ get_header('blog'); ?>
 				<div class="row">
 					<div class="col l2">&nbsp;</div>
 					<div class="col l8 s12">
-						<header class="entry-header">
+						<header class="entry-header paddingbottom30">
 							<div class="container">
+								<div class="col s12 paddingtop30 paddingbottom30">
+									<?php if(function_exists('bcn_display'))
+									{
+									    bcn_display();
+									}?>
+								</div>
 								<?php
 									if ( is_single() ) :
 										the_title( '<h3 class="entry-title">', '</h3>' );

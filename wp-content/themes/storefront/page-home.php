@@ -14,7 +14,7 @@
         $args = array( 'post_type' => 'product', 'posts_per_page' => 12, 'orderby' =>'date', 'order' => 'DESC' );
         $loop = new WP_Query( $args );
         while ( $loop->have_posts() ) : $loop->the_post(); global $product; ?>
-          <div class="col s6 m6 l3 margin-top" style="height: 450px;">   
+          <div class="col s12 m6 l3 margin-top" style="height: 450px;">   
             <a id="id-<?php the_id(); ?>" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
               <?php if (has_post_thumbnail( $loop->post->ID )) echo get_the_post_thumbnail($loop->post->ID, 'shop_catalog'); else echo '<img src="'.wc_placeholder_img_src().'" alt="Placeholder" width="65px" height="115px" />'; ?>
               <h3 class="woocommerce-loop-product__title"><?php the_title(); ?></h3>

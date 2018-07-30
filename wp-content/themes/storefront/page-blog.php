@@ -41,54 +41,6 @@
 }
 
 </style>
-    <!--SESSÃO PRODUTOS-->
-    <section id="Produtos" class="marginb40 scrollspy">
-      <div class="container">
-        <h1>Vitrine:</h1>
-        <div class="row">
-          <div class="col s12">
-            <!-- INÍCIO DO WHILE -->
-            <?php while ( have_posts() ) : the_post(); ?>
-              <!-- INÍCIO DO LOOP -->
-              <?php $blog = new WP_Query( array( 'post_type' => array('aniablog'), 'posts_per_page' => 3 )); ?>
-              <?php while ( $blog->have_posts() ) : $blog->the_post(); ?>
-              <?php $post_thumbnail = wp_get_attachment_url( get_post_thumbnail_id($post->ID)); ?>
-
-                <!-- AQUI DENTRO VEM O CONTEÚDO PRINCIPAL -->
-                <div class="col s12 m12 l4">
-                  <a href="<?php the_permalink();?>">
-                    <div class="vitrine">
-                      <img src="<?php echo $post_thumbnail; ?>" />
-                      <h3 style="margin-top: 10px;"><?php the_title();?></h3>
-                    </div>
-                  </a>
-                </div>
-
-              <?php endwhile; wp_reset_query(); ?>
-              <!-- FIM DO LOOP -->
-            <?php endwhile; ?>
-            <!-- FIM DO WHILE -->
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PARALLAX -->
-    <!-- <?php // while ( have_posts() ) : the_post(); ?>
-      <?php // $blog = new WP_Query( array( 'post_type' => array('aniablog'), 'cat' => 286, 'posts_per_page' => 1 )); ?>
-      <?php // while ( $blog->have_posts() ) : $blog->the_post(); ?>
-      <?php // $post_thumbnail = wp_get_attachment_url( get_post_thumbnail_id($post->ID)); ?>
-        <div class="parallax-container hide-on-med-and-down">
-          <div class="parallax">
-            <img src="<?php // echo $post_thumbnail; ?>">
-            <h3 class="title-above white-text"><?php // the_title();?></h3>
-            <a class="btn black white-text above" href="<?php // the_permalink(); ?>">Ver artigo</a>
-          </div>
-        </div>
-      <?php // endwhile; wp_reset_query(); ?>
-    <?php // endwhile; ?> -->
-    <!-- FIM DO PARALLAX -->
-
     <div class="container">
       <div class="row">
         <div class="col s12 l12">
@@ -97,7 +49,7 @@
               <!-- INÍCIO DO WHILE -->
               <?php while ( have_posts() ) : the_post(); ?>
                 <!-- INÍCIO DO LOOP -->
-                <?php $blog = new WP_Query( array( 'post_type' => array('aniablog'), 'posts_per_page' => 6 )); ?>
+                <?php $blog = new WP_Query( array( 'post_type' => array('aniablog'), 'posts_per_page' => 9 )); ?>
                 <?php while ( $blog->have_posts() ) : $blog->the_post(); ?>
                 <?php $post_thumbnail = wp_get_attachment_url( get_post_thumbnail_id($post->ID)); ?>
 
@@ -105,8 +57,8 @@
                   <div class="col s12 m12 l4">
                     <a href="<?php the_permalink();?>">
                       <div class="vitrine">
-                        <img src="<?php echo $post_thumbnail; ?>" />
-                        <h3><?php the_title();?></h3>
+                        <img style="width:100%;height:200px" src="<?php echo $post_thumbnail; ?>" />
+                        <h3 class="paddingtop10"><?php the_title();?></h3>
                       </div>
                     </a>
                   </div>
