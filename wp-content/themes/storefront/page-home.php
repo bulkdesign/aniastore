@@ -40,18 +40,6 @@
           <div class="col s12 center">
             <a href="produtos" class="btn" style="margin-top: 50px;">Lista Completa</a>
           </div>
-          <!-- CARROUSEL DE VANTAGENS -->
-          <div class="col s12 center margin50 grey lighten-4 padding10">
-          <?php
-            $vantagens = array( 'post_type' => 'vantagens', 'posts_per_page' => 5 );
-            $caroussel_vantagens = new WP_Query( $vantagens );
-            while ( $caroussel_vantagens->have_posts() ) : $caroussel_vantagens->the_post(); ?>
-              <div class="col l25 m4 s12">
-                <img class="vantagens" src="<?php echo the_field('icone_vantagem'); ?>">
-                <h1 class="vantagens"><?php the_title(); ?></h1>
-              </div>
-            <?php endwhile; wp_reset_query(); ?>
-          </div>
           <!-- VERAO -->
           <div class="col s12 center">
             <?php
