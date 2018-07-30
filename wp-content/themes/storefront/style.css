@@ -40,6 +40,18 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 	padding: 10px 0 20px !important;
 }
 
+.paddingtop30 {
+	padding-top: 30px !important;
+}
+
+.paddingbottom30 {
+	padding-bottom: 30px !important;
+}
+
+.paddingtop50 {
+	padding-top: 50px !important;
+}
+
 div#masthead-sticky-wrapper {
     z-index: 99999;
     position: relative;
@@ -265,10 +277,6 @@ body{
 
 .container{
 	width: 90%!important;
-}
-
-h1{
-	padding: 50px;
 }
 
 nav{
