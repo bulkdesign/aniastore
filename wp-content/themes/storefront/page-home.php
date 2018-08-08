@@ -36,10 +36,6 @@
         <?php endwhile; ?>
         <?php wp_reset_query(); ?>
       </div>
-      <!--BOTAO "LISTA COMPLETA"-->
-      <div class="col s12 center">
-        <a href="produtos" class="btn">Lista Completa</a>
-      </div>
       <!-- COMEMORATIVAS -->
       <div class="col s12 center paddingtop50">
         <?php
