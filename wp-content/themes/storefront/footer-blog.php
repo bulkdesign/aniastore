@@ -20,10 +20,10 @@
             <div class="col l4 s12">
                 <p class="grey-text text-lighten-4 left-align">INSTITUCIONAL</p>
                 <ul>
-                  <li class="left-align"><a href="/prazos-e-entrega">Prazos e Entrega</a></li>
-                  <li class="left-align"><a href="/formas-de-pagamento">Formas de Pagamento</a></li>
-                  <li class="left-align"><a href="/politica-de-privacidade">Política de Privacidade</a></li>
-                  <li class="left-align"><a href="/politica-de-trocas-e-devolucoes">Política de Trocas e Devoluções</a></li>
+                  <li class="left-align"><a href="<?php echo site_url(); ?>/prazos-e-entrega">Prazos e Entrega</a></li>
+                  <li class="left-align"><a href="<?php echo site_url(); ?>/formas-de-pagamento">Formas de Pagamento</a></li>
+                  <li class="left-align"><a href="<?php echo site_url(); ?>/politica-de-privacidade">Política de Privacidade</a></li>
+                  <li class="left-align"><a href="<?php echo site_url(); ?>/politica-de-trocas-e-devolucoes">Política de Trocas e Devoluções</a></li>
               </ul>
             </div>
             <!-- LINKS -->
@@ -41,11 +41,11 @@
             <div class="col l4 s12">
                 <p class="grey-text text-lighten-4 right-align">LINKS RÁPIDOS</p>
                 <ul>
-                  <li class="right-align"><a href="/feito-a-mao">Feito à mão</a></li>
-                  <li class="right-align"><a href="/nos-♥-natureza">Nós ♥ Natureza</a></li>
-                  <li class="right-align"><a href="/personalizados">Do Seu Jeito</a></li>
-                  <li class="right-align"><a href="/sobre-a-ania">Sobre a Ania</a></li>
-                  <li class="right-align"><a href="/contato">Central de Atendimento</a></li>
+                  <li class="right-align"><a href="<?php echo site_url(); ?>/feito-a-mao">Feito à mão</a></li>
+                  <li class="right-align"><a href="<?php echo site_url(); ?>/nos-♥-natureza">Nós ♥ Natureza</a></li>
+                  <li class="right-align"><a href="<?php echo site_url(); ?>/personalizados">Do Seu Jeito</a></li>
+                  <li class="right-align"><a href="<?php echo site_url(); ?>/sobre-a-ania">Sobre a Ania</a></li>
+                  <li class="right-align"><a href="<?php echo site_url(); ?>/contato">Central de Atendimento</a></li>
               </ul>
             </div>
           </div>

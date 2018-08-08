@@ -2,7 +2,7 @@
 <?php get_header();?>
   	<!--SESSÃO CONTATO-->
   	<section id="Contato">
-  		<div class="container">
+  		<div class="container margin50">
   			<div class="row">
   				<div class="col m12 s12">
   					<h1>Entre em Contato Conosco</h1>
@@ -37,7 +37,7 @@
   				<div class="col m1 s12">
   				</div>
   				<!--FORMULÁRIO-->
-  				<div class="col l6 m12 s12">
+  				<div class="col l6 m12 s12" style="margin-bottom: 50px;">
   					<form class="formulario-contato">
   						<div class="col s12 input-field">
   							<i class="material-icons prefix hide-on-small-only">account_circle</i>

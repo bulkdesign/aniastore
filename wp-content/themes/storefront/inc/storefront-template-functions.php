@@ -252,17 +252,17 @@ if ( ! function_exists( 'storefront_primary_navigation' ) ) {
 				<!-- Dropdown Structure -->
 				<ul id='dropdown1' class='dropdown-content auto-width'>
 					<li>
-						<a href="/categorias/semijoias/brincos/">
+						<a href="<?php echo site_url(); ?>/categorias/semijoias/brincos/">
 							<h5>Brincos</h5>
 						</a>
 					</li>
 					<li>
-						<a href="/categorias/semijoias/colares/">
+						<a href="<?php echo site_url(); ?>/categorias/semijoias/colares/">
 							<h5>Colares</h5>
 						</a>
 					</li>
 					<li>
-						<a href="/categorias/semijoias/pulseiras/">
+						<a href="<?php echo site_url(); ?>/categorias/semijoias/pulseiras/">
 							<h5>Pulseiras</h5>
 						</a>
 					</li>
@@ -274,32 +274,32 @@ if ( ! function_exists( 'storefront_primary_navigation' ) ) {
 				<!-- Dropdown Structure -->
 				<ul id='dropdown2' class='dropdown-content auto-width'>
 					<li>
-						<a href="/categorias/acessorios/faixas-turbantes/">
+						<a href="<?php echo site_url(); ?>/categorias/acessorios/faixas-turbantes/">
 							<h5>Faixas/turbantes</h5>
 						</a>
 					</li>
 					<li>
-						<a href="/categorias/acessorios/grampos/">
+						<a href="<?php echo site_url(); ?>/categorias/acessorios/grampos/">
 							<h5>Grampos</h5>
 						</a>
 					</li>
 					<li>
-						<a href="/categorias/acessorios/tiaras/">
+						<a href="<?php echo site_url(); ?>/categorias/acessorios/tiaras/">
 							<h5>Tiaras</h5>
 						</a>
 					</li>
 					<li>
-						<a href="/categorias/acessorios/prendedores/">
+						<a href="<?php echo site_url(); ?>/categorias/acessorios/prendedores/">
 							<h5>Prendedores</h5>
 						</a>
 					</li>
 				</ul>
 				<!-- OPCAO 3 -->
-				<li><a href="/bolsas">Bolsas</a></li>
+				<li><a href="<?php echo site_url(); ?>/categorias/bolsas">Bolsas</a></li>
 				<!-- OPCAO 4 -->
-				<li><a href='/comemorativas'>Comemorativas</a></li>
+				<li><a href='<?php echo site_url(); ?>/categorias/comemorativas'>Comemorativas</a></li>
 				<!-- OPCAO 5 -->
-				<li><a href='/outros'>Outros</a></li>
+				<li><a href='<?php echo site_url(); ?>/categorias/outros'>Outros</a></li>
 				<li>
 				<?php if ( is_user_logged_in() ) { ?>
 				    <a href="<?php echo wp_logout_url(); ?>">Sair</a>
